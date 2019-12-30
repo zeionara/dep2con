@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(могу-2, Не-1)
+root(ROOT-0, могу-2)
+xcomp(могу-2, понять-3)
+punct(вмешался-9, ,-4)
+advmod(вмешался-9, почему-5)
+nsubj(вмешался-9, Адвокат-6)
+advmod(поздно-8, так-7)
+advmod(вмешался-9, поздно-8)
+parataxis(могу-2, вмешался-9)
+case(игру-11, в-10)
+obl(вмешался-9, игру-11)
+cc(прибег-14, и-12)
+advmod(прибег-14, не-13)
+conj(вмешался-9, прибег-14)
+advmod(прибег-14, раньше-15)
+case(заменам-17, к-16)
+obl(прибег-14, заменам-17)
+punct(могу-2, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

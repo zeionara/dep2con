@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(обязан-3, Чемпион-1)
+nmod(Чемпион-1, мира-2)
+root(ROOT-0, обязан-3)
+xcomp(обязан-3, защищать-4)
+det(титул-6, свой-5)
+obj(защищать-4, титул-6)
+case(восьми-9, в-7)
+nummod(восьми-9, матчтурнире-8)
+nummod(обязан-3, восьми-9)
+punct(состоится-12, ,-10)
+nsubj(состоится-12, который-11)
+aclrelcl(обязан-3, состоится-12)
+obl(состоится-12, осенью-13)
+nummod(года-15, 2007-14)
+nmod(осенью-13, года-15)
+case(Мехико-17, в-16)
+obl(состоится-12, Мехико-17)
+punct(обязан-3, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

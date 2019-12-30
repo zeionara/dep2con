@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advcl(расскажет-9, Лекция-1)
+case(фокусами-3, с-2)
+obl(Лекция-1, фокусами-3)
+amod(премии-5, Финалист-4)
+nmod(фокусами-3, премии-5)
+punct(Лекция-1, «-6)
+nsubj(расскажет-9, Просветитель-7)
+flatname(Просветитель-7, »-8)
+root(ROOT-0, расскажет-9)
+iobj(расскажет-9, детям-10)
+case(физике-12, о-11)
+obl(расскажет-9, физике-12)
+punct(расскажет-9, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

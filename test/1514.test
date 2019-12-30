@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(разработки-2, Толчок-1)
+nsubjpass(дан-6, разработки-2)
+amod(стратегии-4, новой-3)
+nmod(разработки-2, стратегии-4)
+auxpass(дан-6, был-5)
+root(ROOT-0, дан-6)
+case(речи-8, в-7)
+obl(дан-6, речи-8)
+nmod(речи-8, Президента-9)
+nmod(Президента-9, США-10)
+appos(Президента-9, Джорджа-11)
+flatname(Джорджа-11, Буша-12)
+case(январе-14, в-13)
+obl(дан-6, январе-14)
+nummod(года-16, 2004-15)
+nmod(январе-14, года-16)
+punct(дан-6, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

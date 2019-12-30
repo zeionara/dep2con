@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(сообщениям-2, По-1)
+parataxis(реагирует-6, сообщениям-2)
+nmod(сообщениям-2, докторов-3)
+punct(сообщениям-2, ,-4)
+nsubj(реагирует-6, она-5)
+root(ROOT-0, реагирует-6)
+case(команды-9, на-7)
+amod(команды-9, простые-8)
+obl(реагирует-6, команды-9)
+punct(реагирует-6, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

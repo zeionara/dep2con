@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(посетовала-3, Алла-1)
+appos(Алла-1, Бут-2)
+root(ROOT-0, посетовала-3)
+punct(разрешили-11, ,-4)
+mark(разрешили-11, что-5)
+case(свидание-7, на-6)
+obl(разрешили-11, свидание-7)
+iobj(разрешили-11, ей-8)
+obl(разрешили-11, ничего-9)
+advmod(разрешили-11, не-10)
+ccomp(посетовала-3, разрешили-11)
+xcomp(разрешили-11, взять-12)
+case(собой-14, с-13)
+obl(взять-12, собой-14)
+punct(посетовала-3, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(опытный-3, Даже-1)
+amod(опытный-3, самый-2)
+amod(программист-4, опытный-3)
+nsubj(говорит-9, программист-4)
+appos(программист-4, растеряется-5)
+punct(растеряется-5, »-6)
+punct(программист-4, ,-7)
+punct(программист-4, --8)
+root(ROOT-0, говорит-9)
+nsubj(говорит-9, адвокат-10)
+appos(адвокат-10, истцов-11)
+flatname(истцов-11, Томас-12)
+punct(говорит-9, Винье-13)
+punct(Thomas-15, (-14)
+parataxis(говорит-9, Thomas-15)
+punct(Thomas-15, Vinje-16)
+punct(говорит-9, )-17)
+punct(говорит-9, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

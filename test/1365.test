@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(известно-2, Как-1)
+parataxis(11-4, известно-2)
+punct(известно-2, ,-3)
+root(ROOT-0, 11-4)
+flat(11-4, декабря-5)
+case(площадь-7, на-6)
+nmod(11-4, площадь-7)
+nummod(площадь-7, вырвались-8)
+case(тысяч-11, до-9)
+nummod(тысяч-11, 6-10)
+nmod(площадь-7, тысяч-11)
+nmod(тысяч-11, националистов-12)
+cc(футбольных-14, и-13)
+conj(площадь-7, футбольных-14)
+nmod(футбольных-14, фанатов-15)
+punct(устроивших-17, ,-16)
+conj(площадь-7, устроивших-17)
+obj(устроивших-17, погромы-18)
+punct(11-4, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

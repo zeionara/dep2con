@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(будет-8, А-1)
+nsubj(будет-8, это-2)
+punct(это-2, ,-3)
+case(словам-6, по-4)
+det(словам-6, его-5)
+parataxis(будет-8, словам-6)
+punct(словам-6, ,-7)
+root(ROOT-0, будет-8)
+xcomp(будет-8, иметь-9)
+amod(последствия-11, отрицательные-10)
+obj(иметь-9, последствия-11)
+case(страны-13, для-12)
+obl(иметь-9, страны-13)
+punct(будет-8, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(конкурс-3, Стартовал-1)
+amod(конкурс-3, международный-2)
+root(ROOT-0, конкурс-3)
+flatforeign(конкурс-3, The-4)
+flatforeign(конкурс-3, Best-5)
+flatforeign(конкурс-3, of-6)
+flatforeign(конкурс-3, Blogs-7)
+punct(конкурс-3, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

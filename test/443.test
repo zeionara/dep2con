@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(переросла-4, Мирная-1)
+flat(Мирная-1, акция-2)
+advmod(переросла-4, быстро-3)
+root(ROOT-0, переросла-4)
+case(волнения-7, в-5)
+amod(волнения-7, массовые-6)
+obl(переросла-4, волнения-7)
+punct(переросла-4, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

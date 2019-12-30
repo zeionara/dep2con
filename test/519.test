@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(перерыва-3, После-1)
+amod(перерыва-3, длительного-2)
+obl(играет-4, перерыва-3)
+root(ROOT-0, играет-4)
+case(супертурнире-6, в-5)
+obl(играет-4, супертурнире-6)
+amod(Камский-8, Гата-7)
+nmod(супертурнире-6, Камский-8)
+punct(играет-4, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

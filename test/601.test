@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Демократия-2, «-1)
+nsubj(вещь-6, Демократия-2)
+punct(Демократия-2, --3)
+advmod(простая-5, не-4)
+amod(вещь-6, простая-5)
+nsubj(означает-10, вещь-6)
+cc(всегда-9, и-7)
+advmod(всегда-9, не-8)
+conj(вещь-6, всегда-9)
+root(ROOT-0, означает-10)
+obj(означает-10, мир-11)
+punct(означает-10, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

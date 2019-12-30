@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(случае-2, В-1)
+obl(может-7, случае-2)
+nmod(случае-2, необходимости-3)
+punct(случае-2, ,-4)
+det(корабль-6, этот-5)
+nsubjpass(может-7, корабль-6)
+root(ROOT-0, может-7)
+auxpass(использован-9, быть-8)
+xcomp(может-7, использован-9)
+case(спуска-11, для-10)
+obl(может-7, спуска-11)
+case(орбиты-13, с-12)
+nmod(спуска-11, орбиты-13)
+punct(может-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

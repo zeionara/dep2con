@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(множество-2, Здесь-1)
+root(ROOT-0, множество-2)
+amod(заведений-7, русскоязычных-3)
+amod(заведений-7, медицинских-4)
+cc(торговых-6, и-5)
+conj(медицинских-4, торговых-6)
+nmod(множество-2, заведений-7)
+punct(множество-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

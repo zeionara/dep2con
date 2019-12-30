@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(журналистов-2, 19-1)
+root(ROOT-0, журналистов-2)
+punct(арестованных-4, ,-3)
+acl(журналистов-2, арестованных-4)
+case(Китае-6, в-5)
+obl(арестованных-4, Китае-6)
+punct(журналисты-9, —-7)
+nsubj(журналисты-9, это-8)
+aclrelcl(журналистов-2, журналисты-9)
+punct(работающие-11, ,-10)
+acl(журналисты-9, работающие-11)
+case(Интернете-13, в-12)
+obl(работающие-11, Интернете-13)
+punct(журналистов-2, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

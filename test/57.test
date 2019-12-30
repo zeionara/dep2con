@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(считает-2, Каллен-1)
+root(ROOT-0, считает-2)
+punct(начнет-9, ,-3)
+mark(начнет-9, что-4)
+amod(система-6, новая-5)
+nsubj(начнет-9, система-6)
+amod(налогообложения-8, корпоративного-7)
+nmod(система-6, налогообложения-8)
+ccomp(считает-2, начнет-9)
+xcomp(начнет-9, действовать-10)
+case(1-12, с-11)
+nummod(начнет-9, 1-12)
+flat(1-12, апреля-13)
+nummod(года-15, 2008-14)
+nmod(1-12, года-15)
+punct(считает-2, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

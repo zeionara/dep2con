@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(Facebook-3, Такой-1)
+amod(Facebook-3, выгодный-2)
+nsubj(продолжает-7, Facebook-3)
+amod(фонд-5, Российский-4)
+nmod(Facebook-3, фонд-5)
+punct(Facebook-3, DST-6)
+root(ROOT-0, продолжает-7)
+xcomp(продолжает-7, скупать-8)
+obj(скупать-8, акции-9)
+amod(сети-12, популярной-10)
+amod(сети-12, социальной-11)
+obl(продолжает-7, сети-12)
+punct(продолжает-7, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,34 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(хотим-5, <-1)
+punct(<-1, …-2)
+punct(хотим-5, >-3)
+nsubj(хотим-5, Мы-4)
+root(ROOT-0, хотим-5)
+punct(хотим-5, ,-6)
+mark(стала-9, чтобы-7)
+nsubj(стала-9, ООН-8)
+ccomp(хотим-5, стала-9)
+obl(стала-9, посредником-10)
+case(урегулировании-12, в-11)
+obl(стала-9, урегулировании-12)
+det(процесса-14, этого-13)
+nmod(урегулировании-12, процесса-14)
+punct(стала-9, ,-15)
+mark(верим-21, поскольку-16)
+iobj(верим-21, никому-17)
+iobj(верим-21, другому-18)
+nsubj(верим-21, мы-19)
+advmod(верим-21, не-20)
+ccomp(хотим-5, верим-21)
+punct(хотим-5, .-22)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(говорит-3, Пегги-1)
+punct(Пегги-1, Уитсон-2)
+advcl(выбрался-14, говорит-3)
+punct(было-9, ,-4)
+mark(было-9, что-5)
+case(корабля-7, возле-6)
+obl(было-9, корабля-7)
+advmod(было-9, не-8)
+ccomp(говорит-3, было-9)
+nsubj(было-9, спасателей-10)
+punct(говорит-3, ,-11)
+nsubj(выбрался-14, Юрий-12)
+advmod(выбрался-14, самостоятельно-13)
+root(ROOT-0, выбрался-14)
+advmod(выбрался-14, наружу-15)
+punct(выбрался-14, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

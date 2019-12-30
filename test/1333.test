@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(более-6, Сегодня-1)
+punct(Сегодня-1, крымская-2)
+nsubj(более-6, власть-3)
+punct(власть-3, —-4)
+cop(более-6, это-5)
+root(ROOT-0, более-6)
+nummod(%-8, 40-7)
+obl(более-6, %-8)
+nmod(%-8, выходцев-9)
+punct(управленцев-11, --10)
+appos(выходцев-9, управленцев-11)
+case(Донбасса-13, из-12)
+nmod(%-8, Донбасса-13)
+punct(более-6, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

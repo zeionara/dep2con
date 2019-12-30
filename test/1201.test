@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(свободу-2, На-1)
+nmod(премией-5, свободу-2)
+case(Нобелевской-4, с-3)
+iobj(свободу-2, Нобелевской-4)
+obl(выпущена-11, премией-5)
+case(Мьянме-7, В-6)
+nummod(премией-5, Мьянме-7)
+case(ареста-10, изпод-8)
+amod(ареста-10, домашнего-9)
+nmod(премией-5, ареста-10)
+root(ROOT-0, выпущена-11)
+punct(выпущена-11, Аун-12)
+nsubj(выпущена-11, Сан-13)
+appos(Сан-13, Су-14)
+appos(Сан-13, Чжи-15)
+punct(выпущена-11, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

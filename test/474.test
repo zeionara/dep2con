@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(пообещал-3, Дмитрий-1)
+appos(Дмитрий-1, Медведев-2)
+root(ROOT-0, пообещал-3)
+punct(будет-14, ,-4)
+mark(будет-14, что-5)
+punct(что-5, инноградов-6)
+punct(что-5, ,-7)
+det(центру-10, подобных-8)
+amod(центру-10, подмосковному-9)
+iobj(будет-14, центру-10)
+punct(центру-10, ,-11)
+case(России-13, в-12)
+obl(будет-14, России-13)
+ccomp(пообещал-3, будет-14)
+advmod(будет-14, несколько-15)
+punct(пообещал-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

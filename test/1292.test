@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, При-1)
+obl(составил-6, этом-2)
+amod(рост-4, годовой-3)
+nsubj(составил-6, рост-4)
+nmod(рост-4, аудитории-5)
+root(ROOT-0, составил-6)
+nummod(%-8, 8,4-7)
+obl(составил-6, %-8)
+punct(составил-6, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

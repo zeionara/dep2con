@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Билайн-2, «-1)
+nsubj(станет-4, Билайн-2)
+punct(Билайн-2, »-3)
+root(ROOT-0, станет-4)
+amod(российским-6, первым-5)
+obl(станет-4, российским-6)
+nmod(российским-6, сотовым-7)
+flatname(сотовым-7, оператором-8)
+punct(присоединившимся-10, ,-9)
+conj(станет-4, присоединившимся-10)
+case(проекту-13, к-11)
+det(проекту-13, этому-12)
+obl(присоединившимся-10, проекту-13)
+punct(станет-4, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(Болгарии-2, В-1)
+obl(празднуется-3, Болгарии-2)
+root(ROOT-0, празднуется-3)
+nsubj(празднуется-3, 130-летияе-4)
+case(дня-6, со-5)
+nmod(130-летияе-4, дня-6)
+amod(Болгарии-8, освбождения-7)
+nmod(дня-6, Болгарии-8)
+case(турецкого-10, от-9)
+obl(130-летияе-4, турецкого-10)
+nmod(турецкого-10, ига-11)
+amod(армией-13, русской-12)
+nmod(ига-11, армией-13)
+punct(празднуется-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

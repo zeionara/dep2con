@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(хочется-4, Но-1)
+advmod(хочется-4, сегодня-2)
+iobj(хочется-4, мне-3)
+root(ROOT-0, хочется-4)
+obl(хочется-4, больше-5)
+nmod(больше-5, свободы-6)
+cc(посвятить-8, и-7)
+conj(хочется-4, посвятить-8)
+advmod(себя-10, всего-9)
+obj(посвятить-8, себя-10)
+iobj(посвятить-8, творчеству-11)
+punct(хочется-4, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

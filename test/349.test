@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Грузия-2, «-1)
+nsubj(должны-5, Грузия-2)
+cc(Россия-4, и-3)
+conj(Грузия-2, Россия-4)
+root(ROOT-0, должны-5)
+xcomp(должны-5, развивать-6)
+obj(развивать-6, отношения-7)
+case(основе-10, на-8)
+amod(основе-10, новой-9)
+obl(развивать-6, основе-10)
+nmod(основе-10, равенства-11)
+punct(должны-5, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

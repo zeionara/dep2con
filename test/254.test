@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Андрей-1)
+appos(Андрей-1, Санников-2)
+appos(Андрей-1, —-3)
+amod(заместитель-5, бывший-4)
+nsubj(Андрей-1, заместитель-5)
+nmod(заместитель-5, министра-6)
+amod(дел-8, иностранных-7)
+nmod(министра-6, дел-8)
+appos(заместитель-5, Беларуси-9)
+punct(Андрей-1, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

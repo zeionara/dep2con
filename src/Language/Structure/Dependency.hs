@@ -3,14 +3,14 @@ module Language.Structure.Dependency where
 import           Data.List (sortBy)
 import           Data.Monoid ((<>))
 import qualified Data.Tree as Rose
-import           Language.Word (Word(Word,serial))
+import           Language.Wordd (Wordd(Wordd,serial))
 
 
 -- |Dependency trees are rose trees with words on both internal nodes
 --  and leaves, and label on the links.
 data Tree
   = Node
-    { govenor    ::  Word
+    { govenor    ::  Wordd
     , dependents :: [Tree]
     }
   deriving (Eq, Show)
@@ -21,7 +21,7 @@ instance Ord Tree where
 
 -- |Get the left-most index from a dependency tree.
 leftMostIndex :: Tree -> Int
-leftMostIndex (Node (Word _ _ i) deps) = minimum (i : map leftMostIndex deps)
+leftMostIndex (Node (Wordd _ _ i) deps) = minimum (i : map leftMostIndex deps)
 
 
 -- |Convert the tree to an instance of `Data.Tree` and draw it.
@@ -33,19 +33,19 @@ drawTree ct = Rose.drawTree (go ct)
 
 
 -- |Compute a list of all descendents from a dependency tree.
-descendents :: Tree -> [Word]
+descendents :: Tree -> [Wordd]
 descendents = concatMap go . dependents
   where
-    go :: Tree -> [Word]
+    go :: Tree -> [Wordd]
     go (Node gov deps) = gov : concatMap go deps
 
 
 -- |Enumerate all words in a dependency tree.
-allWords :: Tree -> [Word]
-allWords (Node gov deps) = gov : concatMap allWords deps
+allWordds :: Tree -> [Wordd]
+allWordds (Node gov deps) = gov : concatMap allWordds deps
 
 -- |Compute the dependencies for a given word.
-dependencies :: Word -> Tree -> [Word]
+dependencies :: Wordd -> Tree -> [Wordd]
 dependencies _ (Node _ []) = []
 dependencies w1 tree@(Node w2 deps)
   | w1  ==  w2 = descendents tree
@@ -55,7 +55,7 @@ dependencies w1 tree@(Node w2 deps)
 -- |Compute the minimum distance from any node in the (sub-)tree to a
 --  specific serial. /O(n)/
 minDistance :: Int -> Tree -> Int
-minDistance i = minimum . map (abs . (i -) . serial) . allWords
+minDistance i = minimum . map (abs . (i -) . serial) . allWordds
 
 
 -- |Compare two trees, first by their distance to their governor, and

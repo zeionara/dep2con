@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(будем-8, Но-1)
+punct(Но-1, ,-2)
+case(время-5, в-3)
+det(время-5, тоже-4)
+obl(будем-8, время-5)
+punct(время-5, ,-6)
+nsubj(будем-8, мы-7)
+root(ROOT-0, будем-8)
+xcomp(будем-8, создавать-9)
+obj(создавать-9, систему-10)
+punct(сможет-13, ,-11)
+nsubj(сможет-13, которая-12)
+aclrelcl(систему-10, сможет-13)
+xcomp(сможет-13, достичь-14)
+det(места-16, любого-15)
+obl(достичь-14, места-16)
+case(Луне-18, на-17)
+nmod(места-16, Луне-18)
+punct(будем-8, »-19)
+punct(будем-8, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(комментариев-2, От-1)
+obl(представители-11, комментариев-2)
+case(покупки-5, по-3)
+fixed(по-3, поводу-4)
+nmod(комментариев-2, покупки-5)
+nummod(%-9, DST-6)
+nummod(%-9, следующих-7)
+nummod(%-9, 5-8)
+nsubj(представители-11, %-9)
+nmod(%-9, акций-10)
+nsubj(отказались-15, представители-11)
+nsubj(отказались-15, DST-12)
+cc(Facebook-14, и-13)
+conj(DST-12, Facebook-14)
+root(ROOT-0, отказались-15)
+punct(отказались-15, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

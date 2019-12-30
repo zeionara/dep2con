@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obj(рассматриваем-3, «-1)
+nsubj(рассматриваем-3, Мы-2)
+root(ROOT-0, рассматриваем-3)
+det(возможности-5, все-4)
+obj(рассматриваем-3, возможности-5)
+punct(рассматриваем-3, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

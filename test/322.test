@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(результаты-2, Предварительные-1)
+root(ROOT-0, результаты-2)
+case(обработки-4, После-3)
+nmod(результаты-2, обработки-4)
+nmod(обработки-4, протоколов-5)
+case(3070-7, с-6)
+nmod(результаты-2, 3070-7)
+amod(участков-9, избирательных-8)
+nmod(3070-7, участков-9)
+punct(3512-12, (-10)
+case(3512-12, из-11)
+parataxis(результаты-2, 3512-12)
+punct(3512-12, )-13)
+punct(результаты-2, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

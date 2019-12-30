@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, 21-1)
+punct(22-3, --2)
+nummod(21-1, 22-3)
+flat(21-1, октября-4)
+punct(21-1, .-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

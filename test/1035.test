@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(мужчина-2, Неизвестный-1)
+nsubj(пытался-3, мужчина-2)
+root(ROOT-0, пытался-3)
+xcomp(пытался-3, выстрелить-4)
+case(спину-6, в-5)
+obl(выстрелить-4, спину-6)
+obl(пытался-3, Исе-7)
+flatname(Исе-7, Ямадаеву-8)
+punct(был-11, ,-9)
+cc(был-11, но-10)
+conj(пытался-3, был-11)
+xcomp(пытался-3, обезоружен-12)
+cc(следствие-18, и-13)
+advmod(следствие-18, в-14)
+fixed(в-14, настоящее-15)
+fixed(в-14, время-16)
+punct(в-14, ведётся-17)
+conj(обезоружен-12, следствие-18)
+punct(пытался-3, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

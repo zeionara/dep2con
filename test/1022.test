@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(нельзя-3, Почему-1)
+advmod(нельзя-3, никогда-2)
+root(ROOT-0, нельзя-3)
+punct(нельзя-3, дотрагиваться-4)
+csubj(нельзя-3, языком-5)
+case(предметов-8, до-6)
+amod(предметов-8, железных-7)
+obl(языком-5, предметов-8)
+case(морозе-10, на-9)
+nmod(предметов-8, морозе-10)
+punct(нельзя-3, ?-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

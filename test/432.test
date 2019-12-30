@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(совершают-2, Они-1)
+root(ROOT-0, совершают-2)
+amod(противоправные-4, различные-3)
+obj(совершают-2, противоправные-4)
+nmod(противоправные-4, действия-5)
+punct(совершают-2, ,-6)
+discourse(поджигают-10, в-7)
+fixed(в-7, частности-8)
+punct(в-7, ,-9)
+obl(совершают-2, поджигают-10)
+nmod(поджигают-10, машины-11)
+punct(совершают-2, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(использовали-3, А-1)
+punct(А-1, иранцы-2)
+root(ROOT-0, использовали-3)
+det(время-5, это-4)
+obj(использовали-3, время-5)
+case(обогащения-7, для-6)
+obl(использовали-3, обогащения-7)
+nmod(обогащения-7, урана-8)
+punct(использовали-3, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

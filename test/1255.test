@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(было-7, Верю-1)
+punct(Верю-1, ,-2)
+case(Питере-4, в-3)
+obl(было-7, Питере-4)
+advmod(было-7, никогда-5)
+advmod(было-7, не-6)
+root(ROOT-0, было-7)
+nsubj(было-7, чинопочитания-8)
+cc(подчинения-10, и-9)
+conj(чинопочитания-8, подчинения-10)
+punct(было-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

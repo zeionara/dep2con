@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(докладывали-5, Ранее-1)
+nsubj(докладывали-5, источники-2)
+case(посольстве-4, в-3)
+nmod(источники-2, посольстве-4)
+root(ROOT-0, докладывали-5)
+punct(поездки-12, ,-6)
+mark(поездки-12, что-7)
+nsubj(поездки-12, Дмитрий-8)
+flatname(Дмитрий-8, Медведев-9)
+punct(Дмитрий-8, воздержится-10)
+case(поездки-12, от-11)
+ccomp(докладывали-5, поездки-12)
+punct(докладывали-5, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

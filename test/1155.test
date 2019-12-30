@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(оправдали-3, Шаттлы-1)
+advmod(оправдали-3, не-2)
+root(ROOT-0, оправдали-3)
+det(надежд-5, всех-4)
+obl(оправдали-3, надежд-5)
+punct(возлагались-10, ,-6)
+nsubj(возлагались-10, которые-7)
+case(них-9, на-8)
+nmod(которые-7, них-9)
+conj(оправдали-3, возлагались-10)
+punct(оправдали-3, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(обстоятельство-2, Это-1)
+nsubj(стало-4, обстоятельство-2)
+advmod(стало-4, и-3)
+root(ROOT-0, стало-4)
+obl(стало-4, поводом-5)
+case(обращения-7, для-6)
+nmod(поводом-5, обращения-7)
+amod(суд-11, кредитора-8)
+case(Арбитражный-10, в-9)
+amod(суд-11, Арбитражный-10)
+nsubj(стало-4, суд-11)
+nmod(суд-11, Москвы-12)
+punct(стало-4, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

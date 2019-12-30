@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(проходил-2, Турнир-1)
+root(ROOT-0, проходил-2)
+case(системе-5, по-3)
+amod(системе-5, швейцарской-4)
+obl(проходил-2, системе-5)
+case(туров-8, в-6)
+nummod(туров-8, 11-7)
+obl(проходил-2, туров-8)
+punct(проходил-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

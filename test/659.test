@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(годы-3, За-1)
+det(годы-3, эти-2)
+obl(стал-5, годы-3)
+advmod(стал-5, от-4)
+root(ROOT-0, стал-5)
+obl(стал-5, массовым-6)
+cc(любимым-8, и-7)
+conj(массовым-6, любимым-8)
+amod(любителями-10, многими-9)
+obl(любимым-8, любителями-10)
+nmod(любителями-10, ручного-11)
+punct(стал-5, вязания-12)
+punct(стал-5, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

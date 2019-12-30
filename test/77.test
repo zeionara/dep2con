@@ -1,0 +1,16 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(моду-3, Кризис-1)
+amod(моду-3, одолел-2)
+root(ROOT-0, моду-3)
+punct(моду-3, .-4)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

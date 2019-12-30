@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, Об-1)
+obl(сообщает-3, этом-2)
+root(ROOT-0, сообщает-3)
+amod(конференции-5, PR-служба-4)
+nsubj(сообщает-3, конференции-5)
+punct(сообщает-3, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

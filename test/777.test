@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(склоняются-2, Специалисты-1)
+root(ROOT-0, склоняются-2)
+case(варианту-5, ко-3)
+amod(варианту-5, второму-4)
+obl(склоняются-2, варианту-5)
+punct(7-7, (-6)
+nummod(варианту-5, 7-7)
+advmod(7-7, вверх-8)
+punct(7-7, /-9)
+punct(вниз-11, 8-10)
+conj(7-7, вниз-11)
+punct(склоняются-2, )-12)
+punct(склоняются-2, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

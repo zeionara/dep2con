@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(турнире-3, В-1)
+amod(турнире-3, главном-2)
+obl(играть-5, турнире-3)
+cop(турнире-3, будут-4)
+root(ROOT-0, играть-5)
+nummod(гроссмейстеров-7, 14-6)
+obl(играть-5, гроссмейстеров-7)
+punct(6-11, ,-8)
+case(них-10, из-9)
+nmod(6-11, них-10)
+conj(играть-5, 6-11)
+case(рейтинговой-14, из-12)
+amod(рейтинговой-14, первой-13)
+obl(6-11, рейтинговой-14)
+nsubj(6-11, десятки-15)
+nmod(десятки-15, ФИДЕ-16)
+punct(играть-5, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

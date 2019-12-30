@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(представил-2, Facebook-1)
+root(ROOT-0, представил-2)
+amod(сервис-4, новый-3)
+obj(представил-2, сервис-4)
+punct(представил-2, .-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

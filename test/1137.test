@@ -1,0 +1,36 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(Землю-2, На-1)
+obl(вернулись-3, Землю-2)
+root(ROOT-0, вернулись-3)
+nummodgov(космонавта-5, три-4)
+nsubj(вернулись-3, космонавта-5)
+punct(вернулись-3, -6)
+nsubj(вернулись-3, Валерий-7)
+flatname(Валерий-7, Токарев-8)
+punct(Россия-10, (-9)
+appos(Валерий-7, Россия-10)
+punct(Россия-10, )-11)
+punct(Уильям-13, ,-12)
+conj(Валерий-7, Уильям-13)
+flatname(Уильям-13, Макартур-14)
+punct(США-16, (-15)
+appos(Уильям-13, США-16)
+punct(США-16, )-17)
+cc(Маркос-19, и-18)
+conj(Валерий-7, Маркос-19)
+flatname(Маркос-19, Понтес-20)
+punct(Бразилия-22, (-21)
+parataxis(Валерий-7, Бразилия-22)
+punct(Бразилия-22, )-23)
+punct(вернулись-3, .-24)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

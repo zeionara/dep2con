@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(следует-3, Настраивать-1)
+punct(Настраивать-1, профили-2)
+root(ROOT-0, следует-3)
+case(зависимости-5, в-4)
+obl(следует-3, зависимости-5)
+case(настроения-8, от-6)
+det(настроения-8, своего-7)
+nmod(зависимости-5, настроения-8)
+punct(следует-3, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

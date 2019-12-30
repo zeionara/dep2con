@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(кандидата-2, Оба-1)
+nsubj(организовали-3, кандидата-2)
+root(ROOT-0, организовали-3)
+det(предвыборные-5, свои-4)
+obj(организовали-3, предвыборные-5)
+obj(организовали-3, Интернет-6)
+nmod(Интернет-6, страницы-7)
+punct(организовали-3, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

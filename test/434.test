@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(Манчестера-2, Из-1)
+obl(поступают-4, Манчестера-2)
+advmod(поступают-4, также-3)
+root(ROOT-0, поступают-4)
+nsubj(поступают-4, сообщения-5)
+case(машин-8, о-6)
+nummod(машин-8, поджогах-7)
+obl(поступают-4, машин-8)
+punct(поступают-4, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(судом-4, Лофнер-1)
+punct(Лофнер-1, предстал-2)
+case(судом-4, перед-3)
+root(ROOT-0, судом-4)
+case(дня-7, через-5)
+nummodgov(дня-7, два-6)
+nmod(судом-4, дня-7)
+case(стрельбы-9, после-8)
+nmod(судом-4, стрельбы-9)
+case(Тусоне-11, в-10)
+nmod(судом-4, Тусоне-11)
+punct(судом-4, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

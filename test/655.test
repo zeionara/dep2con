@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(промежуток-3, За-1)
+det(промежуток-3, этот-2)
+obl(собрал-8, промежуток-3)
+nmod(промежуток-3, времени-4)
+punct(промежуток-3, Запорожский-5)
+amod(завод-7, автомобилестроительный-6)
+nsubj(собрал-8, завод-7)
+root(ROOT-0, собрал-8)
+nummodgov(тысяч-11, более-9)
+nummod(тысяч-11, 140-10)
+obl(собрал-8, тысяч-11)
+det(автомобилей-13, таких-12)
+nmod(тысяч-11, автомобилей-13)
+punct(собрал-8, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

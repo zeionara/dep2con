@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заявила-5, Лидер-1)
+nmod(Лидер-1, оппозиции-2)
+appos(Лидер-1, Нино-3)
+flatname(Нино-3, Бурджанадзе-4)
+root(ROOT-0, заявила-5)
+punct(начало-9, ,-6)
+mark(начало-9, что-7)
+nsubj(начало-9, это-8)
+ccomp(заявила-5, начало-9)
+amod(боя-12, «-10)
+amod(боя-12, решающего-11)
+nmod(начало-9, боя-12)
+nummod(начало-9, »-13)
+punct(должны-18, ,-14)
+cc(должны-18, и-15)
+nsubj(должны-18, протестующие-16)
+advmod(должны-18, не-17)
+conj(заявила-5, должны-18)
+xcomp(должны-18, отступать-19)
+punct(заявила-5, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

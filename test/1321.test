@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(живёт-4, Сейчас-1)
+case(Турции-3, в-2)
+obl(живёт-4, Турции-3)
+root(ROOT-0, живёт-4)
+case(раз-7, в-5)
+nummodgov(раз-7, десять-6)
+obl(больше-8, раз-7)
+nsubj(живёт-4, больше-8)
+amod(татар-10, крымских-9)
+obl(больше-8, татар-10)
+punct(Крыму-15, ,-11)
+mark(Крыму-15, чем-12)
+case(Крыму-15, в-13)
+amod(Крыму-15, самом-14)
+advcl(живёт-4, Крыму-15)
+punct(живёт-4, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

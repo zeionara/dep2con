@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(объявил-2, Бонер-1)
+root(ROOT-0, объявил-2)
+punct(вернуть-9, ,-3)
+mark(вернуть-9, что-4)
+obj(вернуть-9, цель-5)
+amod(Конгресса-7, нового-6)
+nmod(цель-5, Конгресса-7)
+advmod(вернуть-9, –-8)
+ccomp(объявил-2, вернуть-9)
+obj(вернуть-9, управление-10)
+nmod(управление-10, страной-11)
+case(руки-13, в-12)
+obl(вернуть-9, руки-13)
+nmod(руки-13, граждан-14)
+punct(объявил-2, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

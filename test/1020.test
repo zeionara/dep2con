@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(свет-2, Как-1)
+acl(предметы-4, свет-2)
+punct(свет-2, гнёт-3)
+root(ROOT-0, предметы-4)
+punct(предметы-4, ?-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

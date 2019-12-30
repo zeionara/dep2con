@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(лидирует-4, Михаил-1)
+appos(Михаил-1, Саакашвили-2)
+advmod(лидирует-4, уверенно-3)
+root(ROOT-0, лидирует-4)
+case(досрочных-6, на-5)
+obl(лидирует-4, досрочных-6)
+amod(выборах-8, президентских-7)
+nmod(досрочных-6, выборах-8)
+case(Грузии-10, в-9)
+nmod(досрочных-6, Грузии-10)
+punct(лидирует-4, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

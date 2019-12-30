@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(прощаюсь-4, Но-1)
+nsubj(прощаюсь-4, я-2)
+advmod(прощаюсь-4, не-3)
+root(ROOT-0, прощаюсь-4)
+case(театром-7, с-5)
+amod(театром-7, Большим-6)
+obl(прощаюсь-4, театром-7)
+punct(говорю-10, ,-8)
+cc(говорю-10, а-9)
+conj(прощаюсь-4, говорю-10)
+advmod(свидания-13, лишь-11)
+case(свидания-13, до-12)
+obl(говорю-10, свидания-13)
+punct(прощаюсь-4, »-14)
+punct(—-16, ,-15)
+conj(прощаюсь-4, —-16)
+obl(прощаюсь-4, сказал-17)
+flatname(сказал-17, Ратманский-18)
+punct(прощаюсь-4, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

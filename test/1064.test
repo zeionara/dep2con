@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(рейтинг-2, Наибольший-1)
+obj(имел-5, рейтинг-2)
+case(турнире-4, в-3)
+nmod(рейтинг-2, турнире-4)
+root(ROOT-0, имел-5)
+nsubj(имел-5, Василий-6)
+flatname(Василий-6, Иванчук-7)
+punct(Украина-9, (-8)
+appos(Василий-6, Украина-9)
+punct(Украина-9, )-10)
+punct(имел-5, —-11)
+flatname(—-11, 2731-12)
+punct(имел-5, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

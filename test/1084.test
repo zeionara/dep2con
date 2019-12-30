@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, При-1)
+obl(сослался-5, этом-2)
+nsubj(сослался-5, глава-3)
+nmod(глава-3, края-4)
+root(ROOT-0, сослался-5)
+case(результаты-7, на-6)
+obl(сослался-5, результаты-7)
+nmod(результаты-7, опросов-8)
+punct(сослался-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

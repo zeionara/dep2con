@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(сказал-2, Токарев-1)
+root(ROOT-0, сказал-2)
+punct(снятся-9, ,-3)
+mark(снятся-9, что-4)
+case(орбите-6, на-5)
+obl(снятся-9, орбите-6)
+iobj(снятся-9, ему-7)
+advmod(снятся-9, редко-8)
+ccomp(сказал-2, снятся-9)
+nsubj(снятся-9, сны-10)
+punct(сказал-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

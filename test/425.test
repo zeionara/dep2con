@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(подчеркнул-8, Установление-1)
+obl(стране-4, повсеместно-2)
+case(стране-4, в-3)
+nmod(Установление-1, стране-4)
+amod(времени-6, летнего-5)
+nmod(стране-4, времени-6)
+punct(Установление-1, ,-7)
+parataxis(полезным-13, подчеркнул-8)
+nsubj(подчеркнул-8, президент-9)
+nmod(президент-9, РФ-10)
+punct(подчеркнул-8, ,-11)
+cop(полезным-13, будет-12)
+root(ROOT-0, полезным-13)
+punct(полезным-13, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

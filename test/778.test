@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(потребуется-2, Если-1)
+advcl(способен-5, потребуется-2)
+punct(потребуется-2, ,-3)
+nsubj(потребуется-2, шаттл-4)
+root(ROOT-0, способен-5)
+xcomp(способен-5, вернуть-6)
+case(землю-8, на-7)
+obl(вернуть-6, землю-8)
+punct(способен-5, 10-9)
+punct(способен-5, астронавтов-10)
+punct(способен-5, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

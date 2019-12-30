@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(ожидали-3, Затем-1)
+nsubj(ожидали-3, они-2)
+root(ROOT-0, ожидали-3)
+punct(прибудут-6, ,-4)
+mark(прибудут-6, когда-5)
+advcl(ожидали-3, прибудут-6)
+nsubj(прибудут-6, спасатели-7)
+punct(ожидали-3, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

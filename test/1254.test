@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Сидят-1)
+case(лавке-3, на-2)
+obl(Сидят-1, лавке-3)
+nummodgov(парня-6, два-4)
+det(парня-6, таких-5)
+obl(Сидят-1, парня-6)
+nsubj(Сидят-1, —-7)
+flatname(—-7, рослые-8)
+punct(играющие-11, ,-9)
+advmod(играющие-11, хорошо-10)
+conj(Сидят-1, играющие-11)
+obl(играющие-11, головой-12)
+punct(губим-16, ,-13)
+cc(губим-16, а-14)
+nsubj(губим-16, мы-15)
+conj(Сидят-1, губим-16)
+nummod(губим-16, угловой-17)
+case(угловым-19, за-18)
+nmod(угловой-17, угловым-19)
+punct(Сидят-1, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

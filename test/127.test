@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(открыта-6, Наконецто-1)
+case(Москве-3, в-2)
+nmod(Наконецто-1, Москве-3)
+auxpass(открыта-6, была-4)
+advmod(открыта-6, торжественно-5)
+root(ROOT-0, открыта-6)
+amod(велодорожка-8, первая-7)
+nsubjpass(открыта-6, велодорожка-8)
+punct(открыта-6, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

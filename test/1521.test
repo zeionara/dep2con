@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(достаточны-13, «-1)
+cc(достаточны-13, В-2)
+fixed(В-2, настоящее-3)
+fixed(В-2, время-4)
+punct(В-2, ,-5)
+det(знание-7, наше-6)
+nsubj(достаточны-13, знание-7)
+case(полюсах-9, о-8)
+nmod(знание-7, полюсах-9)
+nmod(полюсах-9, Луны-10)
+punct(знание-7, —-11)
+advmod(достаточны-13, не-12)
+root(ROOT-0, достаточны-13)
+punct(достаточны-13, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

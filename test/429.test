@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(продолжают-4, Жители-1)
+amod(Королевства-3, Соединённого-2)
+nmod(Жители-1, Королевства-3)
+root(ROOT-0, продолжают-4)
+advmod(возмущаться-6, агрессивно-5)
+advmod(темнокожего-10, возмущаться-6)
+case(убийства-8, изза-7)
+obl(темнокожего-10, убийства-8)
+iobj(темнокожего-10, полицейским-9)
+obl(продолжают-4, темнокожего-10)
+punct(продолжают-4, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

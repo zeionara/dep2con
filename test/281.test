@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(пользовались-2, Преступники-1)
+root(ROOT-0, пользовались-2)
+obl(пользовались-2, им-3)
+case(ноября-5, до-4)
+obl(пользовались-2, ноября-5)
+det(года-8, того-6)
+advmod(того-6, же-7)
+nmod(ноября-5, года-8)
+cc(успели-10, и-9)
+conj(пользовались-2, успели-10)
+nsubj(успели-10, перекачать-11)
+advmod(перекачать-11, более-12)
+nummod(тонн-14, шести-13)
+obl(более-12, тонн-14)
+nmod(тонн-14, водки-15)
+punct(пользовались-2, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(объявило-3, Правительство-1)
+nmod(Правительство-1, Китая-2)
+root(ROOT-0, объявило-3)
+det(инструкции-5, эти-4)
+obj(объявило-3, инструкции-5)
+amod(тайной-8, «-6)
+amod(тайной-8, государственной-7)
+nmod(инструкции-5, тайной-8)
+punct(объявило-3, »-9)
+punct(объявило-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

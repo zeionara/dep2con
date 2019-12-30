@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(долго-2, Как-1)
+advmod(смогут-4, долго-2)
+nsubj(смогут-4, они-3)
+root(ROOT-0, смогут-4)
+xcomp(смогут-4, находиться-5)
+advmod(находиться-5, здесь-6)
+punct(смогут-4, ,-7)
+case(многом-9, во-8)
+obl(будет-10, многом-9)
+aux(зависеть-11, будет-10)
+xcomp(смогут-4, зависеть-11)
+case(графика-13, от-12)
+obl(зависеть-11, графика-13)
+nmod(графика-13, проведения-14)
+amod(процесса-16, судебного-15)
+nmod(проведения-14, процесса-16)
+punct(смогут-4, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

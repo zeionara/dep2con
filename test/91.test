@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(объявила-4, Компания-1)
+punct(Компания-1, Hewlett-Packard-2)
+advmod(объявила-4, официально-3)
+root(ROOT-0, объявила-4)
+case(покупке-6, о-5)
+obl(объявила-4, покупке-6)
+amod(оборудования-9, производителя-7)
+amod(оборудования-9, сетевого-8)
+nmod(покупке-6, оборудования-9)
+punct(объявила-4, 3Com-10)
+punct(объявила-4, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

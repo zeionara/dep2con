@@ -1,0 +1,34 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advcl(получаем-8, «-1)
+case(полёта-4, Во-2)
+fixed(Во-2, время-3)
+obl(«-1, полёта-4)
+nmod(полёта-4, шаттла-5)
+punct(«-1, ,-6)
+nsubj(получаем-8, мы-7)
+root(ROOT-0, получаем-8)
+amod(количество-10, огромное-9)
+obj(получаем-8, количество-10)
+punct(так-21, телеметрии-11)
+punct(телеметрии-11, ,-12)
+case(случае-14, в-13)
+parataxis(так-21, случае-14)
+case(«-16, с-15)
+nmod(случае-14, «-16)
+nmod(случае-14, Союзом-17)
+punct(так-21, »-18)
+nsubj(так-21, это-19)
+advmod(так-21, не-20)
+conj(получаем-8, так-21)
+punct(получаем-8, .-22)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

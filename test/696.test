@@ -1,0 +1,16 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(автобусная-2, и-1)
+root(ROOT-0, автобусная-2)
+obj(автобусная-2, связь-3)
+punct(автобусная-2, .-4)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

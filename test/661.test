@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(решили-11, Но-1)
+case(Бенрате-3, в-2)
+parataxis(решили-11, Бенрате-3)
+punct(район-5, (-4)
+appos(Бенрате-3, район-5)
+punct(район-5, Дюссельдорфа-6)
+punct(Бенрате-3, )-7)
+det(традицию-10, эту-8)
+amod(традицию-10, новую-9)
+obj(решили-11, традицию-10)
+root(ROOT-0, решили-11)
+advmod(расширить-13, значительно-12)
+xcomp(решили-11, расширить-13)
+cc(модернизировать-15, и-14)
+conj(расширить-13, модернизировать-15)
+punct(решили-11, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

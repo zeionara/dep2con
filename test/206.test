@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(«-2, и-1)
+root(ROOT-0, «-2)
+obj(«-2, Атлантис-3)
+punct(«-2, »-4)
+orphan(конце-7, (-5)
+case(конце-7, в-6)
+parataxis(«-2, конце-7)
+nmod(конце-7, июня-8)
+nummod(г-10, 2011-9)
+nmod(конце-7, г-10)
+punct(конце-7, .-11)
+punct(конце-7, )-12)
+punct(«-2, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

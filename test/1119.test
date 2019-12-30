@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(признал-3, Бут-1)
+advmod(признал-3, не-2)
+root(ROOT-0, признал-3)
+obj(признал-3, себя-4)
+amod(обвинений-13, виновным-5)
+advmod(одному-8, ни-6)
+case(одному-8, по-7)
+nummod(виновным-5, одному-8)
+case(пунктов-10, из-9)
+nmod(виновным-5, пунктов-10)
+acl(обвинений-13, предъявленных-11)
+iobj(предъявленных-11, ему-12)
+obl(признал-3, обвинений-13)
+punct(признал-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

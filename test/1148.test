@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(полёт-2, Его-1)
+nsubj(история-5, полёт-2)
+advmod(далёкая-4, уже-3)
+amod(история-5, далёкая-4)
+root(ROOT-0, история-5)
+punct(история-5, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

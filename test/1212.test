@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(экологи-2, Петербургские-1)
+nsubj(обнаружили-3, экологи-2)
+root(ROOT-0, обнаружили-3)
+amod(пятна-5, жёлтые-4)
+obj(обнаружили-3, пятна-5)
+advmod(большое-7, и-6)
+amod(количество-8, большое-7)
+obj(обнаружили-3, количество-8)
+amod(рыбы-10, дохлой-9)
+nmod(количество-8, рыбы-10)
+case(реке-12, в-11)
+obl(обнаружили-3, реке-12)
+appos(реке-12, Славянка-13)
+punct(обнаружили-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

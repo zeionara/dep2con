@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(вышло-6, Так-1)
+punct(Так-1, ,-2)
+case(улицы-4, на-3)
+obl(вышло-6, улицы-4)
+punct(улицы-4, Ливерпуля-5)
+root(ROOT-0, вышло-6)
+case(200-8, до-7)
+obl(вышло-6, 200-8)
+advmod(настроенных-10, агрессивно-9)
+acl(людей-12, настроенных-10)
+amod(людей-12, молодых-11)
+nsubj(вышло-6, людей-12)
+case(масках-14, в-13)
+nmod(людей-12, масках-14)
+punct(вышло-6, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(имеет-7, В-1)
+fixed(В-1, настоящее-2)
+fixed(В-1, время-3)
+punct(В-1, «-4)
+amod(»-6, Фольксваген-5)
+nsubj(имеет-7, »-6)
+root(ROOT-0, имеет-7)
+nummod(%-11, 2-8)
+punct(3-10, --9)
+nummod(2-8, 3-10)
+obj(имеет-7, %-11)
+nmod(%-11, рынка-12)
+nmod(рынка-12, автомобилей-13)
+case(России-15, в-14)
+obl(имеет-7, России-15)
+punct(имеет-7, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

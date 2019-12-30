@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(считаются-3, Бумаги-1)
+nmod(Бумаги-1, Facebook-2)
+root(ROOT-0, считаются-3)
+obl(привлекательными-5, весьма-4)
+obl(считаются-3, привлекательными-5)
+punct(считаются-3, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

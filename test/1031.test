@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(году-3, В-1)
+nummod(году-3, 2009-2)
+obl(происходили-6, году-3)
+case(Грузии-5, в-4)
+obl(происходили-6, Грузии-5)
+root(ROOT-0, происходили-6)
+amod(события-8, подобные-7)
+nsubj(происходили-6, события-8)
+punct(происходили-6, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

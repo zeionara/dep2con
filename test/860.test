@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(приобрела-3, Позже-1)
+punct(Позже-1, DST-2)
+root(ROOT-0, приобрела-3)
+advmod(приобрела-3, ещё-4)
+nummod(%-6, 1,5-5)
+nsubj(приобрела-3, %-6)
+amod(акций-8, обыкновенных-7)
+nmod(%-6, акций-8)
+case(сотрудников-10, у-9)
+nmod(акций-8, сотрудников-10)
+case(млн-13, за-11)
+nummod(млн-13, 97,5-12)
+obl(приобрела-3, млн-13)
+nmod(млн-13, долларов-14)
+punct(приобрела-3, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

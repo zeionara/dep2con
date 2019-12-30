@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, А-1)
+amod(SharesPost-3, торговая-2)
+punct(А-1, SharesPost-3)
+punct(SharesPost-3, ,-4)
+advcl(оценила-12, проанализировав-5)
+obj(проанализировав-5, предложения-6)
+cc(цены-8, и-7)
+conj(предложения-6, цены-8)
+amod(сделок-10, последних-9)
+obl(проанализировав-5, сделок-10)
+punct(проанализировав-5, ,-11)
+parataxis(А-1, оценила-12)
+amod(Facebook-14, капитализацию-13)
+obj(оценила-12, Facebook-14)
+case(млрд-17, в-15)
+nummod(млрд-17, 19,2-16)
+nmod(оценила-12, млрд-17)
+nmod(млрд-17, долларов-18)
+punct(А-1, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

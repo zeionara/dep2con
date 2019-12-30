@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(демонстрантов-2, Тысячи-1)
+nsubj(собрались-3, демонстрантов-2)
+root(ROOT-0, собрались-3)
+case(митинг-5, на-4)
+obl(собрались-3, митинг-5)
+case(Тбилиси-7, в-6)
+obl(собрались-3, Тбилиси-7)
+punct(требуя-9, ,-8)
+advcl(собрались-3, требуя-9)
+iobj(требуя-9, отставки-10)
+nmod(отставки-10, президента-11)
+nmod(президента-11, Грузии-12)
+nmod(отставки-10, Михаила-13)
+flatname(Михаила-13, Саакашвили-14)
+punct(собрались-3, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

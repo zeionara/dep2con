@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obj(занял-8, Место-1)
+amod(Палаты-3, спикера-2)
+nmod(Место-1, Палаты-3)
+nmod(Палаты-3, представителей-4)
+case(Конгрессе-7, в-5)
+amod(Конгрессе-7, новом-6)
+obl(занял-8, Конгрессе-7)
+root(ROOT-0, занял-8)
+nsubj(занял-8, республиканец-9)
+appos(республиканец-9, Джон-10)
+flatname(Джон-10, Бенер-11)
+punct(занял-8, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(страх-5, Причина-1)
+det(безразличия-3, такого-2)
+nmod(Причина-1, безразличия-3)
+amod(страх-5, —-4)
+root(ROOT-0, страх-5)
+advmod(застрять-7, надолго-6)
+amod(страх-5, застрять-7)
+case(море-9, в-8)
+nmod(застрять-7, море-9)
+case(незаконными-11, с-10)
+obl(застрять-7, незаконными-11)
+nmod(незаконными-11, мигрантами-12)
+case(борту-14, на-13)
+nmod(незаконными-11, борту-14)
+punct(страх-5, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

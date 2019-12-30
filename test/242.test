@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Напомним-1)
+advmod(Напомним-1, также-2)
+punct(Н-13, ,-3)
+mark(Н-13, что-4)
+case(поездки-6, после-5)
+obl(Н-13, поездки-6)
+nmod(поездки-6, Дмитрия-7)
+flatname(Дмитрия-7, Медведева-8)
+case(Курилы-10, на-9)
+obl(Н-13, Курилы-10)
+nsubj(Н-13, премьерминистр-11)
+nmod(премьерминистр-11, Японии-12)
+ccomp(Напомним-1, Н-13)
+punct(Напомним-1, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

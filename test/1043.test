@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(является-3, Иса-1)
+punct(Иса-1, Ямадаев-2)
+root(ROOT-0, является-3)
+obl(является-3, третьим-4)
+case(братьев-6, из-5)
+nmod(третьим-4, братьев-6)
+nummod(является-3, Ямадаевых-7)
+punct(совершены-12, ,-8)
+case(которых-10, на-9)
+obl(совершены-12, которых-10)
+advmod(совершены-12, уже-11)
+aclrelcl(Ямадаевых-7, совершены-12)
+nsubjpass(совершены-12, покушения-13)
+punct(является-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

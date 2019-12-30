@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(дали-4, Однако-1)
+nsubj(дали-4, они-2)
+advmod(дали-4, только-3)
+root(ROOT-0, дали-4)
+iobj(дали-4, им-5)
+obj(дали-4, топливо-6)
+punct(помогли-8, ,-7)
+conj(дали-4, помогли-8)
+xcomp(помогли-8, завести-9)
+obj(завести-9, двигатель-10)
+cc(указали-12, и-11)
+conj(дали-4, указали-12)
+obj(указали-12, дорогу-13)
+punct(дали-4, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

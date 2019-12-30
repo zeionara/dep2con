@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(призвал-2, Президент-1)
+root(ROOT-0, призвал-2)
+xcomp(призвал-2, вернуться-3)
+case(Луну-5, на-4)
+obl(вернуться-3, Луну-5)
+case(году-8, к-6)
+nummod(году-8, 2020-7)
+obl(вернуться-3, году-8)
+cc(обеспечить-10, и-9)
+conj(призвал-2, обеспечить-10)
+obj(обеспечить-10, полёт-11)
+advmod(обеспечить-10, дальше-12)
+obj(обеспечить-10, —-13)
+case(Марс-15, на-14)
+nmod(—-13, Марс-15)
+punct(призвал-2, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

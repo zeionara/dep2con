@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(сомневаются-2, Американцы-1)
+root(ROOT-0, сомневаются-2)
+punct(будет-7, ,-3)
+mark(будет-7, что-4)
+det(расследование-6, это-5)
+nsubj(будет-7, расследование-6)
+ccomp(сомневаются-2, будет-7)
+nsubj(будет-7, закончено-8)
+case(31-10, к-9)
+nummod(закончено-8, 31-10)
+flat(31-10, мая-11)
+punct(дате-13, ,-12)
+iobj(сомневаются-2, дате-13)
+nmod(дате-13, старта-14)
+nmod(старта-14, шаттла-15)
+nummod(дате-13, «-16)
+flatname(«-16, Дискавери-17)
+flatname(«-16, »-18)
+punct(сомневаются-2, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(лет-3, Через-1)
+nummodgov(лет-3, пять-2)
+obl(перейдет-5, лет-3)
+nsubj(перейдет-5, завод-4)
+root(ROOT-0, перейдет-5)
+case(производство-9, на-6)
+det(производство-9, собственное-7)
+amod(производство-9, полное-8)
+obl(перейдет-5, производство-9)
+nmod(производство-9, автомобилей-10)
+punct(перейдет-5, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

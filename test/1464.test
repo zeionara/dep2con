@@ -1,0 +1,33 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(момент-3, В-1)
+amod(момент-3, настоящий-2)
+obl(выставлена-5, момент-3)
+nsubjpass(выставлена-5, книга-4)
+root(ROOT-0, выставлена-5)
+case(торги-7, на-6)
+obl(выставлена-5, торги-7)
+nummod(выставлена-5, аукционного-8)
+nmod(аукционного-8, дома-9)
+punct(дома-9, Christie’s-10)
+punct(надеется-13, ,-11)
+nsubj(надеется-13, который-12)
+aclrelcl(аукционного-8, надеется-13)
+xcomp(надеется-13, выручить-14)
+case(неё-16, за-15)
+obl(выручить-14, неё-16)
+advmod(99-19, как-17)
+fixed(как-17, минимум-18)
+nummod(тыс-20, 99-19)
+nsubj(надеется-13, тыс-20)
+punct(выставлена-5, .-21)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

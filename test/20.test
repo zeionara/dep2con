@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(сказал-3, Академик-1)
+appos(Академик-1, Сагдеев-2)
+root(ROOT-0, сказал-3)
+punct(существуют-9, ,-4)
+mark(существуют-9, что-5)
+advmod(еще-7, всё-6)
+advmod(существуют-9, еще-7)
+advmod(существуют-9, не-8)
+ccomp(сказал-3, существуют-9)
+nsubj(существуют-9, реакторы-10)
+punct(работающие-12, ,-11)
+conj(реакторы-10, работающие-12)
+case(дейтерии-14, на-13)
+obl(работающие-12, дейтерии-14)
+cc(тритии-16, и-15)
+conj(реакторы-10, тритии-16)
+punct(сказал-3, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(третий-3, Это-1)
+obl(третий-3, уже-2)
+amod(сброс-5, третий-3)
+amod(сброс-5, ночной-4)
+root(ROOT-0, сброс-5)
+nmod(сброс-5, отходов-6)
+case(реку-8, в-7)
+nmod(сброс-5, реку-8)
+case(месяца-12, за-9)
+amod(два-11, последние-10)
+nummodgov(месяца-12, два-11)
+nmod(сброс-5, месяца-12)
+punct(сброс-5, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

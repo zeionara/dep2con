@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(должен-4, Так-1)
+nsubj(должен-4, кто-2)
+iobj(должен-4, кому-3)
+root(ROOT-0, должен-4)
+punct(должен-4, ?-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(положительные-3, Несмотря-1)
+fixed(Несмотря-1, на-2)
+obl(затянулось-9, положительные-3)
+nmod(положительные-3, результаты-4)
+nmod(результаты-4, эксперимента-5)
+punct(положительные-3, ,-6)
+nsubj(затянулось-9, принятие-7)
+nmod(принятие-7, закона-8)
+root(ROOT-0, затянулось-9)
+punct(затянулось-9, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

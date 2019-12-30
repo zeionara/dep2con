@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(место-2, Третье-1)
+nsubj(стало-3, место-2)
+root(ROOT-0, стало-3)
+obl(стало-3, первым-4)
+amod(команды-6, подиумом-5)
+obl(стало-3, команды-6)
+flatforeign(команды-6, Red-7)
+flatforeign(команды-6, Bull-8)
+punct(стало-3, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

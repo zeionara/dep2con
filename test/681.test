@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(интересуются-6, А-1)
+obl(интересуются-6, чем-2)
+advmod(они-4, только-3)
+nsubj(интересуются-6, они-4)
+advmod(интересуются-6, не-5)
+root(ROOT-0, интересуются-6)
+punct(интересуются-6, !-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

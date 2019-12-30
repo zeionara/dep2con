@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(представляет-7, Интересы-1)
+nmod(Интересы-1, Виктора-2)
+punct(Интересы-1, Бута-3)
+case(день-6, на-4)
+amod(день-6, сегодняшний-5)
+obl(представляет-7, день-6)
+root(ROOT-0, представляет-7)
+amod(адвокат-10, прежний-8)
+amod(адвокат-10, федеральный-9)
+obj(представляет-7, адвокат-10)
+obl(представляет-7, —-11)
+nmod(—-11, Сабрина-12)
+flatname(Сабрина-12, Шрофф-13)
+punct(представляет-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

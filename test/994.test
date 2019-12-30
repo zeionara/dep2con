@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(защищают-2, Американцы-1)
+root(ROOT-0, защищают-2)
+obj(защищают-2, положение-3)
+punct(должны-7, ,-4)
+case(которому-6, по-5)
+obl(должны-7, которому-6)
+parataxis(защищают-2, должны-7)
+xcomp(должны-7, быть-8)
+nsubj(должны-7, различимы-9)
+amod(нелегальные-13, военнопленные-10)
+cc(«-12, и-11)
+conj(военнопленные-10, «-12)
+amod(боевики-14, нелегальные-13)
+nsubj(различимы-9, боевики-14)
+punct(различимы-9, »-15)
+punct(защищают-2, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

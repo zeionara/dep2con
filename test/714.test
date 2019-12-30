@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(театр-2, Большой-1)
+nsubj(превратится-3, театр-2)
+root(ROOT-0, превратится-3)
+case(балаган-5, в-4)
+obl(превратится-3, балаган-5)
+punct(превратится-3, ?-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

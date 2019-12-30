@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(смогут-2, Астронавты-1)
+root(ROOT-0, смогут-2)
+xcomp(смогут-2, оставаться-3)
+case(Луне-5, на-4)
+obl(оставаться-3, Луне-5)
+case(недели-8, в-6)
+fixed(в-6, течение-7)
+obl(смогут-2, недели-8)
+punct(смогут-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

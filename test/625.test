@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(приняты-13, ограничит-1)
+case(понедельника-3, с-2)
+obl(ограничит-1, понедельника-3)
+nmod(понедельника-3, поставки-4)
+nmod(поставки-4, газа-5)
+punct(ограничит-1, ,-6)
+mark(приняты-13, то-7)
+case(неё-10, в-8)
+fixed(в-8, отношении-9)
+obl(приняты-13, неё-10)
+advmod(приняты-13, также-11)
+auxpass(приняты-13, будут-12)
+root(ROOT-0, приняты-13)
+nsubjpass(приняты-13, санкции-14)
+punct(приняты-13, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

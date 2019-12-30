@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(просмотр-2, На-1)
+obl(желающие-5, просмотр-2)
+punct(просмотр-2, приглашаются-3)
+nsubj(желающие-5, все-4)
+root(ROOT-0, желающие-5)
+advmod(старше-7, не-6)
+obl(желающие-5, старше-7)
+nummod(года-9, 31-8)
+obl(старше-7, года-9)
+punct(готовые-11, ,-10)
+conj(желающие-5, готовые-11)
+xcomp(готовые-11, выполнить-12)
+amod(упражнения-14, тестовые-13)
+obj(выполнить-12, упражнения-14)
+punct(желающие-5, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

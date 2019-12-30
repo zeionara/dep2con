@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(сказал-2, Он-1)
+root(ROOT-0, сказал-2)
+punct(будет-5, ,-3)
+mark(будет-5, что-4)
+ccomp(сказал-2, будет-5)
+xcomp(будет-5, поднимать-6)
+det(вопрос-8, этот-7)
+obj(поднимать-6, вопрос-8)
+cc(принимать-10, и-9)
+conj(поднимать-6, принимать-10)
+obj(принимать-10, меры-11)
+punct(сказал-2, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

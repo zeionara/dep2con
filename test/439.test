@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Отмечается-1)
+punct(Отмечается-1, ,-2)
+advmod(,-2, что-3)
+case(столицу-5, в-4)
+parataxis(что-3, столицу-5)
+amod(силы-7, стянули-6)
+nmod(столицу-5, силы-7)
+case(регионов-10, из-8)
+amod(регионов-10, других-9)
+nmod(столицу-5, регионов-10)
+nmod(регионов-10, страны-11)
+punct(столицу-5, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

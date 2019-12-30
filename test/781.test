@@ -1,0 +1,33 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obj(запланирован-11, Следующий-1)
+punct(Следующий-1, ,-2)
+case(«-4, после-3)
+parataxis(запланирован-11, «-4)
+nummod(«-4, Дискавери-5)
+flatname(Дискавери-5, »-6)
+nummod(«-4, STS-124-7)
+punct(«-4, ,-8)
+nsubjpass(запланирован-11, полет-9)
+nmod(полет-9, шаттла-10)
+root(ROOT-0, запланирован-11)
+case(ноябрь-13, на-12)
+obl(запланирован-11, ноябрь-13)
+punct(запланирован-11, —-14)
+nsubj(полёт-16, это-15)
+parataxis(запланирован-11, полёт-16)
+nummod(полёт-16, «-17)
+amod(STS-126-20, Индевор-18)
+amod(STS-126-20, »-19)
+flatname(«-17, STS-126-20)
+punct(запланирован-11, .-21)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

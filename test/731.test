@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(послания-5, Разделённые-1)
+case(принципу-4, по-2)
+det(принципу-4, такому-3)
+obl(Разделённые-1, принципу-4)
+nsubj(попадать-7, послания-5)
+aux(попадать-7, будут-6)
+root(ROOT-0, попадать-7)
+case(папки-10, в-8)
+amod(папки-10, соответствующие-9)
+obl(попадать-7, папки-10)
+punct(попадать-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

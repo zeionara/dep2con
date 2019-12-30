@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(гибели-2, После-1)
+obl(могут-14, гибели-2)
+nummod(Колумбии-4, «-3)
+nmod(гибели-2, Колумбии-4)
+punct(гибели-2, »-5)
+nummod(гибели-2, 1-6)
+flat(1-6, февраля-7)
+nummod(года-9, 2003-8)
+nmod(1-6, года-9)
+punct(гибели-2, ,-10)
+nsubj(могут-14, шаттлы-11)
+advmod(не-13, никак-12)
+advmod(могут-14, не-13)
+root(ROOT-0, могут-14)
+xcomp(могут-14, вернуться-15)
+case(нормальным-17, к-16)
+obl(вернуться-15, нормальным-17)
+punct(могут-14, полётам-18)
+punct(могут-14, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

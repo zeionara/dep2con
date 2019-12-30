@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(завершил-5, Шаттл-1)
+punct(Шаттл-1, «-2)
+punct(Шаттл-1, Дискавери-3)
+advmod(завершил-5, »-4)
+root(ROOT-0, завершил-5)
+obj(завершил-5, свой-6)
+nummod(завершил-5, 39-й-7)
+cc(полёт-10, и-8)
+amod(полёт-10, последний-9)
+conj(39-й-7, полёт-10)
+case(космос-12, в-11)
+nmod(полёт-10, космос-12)
+punct(завершил-5, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

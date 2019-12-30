@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(конференция-2, Научнопрактическая-1)
+nsubj(Cultural-16, конференция-2)
+case(тему-5, на-3)
+det(тему-5, данную-4)
+nmod(конференция-2, тему-5)
+advmod(конференция-2, впервые-6)
+punct(конференция-2, пройдёт-7)
+case(России-9, в-8)
+obl(Cultural-16, России-9)
+case(инициативе-11, по-10)
+nmod(России-9, инициативе-11)
+amod(организации-14, автономной-12)
+amod(организации-14, некоммерческой-13)
+nmod(инициативе-11, организации-14)
+flatforeign(России-9, Global-15)
+root(ROOT-0, Cultural-16)
+punct(Cultural-16, Project-17)
+punct(Cultural-16, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,34 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(глыба-4, «-1)
+nsubj(глыба-4, Это-2)
+det(Это-2, такая-3)
+advcl(глыба-9, глыба-4)
+case(движении-6, в-5)
+obl(глыба-4, движении-6)
+punct(глыба-4, ,-7)
+nsubj(глыба-9, это-8)
+advmod(говорит-20, глыба-9)
+case(которой-11, ,-10)
+obl(глыба-9, которой-11)
+cc(был-13, и-12)
+conj(глыба-9, был-13)
+nsubj(был-13, Борис-14)
+flatname(Борис-14, Николаевич-15)
+flatname(Борис-14, Ельцин-16)
+parataxis(говорит-20, »-17)
+punct(»-17, ,-18)
+nsubj(говорит-20, —-19)
+root(ROOT-0, говорит-20)
+nsubj(говорит-20, скульптор-21)
+punct(говорит-20, .-22)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

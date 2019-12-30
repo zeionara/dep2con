@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(создания-2, Для-1)
+obl(пришлось-7, создания-2)
+nmod(создания-2, правительства-3)
+nmod(создания-2, правым-4)
+cc(левым-6, и-5)
+conj(создания-2, левым-6)
+root(ROOT-0, пришлось-7)
+csubj(пришлось-7, объединяться-8)
+punct(пришлось-7, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

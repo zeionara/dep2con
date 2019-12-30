@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(может-2, Он-1)
+root(ROOT-0, может-2)
+xcomp(может-2, состояться-3)
+nummod(может-2, 19-4)
+flat(19-4, января-5)
+punct(может-2, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

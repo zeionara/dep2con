@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, состоится-1)
+nsubjpass(состоится-1, полёт-2)
+amod(Атлантис-4, «-3)
+nmod(полёт-2, Атлантис-4)
+appos(полёт-2, »-5)
+flatname(»-5, STS-124-6)
+punct(состоится-1, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(»-4, Клуб-1)
+amod(Бавария-3, «-2)
+nsubj(»-4, Бавария-3)
+nsubj(считает-8, »-4)
+punct(Мюнхен-6, (-5)
+parataxis(»-4, Мюнхен-6)
+punct(Мюнхен-6, )-7)
+root(ROOT-0, считает-8)
+obj(считает-8, решение-9)
+obl(считает-8, Клинсмана-10)
+amod(Клинсмана-10, ошибочным-11)
+punct(принимает-14, ,-12)
+cc(принимает-14, но-13)
+conj(считает-8, принимает-14)
+det(решение-16, это-15)
+obj(принимает-14, решение-16)
+punct(считает-8, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

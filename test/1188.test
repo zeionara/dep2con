@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Теперь-1)
+nsubj(Теперь-1, вновь-2)
+case(игре-4, в-3)
+obl(вновь-2, игре-4)
+nummod(игре-4, альБарадеи-5)
+punct(Теперь-1, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

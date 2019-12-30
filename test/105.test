@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(Таиланде-2, В-1)
+obl(нет-3, Таиланде-2)
+root(ROOT-0, нет-3)
+det(групп-5, таких-4)
+nsubj(нет-3, групп-5)
+punct(были-8, ,-6)
+nsubj(были-8, которые-7)
+aclrelcl(групп-5, были-8)
+aux(были-8, бы-9)
+case(конца-11, до-10)
+obl(были-8, конца-11)
+punct(были-8, непредвзятыми-12)
+nsubj(нет-3, »-13)
+punct(заявил-16, ,-14)
+obj(заявил-16, —-15)
+parataxis(нет-3, заявил-16)
+nsubj(заявил-16, Наттавута-17)
+nsubj(нет-3, Сайкыа-18)
+punct(нет-3, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

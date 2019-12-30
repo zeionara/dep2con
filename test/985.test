@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(перестали-6, 1-1)
+flat(1-1, января-2)
+nummod(года-4, 2011-3)
+nmod(1-1, года-4)
+nsubj(перестали-6, эстонцы-5)
+root(ROOT-0, перестали-6)
+xcomp(перестали-6, пользоваться-7)
+fixed(перестали-6, кронами-8)
+cc(перешли-10, и-9)
+conj(перестали-6, перешли-10)
+case(валюту-13, на-11)
+amod(валюту-13, общеевропейскую-12)
+obl(перешли-10, валюту-13)
+punct(перестали-6, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

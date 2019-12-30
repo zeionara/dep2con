@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(тенденция-2, Выявляется-1)
+nsubj(преимуществом-6, тенденция-2)
+nmod(тенденция-2, выборов-3)
+case(мизерным-5, с-4)
+nmod(тенденция-2, мизерным-5)
+root(ROOT-0, преимуществом-6)
+nummod(преимуществом-6, одной-7)
+case(сторон-9, из-8)
+nmod(одной-7, сторон-9)
+punct(преимуществом-6, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

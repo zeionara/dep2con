@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(объединил-3, Портал-1)
+punct(Портал-1, SeeSaw-2)
+advcl(выпускают-8, объединил-3)
+amod(телешоу-5, популярные-4)
+obj(объединил-3, телешоу-5)
+punct(объединил-3, ,-6)
+nsubj(выпускают-8, которые-7)
+root(ROOT-0, выпускают-8)
+obj(выпускают-8, BBC-9)
+punct(Channel-11, ,-10)
+conj(выпускают-8, Channel-11)
+nummod(Channel-11, 4-12)
+advmod(канал-14, и-13)
+obj(выпускают-8, канал-14)
+nmod(канал-14, Five-15)
+punct(выпускают-8, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(день-3, На-1)
+amod(день-3, следующий-2)
+obl(отозвал-5, день-3)
+nsubj(отозвал-5, он-4)
+root(ROOT-0, отозвал-5)
+case(России-7, из-6)
+obl(отозвал-5, России-7)
+obj(отозвал-5, посла-8)
+punct(отозвал-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

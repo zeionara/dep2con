@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(остаётся-7, Сегодня-1)
+nsubj(остаётся-7, звучание-2)
+cc(содержание-4, и-3)
+conj(звучание-2, содержание-4)
+det(коллективов-6, этих-5)
+nmod(содержание-4, коллективов-6)
+root(ROOT-0, остаётся-7)
+obl(остаётся-7, свежим-8)
+cc(интересным-10, и-9)
+conj(свежим-8, интересным-10)
+punct(остаётся-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

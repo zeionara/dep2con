@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(случай-4, Это-1)
+advmod(первый-3, не-2)
+amod(случай-4, первый-3)
+root(ROOT-0, случай-4)
+punct(пытаются-8, ,-5)
+mark(пытаются-8, когда-6)
+nsubj(пытаются-8, русские-7)
+acl(случай-4, пытаются-8)
+xcomp(пытаются-8, оправдываться-9)
+cc(доказать-11, и-10)
+conj(пытаются-8, доказать-11)
+obj(доказать-11, свою-12)
+punct(случай-4, непогрешимость-13)
+punct(случай-4, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

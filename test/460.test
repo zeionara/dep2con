@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(претендует-4, Но-1)
+punct(Но-1, ,-2)
+nsubj(претендует-4, Леман-3)
+xcomp(должен-10, претендует-4)
+case(№-6, на-5)
+obl(претендует-4, №-6)
+nummod(претендует-4, 1-7)
+cc(Кан-9, и-8)
+conj(1-7, Кан-9)
+root(ROOT-0, должен-10)
+xcomp(должен-10, доказать-11)
+det(право-13, свое-12)
+obj(доказать-11, право-13)
+case(№-15, на-14)
+obl(доказать-11, №-15)
+punct(должен-10, 1-16)
+punct(должен-10, »-17)
+punct(должен-10, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

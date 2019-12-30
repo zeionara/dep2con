@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(жертвой-3, Их-1)
+amod(жертвой-3, первой-2)
+obl(становится-9, жертвой-3)
+punct(жертвой-3, ,-4)
+case(словам-6, по-5)
+parataxis(становится-9, словам-6)
+nmod(словам-6, президента-7)
+punct(словам-6, ,-8)
+root(ROOT-0, становится-9)
+nsubj(становится-9, реформа-10)
+nmod(реформа-10, здравоохранения-11)
+punct(становится-9, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

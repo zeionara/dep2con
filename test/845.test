@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(получило-11, Однако-1)
+nsubj(получило-11, предложение-2)
+nummod(предложение-2, одной-3)
+case(фирм-6, из-4)
+nummod(фирм-6, телекоммуникационных-5)
+nmod(одной-3, фирм-6)
+nmod(предложение-2, США-7)
+case(прокладке-9, о-8)
+nmod(предложение-2, прокладке-9)
+nmod(прокладке-9, кабеля-10)
+root(ROOT-0, получило-11)
+case(Гаваны-13, от-12)
+obl(получило-11, Гаваны-13)
+obj(получило-11, отказ-14)
+punct(получило-11, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

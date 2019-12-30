@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(арестованы-5, Ещё-1)
+case(человек-4, около-2)
+nummod(человек-4, 100-3)
+nsubjpass(арестованы-5, человек-4)
+root(ROOT-0, арестованы-5)
+case(Бирмингеме-7, в-6)
+obl(арестованы-5, Бирмингеме-7)
+punct(арестованы-5, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

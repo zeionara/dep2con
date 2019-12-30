@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(странно-2, Очень-1)
+root(ROOT-0, странно-2)
+punct(пытались-10, ,-3)
+mark(пытались-10, что-4)
+det(представители-6, некоторые-5)
+nsubj(пытались-10, представители-6)
+amod(лагеря-8, демократического-7)
+nmod(представители-6, лагеря-8)
+advmod(пытались-10, даже-9)
+ccomp(странно-2, пытались-10)
+xcomp(пытались-10, вести-11)
+obj(вести-11, переговоры-12)
+case(ДПНИ-14, с-13)
+punct(пытались-10, ДПНИ-14)
+flatname(ДПНИ-14, »-15)
+punct(странно-2, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

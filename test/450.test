@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(будущем-3, О-1)
+det(будущем-3, своём-2)
+obl(намерен-7, будущем-3)
+case(сборной-5, в-4)
+nmod(будущем-3, сборной-5)
+nsubj(намерен-7, он-6)
+root(ROOT-0, намерен-7)
+xcomp(намерен-7, высказаться-8)
+case(время-11, через-9)
+det(время-11, некоторое-10)
+obl(высказаться-8, время-11)
+punct(намерен-7, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

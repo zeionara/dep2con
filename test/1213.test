@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(требуют-2, Они-1)
+root(ROOT-0, требуют-2)
+xcomp(требуют-2, привлечь-3)
+case(уголовной-5, к-4)
+obl(привлечь-3, уголовной-5)
+obj(привлечь-3, ответственности-6)
+nmod(ответственности-6, лиц-7)
+punct(виновных-9, ,-8)
+conj(требуют-2, виновных-9)
+case(загрязнении-11, в-10)
+nmod(виновных-9, загрязнении-11)
+nmod(загрязнении-11, реки-12)
+punct(требуют-2, Славянки-13)
+punct(требуют-2, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(полёт-3, Первый-1)
+amod(полёт-3, пилотируемый-2)
+nsubj(должен-7, полёт-3)
+punct(полёт-3, «-4)
+punct(полёт-3, Ориона-5)
+punct(полёт-3, »-6)
+root(ROOT-0, должен-7)
+xcomp(должен-7, состояться-8)
+case(году-11, в-9)
+nummod(году-11, 2014-10)
+obl(состояться-8, году-11)
+punct(должен-7, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

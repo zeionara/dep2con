@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(словам-2, По-1)
+parataxis(неверно-7, словам-2)
+punct(словам-2, Данна-3)
+punct(словам-2, ,-4)
+det(наблюдатели-6, некоторые-5)
+nsubj(неверно-7, наблюдатели-6)
+root(ROOT-0, неверно-7)
+amod(заявления-9, интерпретируют-8)
+iobj(неверно-7, заявления-9)
+nmod(заявления-9, министра-10)
+nmod(министра-10, финансов-11)
+punct(неверно-7, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

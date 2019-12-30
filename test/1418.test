@@ -1,0 +1,33 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(Сера-5, Газета-1)
+amod(делла-4, «-2)
+amod(делла-4, Кориера-3)
+appos(Газета-1, делла-4)
+root(ROOT-0, Сера-5)
+nummod(Sera-10, »-6)
+punct(Corriere-8, (-7)
+nummod(»-6, Corriere-8)
+punct(Corriere-8, della-9)
+obl(Сера-5, Sera-10)
+punct(Сера-5, )-11)
+parataxis(Сера-5, обозначает-12)
+punct(кампании-17, ,-13)
+amod(недели-15, последние-14)
+nummodgov(кампании-17, недели-15)
+amod(кампании-17, предвыборной-16)
+obj(обозначает-12, кампании-17)
+mark(потеря-19, как-18)
+acl(кампании-17, потеря-19)
+nmod(потеря-19, времени-20)
+punct(Сера-5, .-21)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

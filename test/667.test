@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(прислушивались-4, Женщины-1)
+case(вниманием-3, с-2)
+obl(прислушивались-4, вниманием-3)
+root(ROOT-0, прислушивались-4)
+case(советам-7, к-5)
+det(советам-7, его-6)
+obl(прислушивались-4, советам-7)
+punct(прислушивались-4, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

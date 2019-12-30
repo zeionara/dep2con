@@ -1,0 +1,37 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(концерн-3, Немецкий-1)
+amod(концерн-3, автомобильный-2)
+nsubj(«-4, концерн-3)
+root(ROOT-0, «-4)
+punct(»-6, Фольксваген-5)
+conj(«-4, »-6)
+punct(»-6, (-7)
+punct(«-4, Volkswagen-8)
+punct(Volkswagen-8, )-9)
+conj(«-4, планирует-10)
+xcomp(планирует-10, построить-11)
+case(России-13, в-12)
+obl(построить-11, России-13)
+obj(построить-11, завод-14)
+punct(будет-17, ,-15)
+nsubj(будет-17, который-16)
+aclrelcl(планирует-10, будет-17)
+xcomp(будет-17, выпускать-18)
+case(250-20, до-19)
+obl(выпускать-18, 250-20)
+nummod(автомобилей-22, 000-21)
+nmod(250-20, автомобилей-22)
+case(год-24, в-23)
+obl(выпускать-18, год-24)
+punct(«-4, .-25)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

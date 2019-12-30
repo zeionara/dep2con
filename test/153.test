@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(болида-2, Оба-1)
+nsubjpass(выставлены-5, болида-2)
+punct(болида-2, Феррари-3)
+auxpass(выставлены-5, были-4)
+root(ROOT-0, выставлены-5)
+case(моторами-8, с-6)
+amod(моторами-8, новыми-7)
+obl(выставлены-5, моторами-8)
+punct(выставлены-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

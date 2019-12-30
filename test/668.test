@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(Дюссельдорфе-2, В-1)
+obl(считают-5, Дюссельдорфе-2)
+advmod(считают-5, давно-3)
+advmod(считают-5, не-4)
+root(ROOT-0, считают-5)
+nsubj(считают-5, вязание-6)
+obl(вязание-6, уделом-7)
+advmod(женщин-9, только-8)
+nmod(уделом-7, женщин-9)
+punct(считают-5, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

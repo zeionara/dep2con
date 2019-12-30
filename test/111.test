@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(раз-2, Последний-1)
+obl(выигрывала-4, раз-2)
+nsubj(выигрывала-4, Россия-3)
+root(ROOT-0, выигрывала-4)
+amod(первенство-6, мировое-5)
+obj(выигрывала-4, первенство-6)
+nummod(лет-8, 15-7)
+obl(выигрывала-4, лет-8)
+advmod(лет-8, назад-9)
+punct(выигрывала-4, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

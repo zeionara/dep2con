@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(концу-2, К-1)
+obl(достигло-9, концу-2)
+amod(дня-4, первого-3)
+nmod(концу-2, дня-4)
+amod(регистрации-6, свободной-5)
+amod(количество-7, регистрации-6)
+nsubj(достигло-9, количество-7)
+nmod(количество-7, заявок-8)
+root(ROOT-0, достигло-9)
+nummod(миллиона-11, 1,2-10)
+obl(достигло-9, миллиона-11)
+punct(достигло-9, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

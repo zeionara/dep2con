@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(пять-4, В-1)
+fixed(В-1, общей-2)
+fixed(В-1, сложности-3)
+nummodgov(шаттлов-5, пять-4)
+nsubj(совершили-6, шаттлов-5)
+root(ROOT-0, совершили-6)
+obj(совершили-6, 114-7)
+obj(совершили-6, полётов-8)
+punct(совершили-6, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

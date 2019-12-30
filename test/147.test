@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(выиграл-11, Фернандо-1)
+appos(Фернандо-1, Алонсо-2)
+case(раз-5, в-3)
+amod(раз-5, первый-4)
+nmod(Фернандо-1, раз-5)
+case(карьере-8, в-6)
+det(карьере-8, своей-7)
+nmod(раз-5, карьере-8)
+nmod(карьере-8, пилота-9)
+punct(Фернандо-1, Формулы-1-10)
+root(ROOT-0, выиграл-11)
+obj(выиграл-11, Гранпри-12)
+punct(выиграл-11, Монако-13)
+punct(выиграл-11, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

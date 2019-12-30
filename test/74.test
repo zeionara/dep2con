@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(отличается-3, Мероприятие-1)
+advmod(отличается-3, также-2)
+root(ROOT-0, отличается-3)
+amod(артпрограммой-5, богатой-4)
+obl(отличается-3, артпрограммой-5)
+punct(отличается-3, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(конкурс-2, Музыкальный-1)
+nsubj(волна-5, конкурс-2)
+amod(волна-5, «-3)
+amod(волна-5, Новая-4)
+root(ROOT-0, волна-5)
+punct(волна-5, --6)
+punct(волна-5, 2009-7)
+nsubj(может-12, »-8)
+case(году-11, в-9)
+det(году-11, этом-10)
+obl(»-8, году-11)
+parataxis(волна-5, может-12)
+xcomp(может-12, пройти-13)
+case(Раймонда-15, без-14)
+obl(пройти-13, Раймонда-15)
+punct(может-12, Паулса-16)
+punct(волна-5, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

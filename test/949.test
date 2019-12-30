@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(сообщалось-5, Например-1)
+punct(Например-1, ,-2)
+advmod(сообщалось-5, никогда-3)
+advmod(сообщалось-5, не-4)
+root(ROOT-0, сообщалось-5)
+case(пожарах-7, о-6)
+obl(сообщалось-5, пожарах-7)
+case(борту-9, на-8)
+nmod(пожарах-7, борту-9)
+nmod(борту-9, корабля-10)
+amod(Союз-12, «-11)
+nmod(пожарах-7, Союз-12)
+punct(сообщалось-5, »-13)
+punct(сообщалось-5, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

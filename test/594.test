@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(был-7, Начиная-1)
+case(15-3, с-2)
+nummod(Начиная-1, 15-3)
+flat(15-3, декабря-4)
+nummod(года-6, 2005-5)
+nmod(15-3, года-6)
+parataxis(должен-14, был-7)
+nummod(штраф-9, наложен-8)
+nsubj(был-7, штраф-9)
+punct(был-7, ,-10)
+case(которому-12, согласно-11)
+obl(,-10, которому-12)
+nsubj(должен-14, концерн-13)
+root(ROOT-0, должен-14)
+xcomp(должен-14, выплачивать-15)
+nummod(миллионов-17, 1,5-16)
+obl(выплачивать-15, миллионов-17)
+nmod(миллионов-17, долларов-18)
+advmod(выплачивать-15, ежедневно-19)
+punct(должен-14, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

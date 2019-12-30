@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(запретил-3, Минсельхоз-1)
+nmod(Минсельхоз-1, РФ-2)
+root(ROOT-0, запретил-3)
+amod(овощи-5, ввозить-4)
+obj(запретил-3, овощи-5)
+cc(фрукты-7, и-6)
+conj(овощи-5, фрукты-7)
+case(Молдавии-9, из-8)
+obl(запретил-3, Молдавии-9)
+punct(запретил-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

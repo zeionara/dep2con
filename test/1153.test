@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(выглядит-2, Это-1)
+advmod(приходится-13, выглядит-2)
+advmod(выглядит-2, так-3)
+punct(безпроблемных-7, ,-4)
+mark(безпроблемных-7, что-5)
+case(безпроблемных-7, о-6)
+advcl(приходится-13, безпроблемных-7)
+nummod(безпроблемных-7, полётах-8)
+obj(говорить-10, шаттлов-9)
+csubj(приходится-13, говорить-10)
+advmod(приходится-13, больше-11)
+advmod(приходится-13, не-12)
+root(ROOT-0, приходится-13)
+punct(приходится-13, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

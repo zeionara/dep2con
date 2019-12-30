@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(изучают-2, Инженеры-1)
+root(ROOT-0, изучают-2)
+amod(области-4, полярные-3)
+obj(изучают-2, области-4)
+nmod(области-4, Луны-5)
+punct(потенциальные-8, ,-6)
+mark(потенциальные-8, как-7)
+advcl(изучают-2, потенциальные-8)
+nmod(потенциальные-8, места-9)
+nmod(места-9, расположения-10)
+amod(базы-12, будущей-11)
+nmod(расположения-10, базы-12)
+punct(изучают-2, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(очевидно-2, Это-1)
+root(ROOT-0, очевидно-2)
+punct(нравится-7, ,-3)
+mark(нравится-7, что-4)
+iobj(нравится-7, нам-5)
+advmod(нравится-7, не-6)
+ccomp(очевидно-2, нравится-7)
+nsubj(подряд-12, повторение-8)
+amod(ситуаций-10, похожих-9)
+nmod(повторение-8, ситуаций-10)
+advmod(подряд-12, дважды-11)
+advmod(нравится-7, подряд-12)
+punct(очевидно-2, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(блоги-2, Выдвигать-1)
+nsubj(можно-8, блоги-2)
+case(соискание-4, на-3)
+nmod(блоги-2, соискание-4)
+nummod(соискание-4, одной-5)
+case(премий-7, из-6)
+nmod(блоги-2, премий-7)
+root(ROOT-0, можно-8)
+case(сайте-10, на-9)
+obl(можно-8, сайте-10)
+nmod(сайте-10, конкурса-11)
+case(14-13, до-12)
+nummod(можно-8, 14-13)
+flat(14-13, февраля-14)
+nummod(года-16, 2010-15)
+nmod(14-13, года-16)
+punct(можно-8, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

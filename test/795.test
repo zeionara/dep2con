@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(министр-2, Федеральный-1)
+nsubj(Вольфганг-5, министр-2)
+nmod(министр-2, транспорта-3)
+nmod(министр-2, Германии-4)
+obl(объявил-7, Вольфганг-5)
+flatname(Вольфганг-5, Тифензее-6)
+root(ROOT-0, объявил-7)
+punct(выделяет-11, ,-8)
+mark(выделяет-11, что-9)
+nsubj(выделяет-11, правительство-10)
+ccomp(объявил-7, выделяет-11)
+nummod(млн-13, 500-12)
+obl(выделяет-11, млн-13)
+punct(объявил-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

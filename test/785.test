@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(полёт-2, Это-1)
+nsubj(полетит-14, полёт-2)
+case(обслуживанию-4, по-3)
+nmod(полёт-2, обслуживанию-4)
+nmod(обслуживанию-4, телескопа-5)
+punct(полёт-2, Хаббл-6)
+punct(«-10, ,-7)
+mark(«-10, то-8)
+fixed(то-8, есть-9)
+parataxis(полёт-2, «-10)
+obj(«-10, Атлантис-11)
+nsubj(полетит-14, »-12)
+advmod(полетит-14, не-13)
+root(ROOT-0, полетит-14)
+case(МКС-16, к-15)
+obl(полетит-14, МКС-16)
+punct(полетит-14, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

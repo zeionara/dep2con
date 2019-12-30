@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(сегодня-2, Уже-1)
+advmod(имеются-3, сегодня-2)
+root(ROOT-0, имеются-3)
+nsubj(имеются-3, автомобили-4)
+punct(используют-7, ,-5)
+nsubj(используют-7, которые-6)
+aclrelcl(автомобили-4, используют-7)
+obj(используют-7, энергию-8)
+amod(элементов-10, топливных-9)
+nmod(энергию-8, элементов-10)
+punct(имеются-3, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

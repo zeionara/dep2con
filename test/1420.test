@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(кампания-2, Предвыборная-1)
+nsubjpass(сопровождалась-3, кампания-2)
+root(ROOT-0, сопровождалась-3)
+amod(личными-5, многочисленными-4)
+obl(сопровождалась-3, личными-5)
+punct(сопровождалась-3, оскорблениями-6)
+punct(сопровождалась-3, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(испытание-5, Это-1)
+cop(испытание-5, будет-2)
+amod(испытание-5, первое-3)
+amod(испытание-5, серьёзное-4)
+root(ROOT-0, испытание-5)
+case(нового-7, для-6)
+det(испытание-5, нового-7)
+amod(мира-9, Чемпиона-8)
+nmod(нового-7, мира-9)
+nmod(мира-9, ФИДЕ-10)
+punct(Болгария-15, —-11)
+flatname(—-11, Веселина-12)
+flatname(—-11, Топалова-13)
+punct(Болгария-15, (-14)
+parataxis(нового-7, Болгария-15)
+punct(Болгария-15, )-16)
+punct(испытание-5, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

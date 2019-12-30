@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(подчеркнул-3, Дмитрий-1)
+appos(Дмитрий-1, Медведев-2)
+root(ROOT-0, подчеркнул-3)
+punct(может-9, ,-4)
+mark(может-9, что-5)
+det(проблемы-7, такие-6)
+nsubj(может-9, проблемы-7)
+nmod(проблемы-7, СПО-8)
+ccomp(подчеркнул-3, может-9)
+xcomp(может-9, решить-10)
+punct(подчеркнул-3, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

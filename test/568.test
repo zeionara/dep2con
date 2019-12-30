@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+iobj(нужно-2, Нам-1)
+root(ROOT-0, нужно-2)
+advmod(больше-4, немножко-3)
+advmod(получить-6, больше-4)
+obl(больше-4, информации-5)
+csubj(нужно-2, получить-6)
+case(центра-9, от-7)
+amod(центра-9, самого-8)
+obl(получить-6, центра-9)
+nmod(центра-9, Сколково-10)
+punct(нужно-2, »-11)
+punct(нужно-2, ,-12)
+nummod(отметила-14, —-13)
+parataxis(нужно-2, отметила-14)
+nsubj(отметила-14, представитель-15)
+nmod(представитель-15, Philips-16)
+punct(нужно-2, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

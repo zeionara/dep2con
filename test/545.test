@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(получит-5, Каждый-1)
+case(участников-3, из-2)
+nmod(Каждый-1, участников-3)
+nmod(участников-3, матча-4)
+root(ROOT-0, получит-5)
+obj(получит-5, половину-6)
+amod(фонда-8, призового-7)
+nmod(половину-6, фонда-8)
+punct(зависимо-11, ,-9)
+advmod(зависимо-11, не-10)
+advcl(получит-5, зависимо-11)
+case(результата-13, от-12)
+obl(зависимо-11, результата-13)
+punct(получит-5, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(Ираклий-2, Архитектор-1)
+root(ROOT-0, Ираклий-2)
+obj(Ираклий-2, Лолашвили-3)
+flatname(Лолашвили-3, голосовал-4)
+case(вступление-6, за-5)
+nmod(Лолашвили-3, вступление-6)
+case(НАТО-8, в-7)
+nmod(вступление-6, НАТО-8)
+punct(Ираклий-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

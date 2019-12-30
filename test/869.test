@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(сети-3, Аудитория-1)
+amod(сети-3, социальный-2)
+nsubj(насчитывает-4, сети-3)
+root(ROOT-0, насчитывает-4)
+obl(насчитывает-4, более-5)
+nummod(млн-7, 400-6)
+obl(более-5, млн-7)
+nmod(млн-7, пользователей-8)
+punct(насчитывает-4, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

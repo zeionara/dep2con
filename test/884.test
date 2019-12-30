@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(утверждению-2, По-1)
+parataxis(ситуация-8, утверждению-2)
+nmod(утверждению-2, представителей-3)
+punct(утверждению-2, Роскосмоса-4)
+punct(утверждению-2, ,-5)
+nsubj(ситуация-8, это-6)
+amod(ситуация-8, штатная-7)
+root(ROOT-0, ситуация-8)
+punct(ситуация-8, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

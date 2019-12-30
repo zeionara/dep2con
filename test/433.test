@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(оценивается-6, Количество-1)
+nmod(Количество-1, участников-2)
+nmod(участников-2, беспорядков-3)
+case(Бристоле-5, в-4)
+obl(оценивается-6, Бристоле-5)
+root(ROOT-0, оценивается-6)
+case(человек-9, в-7)
+nummod(человек-9, 150-8)
+obl(оценивается-6, человек-9)
+punct(оценивается-6, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(выявлено-4, До-1)
+fixed(До-1, сих-2)
+fixed(До-1, пор-3)
+root(ROOT-0, выявлено-4)
+nummod(случаев-6, 600-5)
+nsubjpass(выявлено-4, случаев-6)
+advmod(более-8, и-7)
+obl(половины-9, более-8)
+nsubjpass(найдены-12, половины-9)
+case(них-11, из-10)
+nmod(половины-9, них-11)
+auxpass(выявлено-4, найдены-12)
+nsubjpass(выявлено-4, виновные-13)
+punct(выявлено-4, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

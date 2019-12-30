@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(часа-2, Комендантского-1)
+obl(будет-4, часа-2)
+advmod(будет-4, не-3)
+auxpass(отменили-7, будет-4)
+obl(будет-4, Власти-5)
+nmod(Власти-5, Таиланда-6)
+advcl(готова-13, отменили-7)
+obj(отменили-7, принятое-8)
+obl(решение-10, ранее-9)
+obj(отменили-7, решение-10)
+punct(отменили-7, ,-11)
+nsubj(готова-13, оппозиция-12)
+root(ROOT-0, готова-13)
+case(переговорам-15, к-14)
+obl(готова-13, переговорам-15)
+punct(готова-13, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

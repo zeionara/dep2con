@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(турнира-2, Категория-1)
+root(ROOT-0, турнира-2)
+amod(XIX-4, —-3)
+nmod(турнира-2, XIX-4)
+punct(турнира-2, .-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

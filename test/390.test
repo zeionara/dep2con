@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(следует-2, Далее-1)
+root(ROOT-0, следует-2)
+xcomp(следует-2, Бирма-3)
+case(семью-5, с-4)
+obl(Бирма-3, семью-5)
+amod(журналистами-7, заключёнными-6)
+obl(Бирма-3, журналистами-7)
+punct(следует-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

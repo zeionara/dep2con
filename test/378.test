@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(восемь-2, Последние-1)
+nummodgov(лет-3, восемь-2)
+obl(содержится-7, лет-3)
+amod(количество-5, наибольшее-4)
+nsubj(содержится-7, количество-5)
+nmod(количество-5, журналистов-6)
+root(ROOT-0, содержится-7)
+case(тюрьмах-9, в-8)
+obl(содержится-7, тюрьмах-9)
+nmod(тюрьмах-9, Китая-10)
+punct(содержится-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

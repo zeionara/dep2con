@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(тыс-7, Стоимость-1)
+nmod(Стоимость-1, устройства-2)
+punct(Стоимость-1, —-3)
+nummod(тыс-7, 7-4)
+nummod(тыс-7, —-5)
+nummod(тыс-7, 9-6)
+root(ROOT-0, тыс-7)
+punct(тыс-7, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

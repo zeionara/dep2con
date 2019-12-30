@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(перестыковки-2, Две-1)
+root(ROOT-0, перестыковки-2)
+nummod(Союза-4, «-3)
+nmod(перестыковки-2, Союза-4)
+punct(перестыковки-2, ТМА-7-5)
+punct(перестыковки-2, »-6)
+punct(перестыковки-2, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

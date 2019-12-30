@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(турнире-3, В-1)
+amod(турнире-3, женском-2)
+obl(принимали-4, турнире-3)
+root(ROOT-0, принимали-4)
+obj(принимали-4, участие-5)
+punct(принимали-4, 96-6)
+punct(принимали-4, шахматисток-7)
+punct(шахматисток-7, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

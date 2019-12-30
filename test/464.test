@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Находясь-2, «-1)
+advcl(чувствовал-8, Находясь-2)
+case(тюрьме-4, в-3)
+obl(Находясь-2, тюрьме-4)
+punct(Находясь-2, ,-5)
+nsubj(чувствовал-8, я-6)
+advmod(чувствовал-8, не-7)
+root(ROOT-0, чувствовал-8)
+obj(чувствовал-8, себя-9)
+case(родины-12, вне-10)
+det(родины-12, своей-11)
+obl(чувствовал-8, родины-12)
+punct(чувствовал-8, »-13)
+punct(сказал-16, ,-14)
+obj(сказал-16, —-15)
+parataxis(чувствовал-8, сказал-16)
+nsubj(сказал-16, он-17)
+punct(чувствовал-8, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

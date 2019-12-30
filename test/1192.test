@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(выводам-3, К-1)
+det(выводам-3, таким-2)
+obl(пришёл-5, выводам-3)
+nsubj(пришёл-5, эксперт-4)
+root(ROOT-0, пришёл-5)
+advmod(пришёл-5, в-6)
+fixed(в-6, связи-7)
+fixed(в-6, с-8)
+punct(проблемами-10, предновогодними-9)
+advmod(пришёл-5, проблемами-10)
+case(энергоснабжением-12, с-11)
+obl(проблемами-10, энергоснабжением-12)
+nmod(энергоснабжением-12, региона-13)
+punct(пришёл-5, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

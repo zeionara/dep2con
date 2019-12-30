@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(перегрева-4, Возможно-1)
+punct(Возможно-1, ,-2)
+case(перегрева-4, изза-3)
+obl(вышла-5, перегрева-4)
+csubj(прервалась-13, вышла-5)
+case(строя-7, из-6)
+obl(вышла-5, строя-7)
+nsubj(вышла-5, антенна-8)
+cc(связь-10, и-9)
+conj(вышла-5, связь-10)
+case(кораблём-12, с-11)
+nmod(связь-10, кораблём-12)
+root(ROOT-0, прервалась-13)
+punct(прервалась-13, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

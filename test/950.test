@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Фактически-1)
+cop(Фактически-1, было-2)
+nummodgov(инцидентов-5, несколько-3)
+det(инцидентов-5, таких-4)
+nsubj(Фактически-1, инцидентов-5)
+punct(Фактически-1, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

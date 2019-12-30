@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(6-7, Так-1)
+punct(Так-1, ,-2)
+case(пророчествам-5, согласно-3)
+det(пророчествам-5, его-4)
+parataxis(6-7, пророчествам-5)
+punct(пророчествам-5, ,-6)
+nummod(должен-13, 6-7)
+flat(6-7, сентября-8)
+nummod(года-10, 1994-9)
+nmod(6-7, года-10)
+case(Землю-12, на-11)
+obl(должен-13, Землю-12)
+root(ROOT-0, должен-13)
+cop(должен-13, был-14)
+xcomp(должен-13, опуститься-15)
+nsubj(должен-13, Иисус-16)
+flatname(Иисус-16, Христос-17)
+punct(должен-13, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

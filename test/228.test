@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(регионе-2, В-1)
+obl(возник-6, регионе-2)
+obl(возник-6, первым-3)
+case(России-5, в-4)
+obl(первым-3, России-5)
+root(ROOT-0, возник-6)
+nsubj(возник-6, институт-7)
+nmod(институт-7, Уполномоченного-8)
+case(правам-10, по-9)
+nmod(Уполномоченного-8, правам-10)
+nmod(правам-10, человека-11)
+punct(возник-6, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

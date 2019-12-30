@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(ощущает-18, Вместе-1)
+case(тем-3, с-2)
+obl(Вместе-1, тем-3)
+punct(Вместе-1, ,-4)
+case(словам-7, по-5)
+det(словам-7, его-6)
+parataxis(ощущает-18, словам-7)
+punct(словам-7, ,-8)
+advmod(ощущает-18, сейчас-9)
+det(давления-11, никакого-10)
+obl(ощущает-18, давления-11)
+case(властей-15, со-12)
+fixed(со-12, стороны-13)
+amod(властей-15, американских-14)
+nmod(давления-11, властей-15)
+nsubj(ощущает-18, он-16)
+advmod(ощущает-18, не-17)
+root(ROOT-0, ощущает-18)
+punct(ощущает-18, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

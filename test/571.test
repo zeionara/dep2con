@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(решение-2, Это-1)
+obj(приняли-3, решение-2)
+root(ROOT-0, приняли-3)
+nsubj(приняли-3, министры-4)
+amod(дел-6, иностранных-5)
+nmod(министры-4, дел-6)
+amod(союза-8, Европейского-7)
+nmod(дел-6, союза-8)
+case(совещании-10, на-9)
+obl(приняли-3, совещании-10)
+case(Люксембурге-12, в-11)
+obl(приняли-3, Люксембурге-12)
+punct(приняли-3, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(начале-2, В-1)
+obl(состоятся-6, начале-2)
+nmod(начале-2, июне-3)
+case(Турине-5, в-4)
+obl(состоятся-6, Турине-5)
+root(ROOT-0, состоятся-6)
+nsubj(состоятся-6, выборы-7)
+nmod(выборы-7, президента-8)
+amod(федерации-11, международной-9)
+amod(федерации-11, шахматной-10)
+nmod(президента-8, федерации-11)
+nmod(федерации-11, ФИДЕ-12)
+punct(состоятся-6, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

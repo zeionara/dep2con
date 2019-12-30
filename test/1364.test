@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(показательно-3, Впрочем-1)
+punct(Впрочем-1, ,-2)
+root(ROOT-0, показательно-3)
+punct(дежурило-12, ,-4)
+mark(дежурило-12, что-5)
+case(площади-8, на-6)
+amod(площади-8, Манежной-7)
+obl(дежурило-12, площади-8)
+case(день-11, в-9)
+det(день-11, этот-10)
+nmod(площади-8, день-11)
+ccomp(показательно-3, дежурило-12)
+nsubj(дежурило-12, множество-13)
+nmod(множество-13, милиционеров-14)
+punct(показательно-3, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

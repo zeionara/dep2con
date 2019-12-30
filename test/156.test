@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этого-2, После-1)
+root(ROOT-0, этого-2)
+punct(этого-2, ,-3)
+amod(финишировал-5, Алонсо-4)
+punct(этого-2, финишировал-5)
+case(одиночестве-8, в-6)
+amod(одиночестве-8, гордом-7)
+nmod(финишировал-5, одиночестве-8)
+punct(этого-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

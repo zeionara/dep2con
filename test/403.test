@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заявил-2, »-1)
+root(ROOT-0, заявил-2)
+case(инагурации-4, после-3)
+obl(заявил-2, инагурации-4)
+nsubj(заявил-2, Рамзан-5)
+flatname(Рамзан-5, Кадыров-6)
+punct(заявил-2, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

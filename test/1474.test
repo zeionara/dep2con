@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(поддерживают-3, Кирсана-1)
+punct(Кирсана-1, Илюмжинова-2)
+root(ROOT-0, поддерживают-3)
+nummod(федераций-6, 40-4)
+amod(федераций-6, шахматных-5)
+obj(поддерживают-3, федераций-6)
+punct(включая-8, ,-7)
+advcl(поддерживают-3, включая-8)
+obj(включая-8, Россию-9)
+punct(поддерживают-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

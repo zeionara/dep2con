@@ -4,13 +4,13 @@ import           Data.List (sortBy)
 import           Language.POS (POS (..), toXP)
 import qualified Language.Structure.Binary     as Bin
 import qualified Language.Structure.Dependency as Dep
-import           Language.Word (Word (..))
+import           Language.Wordd (Wordd (..))
 
 
 -- |Convert dependency structures to binary constituency structures,
 --  ensuring that only the minimal number of projections are made.
 collinsToledo :: Dep.Tree -> Bin.Tree
-collinsToledo (Dep.Node (Word "ROOT" (POS "ROOT") 0) [dep]) = collinsToledo dep
+collinsToledo (Dep.Node (Wordd "ROOT" (POS "ROOT") 0) [dep]) = collinsToledo dep
 collinsToledo (Dep.Node gov [])   = Bin.Leaf gov
 collinsToledo (Dep.Node gov deps) = let
 

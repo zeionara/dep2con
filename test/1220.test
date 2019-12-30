@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(взяли-2, Экологи-1)
+root(ROOT-0, взяли-2)
+obj(взяли-2, анализы-3)
+punct(показали-6, ,-4)
+nsubj(показали-6, которые-5)
+conj(взяли-2, показали-6)
+punct(зафиксировано-11, ,-7)
+mark(зафиксировано-11, что-8)
+nsubjpass(зафиксировано-11, загрязнение-9)
+advmod(зафиксировано-11, уже-10)
+ccomp(показали-6, зафиксировано-11)
+case(водах-13, в-12)
+obl(зафиксировано-11, водах-13)
+nmod(водах-13, Невы-14)
+punct(взяли-2, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

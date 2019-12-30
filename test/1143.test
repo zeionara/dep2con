@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Интересно-1)
+punct(долго-4, ,-2)
+mark(долго-4, как-3)
+advcl(Интересно-1, долго-4)
+punct(Интересно-1, скафандр-5)
+punct(передатчиком-8, ,-6)
+case(передатчиком-8, с-7)
+conj(Интересно-1, передатчиком-8)
+case(пазухой-10, за-9)
+nmod(передатчиком-8, пазухой-10)
+punct(продержится-12, ,-11)
+conj(Интересно-1, продержится-12)
+case(орбите-14, на-13)
+obl(продержится-12, орбите-14)
+punct(Интересно-1, ?-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

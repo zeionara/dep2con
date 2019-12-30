@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(уйдет-5, Но-1)
+nsubj(уйдет-5, это-2)
+case(временем-4, со-3)
+obl(уйдет-5, временем-4)
+root(ROOT-0, уйдет-5)
+obl(уйдет-5, »-6)
+punct(прогнозирует-9, ,-7)
+nummod(прогнозирует-9, —-8)
+parataxis(уйдет-5, прогнозирует-9)
+punct(прогнозирует-9, Лолашвили-10)
+punct(уйдет-5, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

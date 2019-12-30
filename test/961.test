@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(вызвал-8, Смысл-1)
+det(шага-3, этого-2)
+nmod(Смысл-1, шага-3)
+advmod(кого-6, ни-4)
+case(кого-6, у-5)
+obl(вызвал-8, кого-6)
+advmod(вызвал-8, не-7)
+root(ROOT-0, вызвал-8)
+obl(вызвал-8, сомнений-9)
+punct(вызвал-8, -10)
+advmod(хотел-12, Нетаньяху-11)
+parataxis(вызвал-8, хотел-12)
+xcomp(хотел-12, подчеркнуть-13)
+punct(считает-17, ,-14)
+mark(считает-17, что-15)
+nsubj(считает-17, Израиль-16)
+ccomp(подчеркнуть-13, считает-17)
+obj(считает-17, Иерусалим-18)
+punct(вызвал-8, неделимым-19)
+punct(вызвал-8, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

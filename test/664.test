@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(них-2, Среди-1)
+obl(было-3, них-2)
+root(ROOT-0, было-3)
+nummodgov(мужчин-5, трое-4)
+nsubj(было-3, мужчин-5)
+punct(было-3, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

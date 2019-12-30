@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(будет-6, «-1)
+punct(«-1, Изменений-2)
+case(нас-4, у-3)
+obl(будет-6, нас-4)
+advmod(будет-6, не-5)
+root(ROOT-0, будет-6)
+punct(будет-6, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

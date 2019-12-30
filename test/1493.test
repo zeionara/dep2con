@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(власти-2, Российские-1)
+nsubj(объявили-4, власти-2)
+advmod(объявили-4, также-3)
+root(ROOT-0, объявили-4)
+case(ужесточении-6, об-5)
+obl(объявили-4, ужесточении-6)
+nmod(ужесточении-6, контроля-7)
+case(мясным-9, за-8)
+nmod(контроля-7, мясным-9)
+nmod(мясным-9, импортом-10)
+case(Германии-12, из-11)
+nmod(мясным-9, Германии-12)
+punct(объявили-4, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

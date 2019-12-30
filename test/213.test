@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(увековечена-7, А-1)
+advmod(увековечена-7, теперь-2)
+nsubj(увековечена-7, память-3)
+case(нём-5, о-4)
+nmod(память-3, нём-5)
+auxpass(увековечена-7, будет-6)
+root(ROOT-0, увековечена-7)
+case(мраморе-9, в-8)
+obl(увековечена-7, мраморе-9)
+punct(увековечена-7, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

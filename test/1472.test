@@ -1,0 +1,33 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(страница-3, Предвыборная-1)
+nmod(Предвыборная-1, Интернет-2)
+nsubj(называется-9, страница-3)
+amod(президента-5, действующего-4)
+nmod(страница-3, президента-5)
+nmod(президента-5, ФИДЕ-6)
+punct(страница-3, Кирсана-7)
+advmod(называется-9, Илюмжинова-8)
+root(ROOT-0, называется-9)
+parataxis(верность-19, —-10)
+amod(FIDE-12, Chess-11)
+flatforeign(—-10, FIDE-12)
+punct(верность-19, Fidelity-13)
+punct(Шахматы-15, (-14)
+parataxis(Fidelity-13, Шахматы-15)
+punct(Шахматы-15, ,-16)
+nmod(Шахматы-15, ФИДЕ-17)
+punct(Fidelity-13, ,-18)
+obj(называется-9, верность-19)
+punct(верность-19, )-20)
+punct(называется-9, .-21)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(договорённости-2, Соответствующие-1)
+nsubjpass(одобрены-3, договорённости-2)
+root(ROOT-0, одобрены-3)
+nummod(директоров-5, советами-4)
+nsubjpass(одобрены-3, директоров-5)
+nummod(компаний-7, обеих-6)
+nmod(директоров-5, компаний-7)
+punct(одобрены-3, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

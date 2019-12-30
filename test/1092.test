@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(мнению-2, По-1)
+parataxis(число-12, мнению-2)
+nmod(мнению-2, полпреда-3)
+nmod(полпреда-3, президента-4)
+nmod(президента-4, РФ-5)
+case(округе-7, в-6)
+nmod(мнению-2, округе-7)
+appos(округе-7, Виктора-8)
+punct(мнению-2, Ишаева-9)
+punct(мнению-2, ,-10)
+amod(число-12, оптимальное-11)
+root(ROOT-0, число-12)
+amod(поясов-14, часовых-13)
+nmod(число-12, поясов-14)
+case(региона-16, для-15)
+nmod(поясов-14, региона-16)
+nummod(два-18, —-17)
+nmod(число-12, два-18)
+punct(число-12, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

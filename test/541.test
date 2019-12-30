@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(сообщил-7, Президент-1)
+nmod(Президент-1, ФИДЕ-2)
+punct(Президент-1, Илюмжинов-3)
+punct(Президент-1, ,-4)
+nsubj(сообщил-7, Кирсан-5)
+flatname(Кирсан-5, Илюмжинов-6)
+root(ROOT-0, сообщил-7)
+punct(подписал-11, ,-8)
+mark(подписал-11, что-9)
+nsubj(подписал-11, он-10)
+ccomp(сообщил-7, подписал-11)
+nummodgov(важных-13, три-12)
+nummodgov(контракта-14, важных-13)
+obl(подписал-11, контракта-14)
+punct(сообщил-7, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

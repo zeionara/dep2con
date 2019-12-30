@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(умирали-3, Люди-1)
+advmod(умирали-3, постепенно-2)
+root(ROOT-0, умирали-3)
+case(голода-5, от-4)
+obl(умирали-3, голода-5)
+cc(жажды-7, и-6)
+conj(голода-5, жажды-7)
+punct(выбрасывали-12, ,-8)
+cc(выбрасывали-12, а-9)
+det(тела-11, их-10)
+nsubj(выбрасывали-12, тела-11)
+conj(умирали-3, выбрасывали-12)
+case(борт-14, за-13)
+obl(выбрасывали-12, борт-14)
+punct(умирали-3, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

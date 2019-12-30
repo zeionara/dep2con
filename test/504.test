@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(категории-3, В-1)
+det(категории-3, каждой-2)
+root(ROOT-0, категории-3)
+punct(категории-3, вручат-4)
+case(награды-7, по-5)
+nummodgov(награды-7, две-6)
+nmod(жюри-11, награды-7)
+punct(награды-7, —-8)
+nummodgov(жюри-11, одну-9)
+case(жюри-11, от-10)
+parataxis(категории-3, жюри-11)
+punct(другую-14, ,-12)
+cc(другую-14, а-13)
+conj(жюри-11, другую-14)
+case(пользователей-16, от-15)
+nmod(другую-14, пользователей-16)
+punct(категории-3, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

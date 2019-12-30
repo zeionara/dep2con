@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(напротив-2, И-1)
+parataxis(имеет-9, напротив-2)
+punct(партнёры-5, ,-3)
+mark(партнёры-5, если-4)
+advcl(напротив-2, партнёры-5)
+flatname(партнёры-5, договорятся-6)
+punct(напротив-2, ,-7)
+nsubj(имеет-9, WFC-8)
+root(ROOT-0, имеет-9)
+det(шансы-11, все-10)
+obj(имеет-9, шансы-11)
+obl(шансы-11, стать-12)
+amod(бизнесом-14, доходным-13)
+obl(стать-12, бизнесом-14)
+punct(имеет-9, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

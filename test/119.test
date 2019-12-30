@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(необходимое-2, Условие-1)
+root(ROOT-0, необходимое-2)
+mark(адрес-5, чтобы-3)
+amod(адрес-5, поучить-4)
+obl(.eu-7, адрес-5)
+case(адрес-5, на-6)
+nsubj(необходимое-2, .eu-7)
+amod(жительство-11, домене-8)
+punct(домене-8, —-9)
+amod(жительство-11, место-10)
+obj(.eu-7, жительство-11)
+case(союзе-14, в-12)
+amod(союзе-14, Европейском-13)
+nmod(жительство-11, союзе-14)
+punct(необходимое-2, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

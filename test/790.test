@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заявил-5, Глава-1)
+nmod(Глава-1, Роскосмоса-2)
+appos(Глава-1, Анатолий-3)
+flatname(Анатолий-3, Перминов-4)
+root(ROOT-0, заявил-5)
+punct(известны-11, ,-6)
+mark(известны-11, что-7)
+nsubj(известны-11, результаты-8)
+nmod(результаты-8, расследования-9)
+cop(известны-11, будут-10)
+ccomp(заявил-5, известны-11)
+case(30-13, к-12)
+nummod(известны-11, 30-13)
+flat(30-13, мая-14)
+punct(заявил-5, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

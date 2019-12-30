@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obj(подтвердил-2, Это-1)
+root(ROOT-0, подтвердил-2)
+nsubj(подтвердил-2, муж-3)
+amod(Сергей-5, актрисы-4)
+nsubj(подтвердил-2, Сергей-5)
+flatname(Сергей-5, Сенин-6)
+punct(подтвердил-2, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

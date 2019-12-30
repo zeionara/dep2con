@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(споре-2, В-1)
+obl(победил-3, споре-2)
+nsubj(обстоит-11, победил-3)
+nsubj(победил-3, мэр-4)
+nmod(мэр-4, города-5)
+appos(мэр-4, Лужков-6)
+punct(победил-3, ,-7)
+parataxis(обстоит-11, узнавший-8)
+punct(узнавший-8, ,-9)
+advmod(обстоит-11, как-10)
+root(ROOT-0, обстоит-11)
+obl(обстоит-11, «-12)
+nummod(«-12, велодело-13)
+flatname(велодело-13, »-14)
+case(Париже-16, в-15)
+nmod(велодело-13, Париже-16)
+punct(обстоит-11, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

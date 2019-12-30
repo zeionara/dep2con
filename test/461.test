@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(приземлился-7, Самолет-1)
+case(Виталием-3, с-2)
+nmod(Самолет-1, Виталием-3)
+advmod(приземлился-7, Калоевым-4)
+case(борту-6, на-5)
+obl(приземлился-7, борту-6)
+root(ROOT-0, приземлился-7)
+case(аэропорту-10, в-8)
+amod(аэропорту-10, столичном-9)
+obl(приземлился-7, аэропорту-10)
+nummod(приземлился-7, «-11)
+nmod(«-11, Домодедово-12)
+punct(приземлился-7, »-13)
+punct(приземлился-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

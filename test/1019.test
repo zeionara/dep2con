@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(тянется-6, Почему-1)
+case(самолётом-3, за-2)
+obl(тянется-6, самолётом-3)
+case(небе-5, в-4)
+obl(тянется-6, небе-5)
+root(ROOT-0, тянется-6)
+amod(хвост-8, белый-7)
+nsubj(тянется-6, хвост-8)
+punct(тянется-6, ?-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

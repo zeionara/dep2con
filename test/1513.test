@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(обсуждениях-2, В-1)
+obl(участвовали-4, обсуждениях-2)
+advmod(участвовали-4, также-3)
+root(ROOT-0, участвовали-4)
+nsubj(участвовали-4, представители-5)
+nummod(агентств-8, 14-и-6)
+amod(агентств-8, космических-7)
+nmod(представители-5, агентств-8)
+punct(участвовали-4, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

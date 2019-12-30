@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(чему-3, Ни-1)
+case(чему-3, к-2)
+obl(приведёт-9, чему-3)
+punct(чему-3, ,-4)
+case(кровопролития-6, кроме-5)
+obl(приведёт-9, кровопролития-6)
+punct(кровопролития-6, ,-7)
+advmod(приведёт-9, не-8)
+root(ROOT-0, приведёт-9)
+advmod(война-11, и-10)
+nsubj(приведёт-9, война-11)
+case(Пхеньяном-13, с-12)
+nmod(война-11, Пхеньяном-13)
+punct(приведёт-9, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

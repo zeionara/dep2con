@@ -2,14 +2,14 @@ module Language.Structure.Binary where
 
 import qualified Data.Tree as Rose
 import           Language.POS (POS)
-import           Language.Word (Word (Word))
+import           Language.Wordd (Wordd (Wordd))
 import           Text.Printf (printf)
 
 
 -- | Constituency trees are rose trees with POS tags in their nodes and words in
 --   their leaves.
 data Tree
-  = Leaf Word
+  = Leaf Wordd
   | Node POS Tree Tree
   deriving (Eq)
 
@@ -23,7 +23,7 @@ instance Show Tree where
 
 -- |Get the left-most index from a constituency tree.
 leftMostIndex :: Tree -> Int
-leftMostIndex (Leaf (Word _ _ i)) = i
+leftMostIndex (Leaf (Wordd _ _ i)) = i
 leftMostIndex (Node _ l r) = leftMostIndex l `min` leftMostIndex r
 
 
@@ -44,12 +44,12 @@ asASCII = Rose.drawTree . go
 
 -- |Convert a given tree to a Markdown representation of it.
 asMarkdown :: Tree -> String
-asMarkdown (Leaf (Word txt _ _)) = show txt
+asMarkdown (Leaf (Wordd txt _ _)) = show txt
 asMarkdown (Node pos left right) = printf "[%s %s %s]" (show pos) (asMarkdown left) (asMarkdown right)
 
 
 -- |Check if two trees are structurally equal.
 (==^) :: Tree -> Tree -> Bool
-(Leaf (Word _ _ i)) ==^ (Leaf (Word _ _ j)) = i == j
+(Leaf (Wordd _ _ i)) ==^ (Leaf (Wordd _ _ j)) = i == j
 (Node _ l1 r1)      ==^ (Node _ l2 r2)      = l1 ==^ l2 && r1 ==^ r2
 _                   ==^ _                   = False

@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(говоря-2, Проще-1)
+parataxis(делают-5, говоря-2)
+punct(говоря-2, ,-3)
+nsubj(делают-5, страны-4)
+root(ROOT-0, делают-5)
+amod(шаги-7, серьёзные-6)
+obj(делают-5, шаги-7)
+case(укрепления-9, для-8)
+nmod(шаги-7, укрепления-9)
+amod(диалога-11, межгосударственного-10)
+nmod(укрепления-9, диалога-11)
+punct(делают-5, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

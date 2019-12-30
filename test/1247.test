@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(уверен-3, Ветеран-1)
+nmod(Ветеран-1, футбола-2)
+root(ROOT-0, уверен-3)
+punct(запоздал-8, ,-4)
+mark(запоздал-8, что-5)
+amod(Адвокат-7, Дик-6)
+nsubj(запоздал-8, Адвокат-7)
+ccomp(уверен-3, запоздал-8)
+case(заменами-10, с-9)
+nummod(запоздал-8, заменами-10)
+punct(уверен-3, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

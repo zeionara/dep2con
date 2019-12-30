@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(неясно-3, Окончательно-1)
+obl(неясно-3, ещё-2)
+advmod(сделала-13, неясно-3)
+punct(удовлетворит-7, ,-4)
+advmod(удовлетворит-7, полностью-5)
+advmod(полностью-5, ли-6)
+advcl(сделала-13, удовлетворит-7)
+iobj(удовлетворит-7, комиссию-8)
+nmod(комиссию-8, ЕС-9)
+obj(удовлетворит-7, предложение-10)
+punct(удовлетворит-7, ,-11)
+obj(сделала-13, которое-12)
+root(ROOT-0, сделала-13)
+nsubj(сделала-13, компания-14)
+appos(компания-14, Microsoft-15)
+punct(сделала-13, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(продлится-7, Полёт-1)
+punct(должен-5, ,-2)
+nsubjpass(должен-5, который-3)
+advmod(должен-5, первоначально-4)
+aclrelcl(Полёт-1, должен-5)
+cop(должен-5, был-6)
+root(ROOT-0, продлится-7)
+nummod(дней-9, 11-8)
+obl(продлится-7, дней-9)
+punct(занял-11, ,-10)
+conj(продлится-7, занял-11)
+nummod(занял-11, 13-12)
+obj(занял-11, суток-13)
+punct(продлится-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

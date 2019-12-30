@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(главное-3, И-1)
+amod(главное-3, самое-2)
+nsubj(диктует-7, главное-3)
+amod(Турция-5, —-4)
+nmod(главное-3, Турция-5)
+advmod(диктует-7, не-6)
+root(ROOT-0, диктует-7)
+iobj(диктует-7, нам-8)
+det(волю-10, свою-9)
+obj(диктует-7, волю-10)
+punct(диктует-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

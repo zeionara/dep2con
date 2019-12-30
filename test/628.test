@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Большого-2, Худрук-1)
+nsubj(завершил-3, Большого-2)
+root(ROOT-0, завершил-3)
+obj(завершил-3, работу-4)
+punct(завершил-3, .-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

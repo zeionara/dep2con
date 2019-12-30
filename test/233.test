@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(начало-3, Это-1)
+cop(начало-3, было-2)
+root(ROOT-0, начало-3)
+nmod(начало-3, строительства-4)
+amod(общества-6, гражданского-5)
+nmod(строительства-4, общества-6)
+case(эпоху-15, в-7)
+advmod(самую-9, не-8)
+amod(эпоху-15, самую-9)
+punct(самую-9, ,-10)
+parataxis(подходящую-14, казалось-11)
+aux(казалось-11, бы-12)
+punct(казалось-11, ,-13)
+amod(эпоху-15, подходящую-14)
+nmod(начало-3, эпоху-15)
+punct(начало-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

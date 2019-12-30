@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(проводиться-3, Просмотры-1)
+auxpass(проводиться-3, будут-2)
+root(ROOT-0, проводиться-3)
+nsubjpass(проводиться-3, 21-4)
+flat(21-4, апреля-5)
+case(Москве-7, в-6)
+obl(проводиться-3, Москве-7)
+cc(13-9, и-8)
+conj(проводиться-3, 13-9)
+flat(13-9, мая-10)
+case(Орле-12, в-11)
+nmod(13-9, Орле-12)
+punct(проводиться-3, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

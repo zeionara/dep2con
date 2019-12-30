@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(находятся-2, Здесь-1)
+root(ROOT-0, находятся-2)
+amod(модные-4, самые-3)
+nsubj(находятся-2, модные-4)
+iobj(находятся-2, бутики-5)
+case(Европе-7, в-6)
+nmod(бутики-5, Европе-7)
+punct(находятся-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

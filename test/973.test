@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(заменит-5, Робосекс-1)
+punct(Робосекс-1, Robot-2)
+obj(заменит-5, Sex-3)
+nsubj(заменит-5, Roxxxy-4)
+root(ROOT-0, заменит-5)
+nsubj(заменит-5, любовницу-6)
+punct(заменит-5, ?-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

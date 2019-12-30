@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Напомним-1)
+punct(отцом-4, ,-2)
+mark(отцом-4, что-3)
+ccomp(Напомним-1, отцом-4)
+nmod(отцом-4, Марин-5)
+flatname(Марин-5, Ле-6)
+punct(Напомним-1, Пен-7)
+amod(основатель-9, является-8)
+nsubj(Напомним-1, основатель-9)
+amod(фронта-11, Национального-10)
+nmod(основатель-9, фронта-11)
+appos(основатель-9, Жан-12)
+punct(Мари-14, --13)
+flatname(Жан-12, Мари-14)
+flatname(Жан-12, Ле-15)
+flatforeign(основатель-9, Пен-16)
+punct(Напомним-1, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

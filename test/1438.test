@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(считают-2, Как-1)
+parataxis(насчитывается-8, считают-2)
+nsubj(считают-2, социалдемократы-3)
+punct(считают-2, ,-4)
+nsubj(насчитывается-8, таких-5)
+case(Германии-7, в-6)
+obl(насчитывается-8, Германии-7)
+root(ROOT-0, насчитывается-8)
+advmod(более-10, не-9)
+nsubj(насчитывается-8, более-10)
+nummod(тысяч-12, двух-11)
+obl(более-10, тысяч-12)
+punct(насчитывается-8, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

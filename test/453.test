@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заявлял-3, Ранее-1)
+punct(Ранее-1, Клинсман-2)
+root(ROOT-0, заявлял-3)
+punct(примет-12, ,-4)
+mark(примет-12, что-5)
+obj(примет-12, решение-6)
+nmod(решение-6, вопроса-7)
+case(вратарём-9, с-8)
+nmod(решение-6, вратарём-9)
+punct(решение-6, ,-10)
+nsubj(примет-12, он-11)
+ccomp(заявлял-3, примет-12)
+case(начале-14, в-13)
+obl(примет-12, начале-14)
+nmod(начале-14, мая-15)
+punct(заявлял-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

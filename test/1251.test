@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(поединке-5, И-1)
+advmod(поединке-5, именно-2)
+case(поединке-5, о-3)
+det(поединке-5, таком-4)
+root(ROOT-0, поединке-5)
+cop(поединке-5, можно-6)
+csubj(поединке-5, говорить-7)
+punct(было-11, ,-8)
+mark(было-11, что-9)
+advmod(было-11, здесь-10)
+ccomp(говорить-7, было-11)
+nsubj(было-11, противоборство-12)
+nmod(противоборство-12, тренеров-13)
+punct(поединке-5, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(посетив-5, Да-1)
+advmod(Наполеон-3, и-2)
+nsubj(Да-1, Наполеон-3)
+punct(Да-1, ,-4)
+nsubj(назвал-8, посетив-5)
+nummod(посетив-5, Дюссельдорф-6)
+punct(посетив-5, ,-7)
+root(ROOT-0, назвал-8)
+obj(назвал-8, его-9)
+obl(назвал-8, маленьким-10)
+obj(назвал-8, Парижем-11)
+punct(назвал-8, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

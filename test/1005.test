@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(северокорейский-2, Высокопоставленный-1)
+nsubj(дал-4, северокорейский-2)
+appos(северокорейский-2, перебежчик-3)
+root(ROOT-0, дал-4)
+det(инструкцию-6, подробную-5)
+obj(дал-4, инструкцию-6)
+case(том-8, о-7)
+nmod(инструкцию-6, том-8)
+punct(противостоять-11, ,-9)
+advmod(противостоять-11, как-10)
+acl(том-8, противостоять-11)
+iobj(противостоять-11, КНДР-12)
+punct(дал-4, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

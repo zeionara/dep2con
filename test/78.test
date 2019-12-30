@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(настаивают-2, Кредиторы-1)
+root(ROOT-0, настаивают-2)
+case(банкротстве-4, на-3)
+obl(настаивают-2, банкротстве-4)
+amod(телеканала-6, круглосуточного-5)
+nmod(банкротстве-4, телеканала-6)
+flatforeign(телеканала-6, World-7)
+punct(настаивают-2, Fashion-8)
+punct(настаивают-2, Channel-9)
+punct(настаивают-2, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

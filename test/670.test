@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(полезно-2, И-1)
+root(ROOT-0, полезно-2)
+punct(приятно-5, ,-3)
+cc(приятно-5, и-4)
+conj(полезно-2, приятно-5)
+punct(полезно-2, ...-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

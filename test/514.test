@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(году-3, В-1)
+det(году-3, этом-2)
+root(ROOT-0, году-3)
+nummod(году-3, Corus-4)
+flatname(Corus-4, Chess-5)
+punct(Corus-4, Tournament-6)
+flat(Corus-4, состоится-7)
+case(13-9, с-8)
+nummod(Corus-4, 13-9)
+case(29-11, по-10)
+nummod(13-9, 29-11)
+flat(29-11, января-12)
+punct(году-3, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

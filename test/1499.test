@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(имеет-6, База-1)
+amod(возле-3, расположенная-2)
+case(полюса-4, возле-3)
+nmod(База-1, полюса-4)
+punct(База-1, ,-5)
+root(ROOT-0, имеет-6)
+amod(условия-8, благоприятные-7)
+obj(имеет-6, условия-8)
+case(использования-10, для-9)
+obl(имеет-6, использования-10)
+amod(энергии-12, солнечной-11)
+nmod(использования-10, энергии-12)
+punct(имеет-6, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

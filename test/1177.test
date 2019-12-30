@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(действовать-3, Запрет-1)
+aux(действовать-3, будет-2)
+root(ROOT-0, действовать-3)
+nummodgov(год-5, один-4)
+obl(действовать-3, год-5)
+punct(действовать-3, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(дни-3, За-1)
+amod(дни-3, последние-2)
+obl(было-4, дни-3)
+root(ROOT-0, было-4)
+nummod(активистов-7, арестовано-5)
+nummod(активистов-7, 5000-6)
+nsubj(было-4, активистов-7)
+amod(партии-9, Народной-8)
+nmod(активистов-7, партии-9)
+punct(возглавляемой-11, ,-10)
+acl(партии-9, возглавляемой-11)
+punct(возглавляемой-11, Бхутто-12)
+punct(было-4, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

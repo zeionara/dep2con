@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(амнистия-2, Международная-1)
+nsubj(обвиняет-7, амнистия-2)
+punct(Amnesty-4, (-3)
+flatforeign(амнистия-2, Amnesty-4)
+flatforeign(амнистия-2, International-5)
+punct(амнистия-2, )-6)
+root(ROOT-0, обвиняет-7)
+obj(обвиняет-7, США-8)
+case(подходе-11, в-9)
+amod(подходе-11, двойном-10)
+obl(обвиняет-7, подходе-11)
+punct(обвиняет-7, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

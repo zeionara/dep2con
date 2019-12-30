@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(избранные-2, Вновь-1)
+nsubjpass(приведены-5, избранные-2)
+punct(избранные-2, конгрессмены-3)
+auxpass(приведены-5, были-4)
+root(ROOT-0, приведены-5)
+case(присяге-7, к-6)
+obl(приведены-5, присяге-7)
+punct(приведены-5, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

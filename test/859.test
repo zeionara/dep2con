@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(обошлись-6, Тогда-1)
+nummod(%-3, 2-2)
+nsubj(обошлись-6, %-3)
+amod(акций-5, привилегированных-4)
+nmod(%-3, акций-5)
+root(ROOT-0, обошлись-6)
+case(млн-9, в-7)
+nummod(млн-9, 200-8)
+obl(обошлись-6, млн-9)
+nmod(млн-9, долларов-10)
+punct(обошлись-6, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

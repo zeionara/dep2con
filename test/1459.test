@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(издание-2, Первое-1)
+nsubjpass(выпущено-5, издание-2)
+nmod(издание-2, книги-3)
+auxpass(выпущено-5, было-4)
+root(ROOT-0, выпущено-5)
+case(году-8, в-6)
+nummod(году-8, 1859-7)
+obl(выпущено-5, году-8)
+advmod(сегодня-10, и-9)
+advmod(является-11, сегодня-10)
+cop(выпущено-5, является-11)
+amod(библиографической-13, большой-12)
+amod(редкостью-14, библиографической-13)
+obl(является-11, редкостью-14)
+punct(выпущено-5, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

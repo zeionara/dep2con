@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(согласятся-3, Непонятно-1)
+fixed(Непонятно-1, также-2)
+root(ROOT-0, согласятся-3)
+advmod(согласятся-3, ли-4)
+nsubj(согласятся-3, конкуренты-5)
+xcomp(согласятся-3, платить-6)
+case(лицензии-8, за-7)
+obl(платить-6, лицензии-8)
+flatforeign(лицензии-8, Microsoft-9)
+punct(согласятся-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

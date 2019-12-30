@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(году-3, В-1)
+amod(году-3, прошедшем-2)
+obl(увеличились-5, году-3)
+nsubj(увеличились-5, они-4)
+root(ROOT-0, увеличились-5)
+case(процентов-8, на-6)
+nummod(процентов-8, 16-7)
+obl(увеличились-5, процентов-8)
+case(миллиона-11, до-9)
+nummod(миллиона-11, 237,6-10)
+obl(увеличились-5, миллиона-11)
+nummod(фунтов-13, кипрских-12)
+nmod(миллиона-11, фунтов-13)
+punct(увеличились-5, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

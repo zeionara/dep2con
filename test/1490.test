@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(обнаружен-7, Ранее-1)
+case(неделе-4, на-2)
+det(неделе-4, этой-3)
+obl(Ранее-1, неделе-4)
+punct(Ранее-1, диоксин-5)
+auxpass(обнаружен-7, был-6)
+root(ROOT-0, обнаружен-7)
+case(яйцах-10, в-8)
+amod(яйцах-10, куриных-9)
+obl(обнаружен-7, яйцах-10)
+punct(обнаружен-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

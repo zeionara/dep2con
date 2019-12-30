@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(Лукашенко-2, Кроме-1)
+parataxis(въезд-5, Лукашенко-2)
+punct(Лукашенко-2, ,-3)
+amod(въезд-5, запрещён-4)
+root(ROOT-0, въезд-5)
+advmod(въезд-5, ещё-6)
+amod(служащим-9, 30-7)
+amod(служащим-9, государственным-8)
+nmod(въезд-5, служащим-9)
+nmod(служащим-9, Белоруссии-10)
+punct(въезд-5, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

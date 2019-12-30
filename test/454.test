@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(принял-11, Но-1)
+punct(Но-1, ,-2)
+acl(давлением-6, находясь-3)
+case(постоянным-5, под-4)
+obl(находясь-3, постоянным-5)
+advcl(принял-11, давлением-6)
+case(сторона-8, со-7)
+obl(давлением-6, сторона-8)
+nmod(сторона-8, прессы-9)
+punct(давлением-6, ,-10)
+root(ROOT-0, принял-11)
+det(решение-13, это-12)
+obj(принял-11, решение-13)
+advmod(теперь-15, уже-14)
+advmod(принял-11, теперь-15)
+punct(принял-11, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

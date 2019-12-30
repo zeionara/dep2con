@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(стран-3, Дипломаты-1)
+amod(стран-3, многих-2)
+nsubj(покинули-5, стран-3)
+advmod(покинули-5, уже-4)
+root(ROOT-0, покинули-5)
+obj(покинули-5, Таиланд-6)
+punct(покинули-5, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

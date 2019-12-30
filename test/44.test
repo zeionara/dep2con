@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(все-2, Не-1)
+det(опытные-3, все-2)
+amod(члены-4, опытные-3)
+nsubj(готовы-6, члены-4)
+nmod(члены-4, суда-5)
+root(ROOT-0, готовы-6)
+xcomp(готовы-6, уехать-7)
+case(Москвы-9, из-8)
+obl(уехать-7, Москвы-9)
+punct(готовы-6, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

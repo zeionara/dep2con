@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Лукашенко-1)
+cc(ещё-3, и-2)
+conj(Лукашенко-1, ещё-3)
+nsubj(Лукашенко-1, 30-и-4)
+det(служащим-6, его-5)
+obl(30-и-4, служащим-6)
+punct(въезд-8, запрещён-7)
+conj(служащим-6, въезд-8)
+case(территорию-10, на-9)
+nmod(въезд-8, территорию-10)
+nmod(территорию-10, стран-11)
+amod(союза-13, Европейского-12)
+nmod(стран-11, союза-13)
+punct(Лукашенко-1, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(сообщает-2, Как-1)
+parataxis(собрались-10, сообщает-2)
+flatforeign(сообщает-2, New-3)
+flatforeign(сообщает-2, York-4)
+flatforeign(сообщает-2, Times-5)
+punct(сообщает-2, ,-6)
+nummodgov(тысяч-8, несколько-7)
+nsubj(собрались-10, тысяч-8)
+nmod(тысяч-8, человек-9)
+root(ROOT-0, собрались-10)
+case(митинг-12, на-11)
+obl(собрались-10, митинг-12)
+punct(приветствовать-15, ,-13)
+mark(приветствовать-15, чтобы-14)
+advcl(собрались-10, приветствовать-15)
+nummod(Су-18, Аун-16)
+amod(Су-18, Сан-17)
+obj(приветствовать-15, Су-18)
+appos(Су-18, Чжи-19)
+punct(собрались-10, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

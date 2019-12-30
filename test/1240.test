@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(теорий-2, Апокалиптических-1)
+nsubj(достаточно-4, теорий-2)
+advmod(достаточно-4, ещё-3)
+root(ROOT-0, достаточно-4)
+punct(достаточно-4, -5)
+case(год-8, *-6)
+nummod(год-8, 2021-7)
+parataxis(достаточно-4, год-8)
+punct(достаточно-4, —-9)
+amod(магнитного-11, инверсия-10)
+amod(поля-12, магнитного-11)
+obj(уничтожит-14, поля-12)
+nmod(поля-12, Земли-13)
+parataxis(достаточно-4, уничтожит-14)
+obj(уничтожит-14, часть-15)
+nmod(часть-15, человечества-16)
+punct(достаточно-4, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

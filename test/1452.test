@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(вести-3, Интерпол-1)
+aux(вести-3, будет-2)
+root(ROOT-0, вести-3)
+case(Сингапура-5, из-4)
+obl(вести-3, Сингапура-5)
+obj(вести-3, работу-6)
+case(противодействию-8, по-7)
+nmod(работу-6, противодействию-8)
+punct(вести-3, договорным-9)
+obl(вести-3, матчам-10)
+punct(вести-3, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

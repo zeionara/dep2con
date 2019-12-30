@@ -1,0 +1,16 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(расследование-3, Инициировано-1)
+amod(расследование-3, административное-2)
+root(ROOT-0, расследование-3)
+punct(расследование-3, .-4)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

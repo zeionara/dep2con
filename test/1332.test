@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(сложились-6, В-1)
+fixed(В-1, настоящее-2)
+fixed(В-1, время-3)
+case(нас-5, у-4)
+obl(сложились-6, нас-5)
+root(ROOT-0, сложились-6)
+obl(натянутые-8, достаточно-7)
+nsubj(сложились-6, натянутые-8)
+punct(скажу-10, ,-9)
+parataxis(сложились-6, скажу-10)
+advmod(скажу-10, мягко-11)
+punct(сложились-6, ,-12)
+nsubj(сложились-6, отношения-13)
+case(властью-16, с-14)
+amod(властью-16, нынешней-15)
+nmod(отношения-13, властью-16)
+punct(сложились-6, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

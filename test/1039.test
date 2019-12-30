@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(новость-6, да-1)
+punct(да-1, ,-2)
+parataxis(новость-6, конечно-3)
+punct(конечно-3, ,-4)
+nsubj(новость-6, это-5)
+root(ROOT-0, новость-6)
+punct(ложится-9, ,-7)
+nsubj(ложится-9, которая-8)
+aclrelcl(новость-6, ложится-9)
+case(канву-11, в-10)
+obl(ложится-9, канву-11)
+det(событий-14, всех-12)
+amod(событий-14, предыдущих-13)
+nmod(канву-11, событий-14)
+punct(новость-6, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

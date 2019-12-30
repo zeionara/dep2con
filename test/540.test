@@ -1,0 +1,35 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(13-2, С-1)
+obl(состоялось-18, 13-2)
+case(14-4, по-3)
+nummod(13-2, 14-4)
+flat(14-4, апреля-5)
+case(Аль-7, в-6)
+nmod(13-2, Аль-7)
+flatname(Аль-7, Аин-8)
+punct(Al-10, (-9)
+flatforeign(Аль-7, Al-10)
+flatforeign(Аль-7, Ain-11)
+punct(Аль-7, )-12)
+punct(Объединённые-14, (-13)
+appos(Аль-7, Объединённые-14)
+amod(Эмираты-16, Арабские-15)
+obj(Объединённые-14, Эмираты-16)
+punct(Объединённые-14, )-17)
+root(ROOT-0, состоялось-18)
+nsubj(состоялось-18, заседание-19)
+amod(совета-21, президентского-20)
+nmod(заседание-19, совета-21)
+nmod(совета-21, ФИДЕ-22)
+punct(состоялось-18, .-23)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

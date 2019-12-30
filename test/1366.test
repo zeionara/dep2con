@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(было-6, Сегодня-1)
+case(бульваре-4, на-2)
+amod(бульваре-4, Кронштадтском-3)
+obl(было-6, бульваре-4)
+advmod(было-6, не-5)
+root(ROOT-0, было-6)
+obl(никакой-8, почти-7)
+det(символики-9, никакой-8)
+nsubj(было-6, символики-9)
+punct(было-6, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

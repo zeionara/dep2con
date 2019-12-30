@@ -1,0 +1,36 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(сравнивают-2, Критики-1)
+root(ROOT-0, сравнивают-2)
+amod(записи-4, ранние-3)
+obj(сравнивают-2, записи-4)
+amod(Центра-6, «-5)
+obl(сравнивают-2, Центра-6)
+obl(сравнивают-2, »-7)
+case(Kraftwerk-9, с-8)
+nummod(»-7, Kraftwerk-9)
+punct(композиции-12, ,-10)
+cc(композиции-12, а-11)
+conj(сравнивают-2, композиции-12)
+orphan(композиции-12, «-13)
+flatname(«-13, Телевизора-14)
+obl(сравнивают-2, »-15)
+acl(Depeche-19, —-16)
+case(творчеством-18, с-17)
+obl(—-16, творчеством-18)
+obl(сравнивают-2, Depeche-19)
+obl(сравнивают-2, Mode-20)
+cc(The-22, и-21)
+conj(Mode-20, The-22)
+obj(сравнивают-2, Smiths-23)
+punct(сравнивают-2, .-24)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

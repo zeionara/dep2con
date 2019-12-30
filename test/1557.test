@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(является-2, Бангладеш-1)
+root(ROOT-0, является-2)
+amod(государством-4, светским-3)
+obl(является-2, государством-4)
+punct(составляют-10, ,-5)
+advmod(составляют-10, однако-6)
+nummod(%-8, 90-7)
+nsubj(составляют-10, %-8)
+nmod(%-8, жителей-9)
+conj(является-2, составляют-10)
+nsubj(составляют-10, мусульмане-11)
+punct(сунниты-13, --12)
+nummod(составляют-10, сунниты-13)
+punct(является-2, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

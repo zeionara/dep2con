@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(ответил-2, Он-1)
+root(ROOT-0, ответил-2)
+punct(летает-9, ,-3)
+mark(летает-9, что-4)
+case(сне-6, во-5)
+obl(летает-9, сне-6)
+nsubj(летает-9, он-7)
+advmod(летает-9, просто-8)
+ccomp(ответил-2, летает-9)
+nsubj(летает-9, сам-10)
+obl(летает-9, собой-11)
+punct(ответил-2, ,-12)
+case(самолёта-14, без-13)
+obl(ответил-2, самолёта-14)
+punct(ответил-2, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

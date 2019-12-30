@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(власти-2, Местные-1)
+nsubj(называют-4, власти-2)
+advmod(называют-4, не-3)
+root(ROOT-0, называют-4)
+obj(называют-4, происшествие-5)
+cc(чрезвычайным-7, ни-6)
+obl(называют-4, чрезвычайным-7)
+punct(экологическим-10, ,-8)
+cc(экологическим-10, ни-9)
+conj(чрезвычайным-7, экологическим-10)
+punct(называют-4, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

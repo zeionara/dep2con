@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(месяца-3, За-1)
+nummodgov(месяца-3, полтора-2)
+obl(актриса-6, месяца-3)
+case(смерти-5, до-4)
+nmod(месяца-3, смерти-5)
+root(ROOT-0, актриса-6)
+nummod(актриса-6, подскользнулась-7)
+case(дома-10, у-8)
+det(дома-10, своего-9)
+obl(подскользнулась-7, дома-10)
+cc(получила-12, и-11)
+conj(актриса-6, получила-12)
+amod(травму-14, серьёзную-13)
+obj(получила-12, травму-14)
+punct(актриса-6, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

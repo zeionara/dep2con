@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(дают-3, Русские-1)
+advmod(дают-3, не-2)
+root(ROOT-0, дают-3)
+amod(объяснений-5, простых-4)
+obl(дают-3, объяснений-5)
+iobj(дают-3, слухам-6)
+cc(предположениям-8, и-7)
+conj(дают-3, предположениям-8)
+punct(начинают-11, ,-9)
+cc(начинают-11, а-10)
+conj(дают-3, начинают-11)
+nsubj(начинают-11, поиски-12)
+nmod(поиски-12, врагов-13)
+punct(дают-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

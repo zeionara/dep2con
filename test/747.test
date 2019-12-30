@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(сказал-2, Виноградов-1)
+root(ROOT-0, сказал-2)
+punct(спал-13, ,-3)
+mark(спал-13, что-4)
+case(день-7, в-5)
+amod(день-7, первый-6)
+obl(спал-13, день-7)
+case(часов-10, после-8)
+nummod(часов-10, 20-и-9)
+nmod(день-7, часов-10)
+nmod(день-7, работы-11)
+nsubj(спал-13, он-12)
+ccomp(сказал-2, спал-13)
+case(снов-15, без-14)
+obl(спал-13, снов-15)
+punct(сказал-2, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

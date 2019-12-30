@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(тем-2, Между-1)
+parataxis(опроверг-9, тем-2)
+punct(тем-2, ,-3)
+nsubj(опроверг-9, лидер-4)
+nmod(лидер-4, фракции-5)
+nmod(фракции-5, КПРФ-6)
+appos(лидер-4, Владимир-7)
+punct(лидер-4, Беспалов-8)
+root(ROOT-0, опроверг-9)
+det(информацию-11, эту-10)
+obj(опроверг-9, информацию-11)
+punct(опроверг-9, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

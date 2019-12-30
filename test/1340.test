@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Тогда-1)
+nsubj(Тогда-1, была-2)
+nsubj(была-2, норма-3)
+punct(обеспечивать-5, обязывающая-4)
+acl(норма-3, обеспечивать-5)
+obj(обеспечивать-5, представительство-6)
+amod(народа-8, коренного-7)
+nmod(представительство-6, народа-8)
+case(сферах-11, во-9)
+det(сферах-11, всех-10)
+obl(обеспечивать-5, сферах-11)
+nmod(норма-3, власти-12)
+punct(Тогда-1, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

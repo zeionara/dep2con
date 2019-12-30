@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(обвиняет-2, Оппозиция-1)
+root(ROOT-0, обвиняет-2)
+obj(обвиняет-2, Саакашвили-3)
+case(авторитарном-5, в-4)
+obl(обвиняет-2, авторитарном-5)
+obj(обвиняет-2, правлении-6)
+cc(хочет-8, и-7)
+conj(обвиняет-2, хочет-8)
+det(отставки-10, его-9)
+obl(хочет-8, отставки-10)
+punct(обвиняет-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

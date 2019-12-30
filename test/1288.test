@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(появилась-8, Весной-1)
+amod(года-3, нынешнего-2)
+nmod(Весной-1, года-3)
+case(Chrome-5, в-4)
+obl(появилась-8, Chrome-5)
+flatforeign(Chrome-5, Web-6)
+punct(Chrome-5, Store-7)
+root(ROOT-0, появилась-8)
+nsubj(появилась-8, «-9)
+amod(»-11, настольная-10)
+nmod(«-9, »-11)
+nummod(аркады-14, HTML5-версия-12)
+amod(аркады-14, легендарной-13)
+nmod(»-11, аркады-14)
+amod(Birds-16, Angry-15)
+obj(аркады-14, Birds-16)
+punct(появилась-8, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

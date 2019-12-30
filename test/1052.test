@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(утверждают-3, Представители-1)
+nmod(Представители-1, Microsoft-2)
+root(ROOT-0, утверждают-3)
+punct(разработки-9, ,-4)
+mark(разработки-9, что-5)
+nsubj(разработки-9, это-6)
+det(разработки-9, их-7)
+amod(разработки-9, уникальные-8)
+ccomp(утверждают-3, разработки-9)
+punct(утверждают-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

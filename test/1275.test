@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Таких-1)
+punct(Таких-1, ,-2)
+mark(лёгкая-4, как-3)
+acl(Таких-1, лёгкая-4)
+cc(тяжёлая-6, и-5)
+conj(лёгкая-4, тяжёлая-6)
+nsubj(лёгкая-4, атлетика-7)
+cc(борьба-9, и-8)
+conj(лёгкая-4, борьба-9)
+punct(Таких-1, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

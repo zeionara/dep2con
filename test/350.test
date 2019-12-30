@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(считают-5, Русские-1)
+advmod(считают-5, до-2)
+fixed(до-2, сих-3)
+fixed(до-2, пор-4)
+root(ROOT-0, считают-5)
+obj(считают-5, нас-6)
+obl(считают-5, частью-7)
+nmod(частью-7, России-8)
+punct(считают-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

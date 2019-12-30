@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Неприятности-1)
+advmod(демократии-5, только-2)
+case(демократии-5, от-3)
+amod(демократии-5, европейской-4)
+nmod(Неприятности-1, демократии-5)
+punct(Неприятности-1, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

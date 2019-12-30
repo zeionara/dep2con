@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(планирует-2, НАСА-1)
+root(ROOT-0, планирует-2)
+xcomp(планирует-2, начать-3)
+det(программу-5, эту-4)
+obj(начать-3, программу-5)
+case(году-8, в-6)
+nummod(году-8, 2008-7)
+obl(начать-3, году-8)
+punct(планирует-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

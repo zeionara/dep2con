@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(примеру-2, К-1)
+parataxis(стала-6, примеру-2)
+punct(примеру-2, ,-3)
+punct(примеру-2, танцевальная-4)
+nsubj(стала-6, пара-5)
+root(ROOT-0, стала-6)
+obl(стала-6, чемпионами-7)
+nmod(чемпионами-7, Германии-8)
+case(возрастной-11, в-9)
+det(возрастной-11, своей-10)
+obl(стала-6, возрастной-11)
+iobj(стала-6, группе-12)
+punct(стала-6, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

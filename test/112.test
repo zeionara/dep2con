@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(поздравил-4, Премьерминистр-1)
+appos(Премьерминистр-1, Владимир-2)
+flatname(Владимир-2, Путин-3)
+root(ROOT-0, поздравил-4)
+obj(поздравил-4, сборную-5)
+cc(болельщиков-7, и-6)
+conj(поздравил-4, болельщиков-7)
+case(победой-9, с-8)
+nmod(болельщиков-7, победой-9)
+punct(поздравил-4, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

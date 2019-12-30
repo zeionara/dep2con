@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(обеспечила-4, Смена-1)
+amod(пояса-3, часового-2)
+nmod(Смена-1, пояса-3)
+root(ROOT-0, обеспечила-4)
+aux(обеспечила-4, бы-5)
+iobj(обеспечила-4, краю-6)
+amod(разницу-8, шестичасовую-7)
+obj(обеспечила-4, разницу-8)
+case(времени-10, во-9)
+obl(обеспечила-4, времени-10)
+case(столицей-12, со-11)
+nmod(времени-10, столицей-12)
+punct(обеспечила-4, ,-13)
+parataxis(обеспечила-4, сообщает-14)
+nsubj(сообщает-14, NEWSru.com-15)
+punct(обеспечила-4, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

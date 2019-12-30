@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(ноябре-2, В-1)
+obl(экстрадировали-7, ноябре-2)
+nummod(года-4, 2010-3)
+nmod(ноябре-2, года-4)
+nsubj(экстрадировали-7, власти-5)
+nmod(власти-5, Таиланда-6)
+root(ROOT-0, экстрадировали-7)
+appos(экстрадировали-7, Бута-8)
+case(США-10, в-9)
+nmod(Бута-8, США-10)
+punct(экстрадировали-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

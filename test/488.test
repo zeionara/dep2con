@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(назвал-3, Бенер-1)
+advmod(назвал-3, уже-2)
+root(ROOT-0, назвал-3)
+obj(назвал-3, реформу-4)
+nmod(реформу-4, здравоохранения-5)
+obl(назвал-3, «-6)
+nummod(мест-9, убийцей-7)
+amod(мест-9, рабочих-8)
+nmod(«-6, мест-9)
+punct(назвал-3, »-10)
+punct(будет-14, ,-11)
+mark(будет-14, поскольку-12)
+nsubj(будет-14, она-13)
+ccomp(»-10, будет-14)
+obl(дорогой-16, очень-15)
+nsubj(будет-14, дорогой-16)
+case(госбюджета-18, для-17)
+nmod(дорогой-16, госбюджета-18)
+punct(назвал-3, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

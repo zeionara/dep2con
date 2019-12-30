@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(юный-2, И-1)
+root(ROOT-0, юный-2)
+punct(лет-5, (-3)
+nummod(лет-5, 15-4)
+parataxis(юный-2, лет-5)
+punct(лет-5, )-6)
+nsubj(юный-2, гроссмейстер-7)
+case(Украины-9, из-8)
+nmod(гроссмейстер-7, Украины-9)
+appos(гроссмейстер-7, Сергей-10)
+flatname(Сергей-10, Карякин-11)
+punct(юный-2, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

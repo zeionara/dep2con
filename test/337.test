@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(решение-2, Это-1)
+nsubj(вызвало-3, решение-2)
+root(ROOT-0, вызвало-3)
+obj(вызвало-3, критику-4)
+cc(нанесло-6, и-5)
+conj(вызвало-3, нанесло-6)
+obj(нанесло-6, ущерб-7)
+iobj(нанесло-6, демократическому-8)
+punct(вызвало-3, имиджу-9)
+nmod(имиджу-9, Грузии-10)
+punct(вызвало-3, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

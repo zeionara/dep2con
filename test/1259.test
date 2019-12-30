@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(заставят-3, Если-1)
+nsubj(заставят-3, журналисты-2)
+advcl(будет-9, заставят-3)
+obj(заставят-3, его-4)
+case(этим-6, над-5)
+obl(заставят-3, этим-6)
+xcomp(заставят-3, задуматься-7)
+punct(заставят-3, ,-8)
+root(ROOT-0, будет-9)
+advmod(делу-11, только-10)
+iobj(пользу-13, делу-11)
+case(пользу-13, на-12)
+nsubj(будет-9, пользу-13)
+punct(пользу-13, »-14)
+punct(будет-9, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

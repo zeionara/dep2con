@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(должен-4, 19-1)
+flat(19-1, мая-2)
+nsubj(должен-4, комитет-3)
+root(ROOT-0, должен-4)
+cop(должен-4, будет-5)
+xcomp(должен-4, опубликовать-6)
+det(заключение-8, свое-7)
+obj(опубликовать-6, заключение-8)
+punct(должен-4, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

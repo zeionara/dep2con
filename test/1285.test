@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(штабквартире-6, Работать-1)
+amod(сотрудник-3, будущий-2)
+nsubj(штабквартире-6, сотрудник-3)
+cop(штабквартире-6, будет-4)
+case(штабквартире-6, в-5)
+root(ROOT-0, штабквартире-6)
+nmod(штабквартире-6, Google-7)
+punct(расположенной-9, ,-8)
+acl(Google-7, расположенной-9)
+case(городе-11, в-10)
+obl(расположенной-9, городе-11)
+punct(расположенной-9, МаунтинВью-12)
+punct(штат-14, ,-13)
+conj(Google-7, штат-14)
+appos(штат-14, Калифорния-15)
+punct(штабквартире-6, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

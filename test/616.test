@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(конфликт-3, Старый-1)
+amod(конфликт-3, газовый-2)
+nsubj(может-10, конфликт-3)
+punct(силой-8, ,-4)
+cc(силой-8, но-5)
+case(силой-8, с-6)
+amod(силой-8, новой-7)
+conj(конфликт-3, силой-8)
+punct(конфликт-3, ,-9)
+root(ROOT-0, может-10)
+xcomp(может-10, разгореться-11)
+case(Россией-13, между-12)
+obl(разгореться-11, Россией-13)
+cc(Белоруссией-15, и-14)
+conj(Россией-13, Белоруссией-15)
+punct(может-10, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(проводится-8, Положение-1)
+case(турнире-3, о-2)
+nmod(Положение-1, турнире-3)
+punct(Положение-1, Corus-4)
+punct(Положение-1, Chess-5)
+punct(Chess-5, Tournament-6)
+auxpass(проводится-8, будет-7)
+root(ROOT-0, проводится-8)
+case(13-10, с-9)
+nummod(проводится-8, 13-10)
+case(29-12, по-11)
+nummod(проводится-8, 29-12)
+flat(29-12, января-13)
+nummod(года-15, 2006-14)
+nmod(29-12, года-15)
+punct(проводится-8, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(раз-3, На-1)
+det(раз-3, этот-2)
+obl(произошло-5, раз-3)
+nsubj(произошло-5, освобождение-4)
+root(ROOT-0, произошло-5)
+case(условий-8, без-6)
+det(условий-8, какихлибо-7)
+obl(произошло-5, условий-8)
+punct(произошло-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

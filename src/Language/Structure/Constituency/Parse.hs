@@ -4,7 +4,7 @@ module Language.Structure.Constituency.Parse (pTree) where
 import Control.Applicative ((<$>),(<|>),(<*>))
 import Language.POS (POS(POS))
 import Language.Structure.Constituency (Tree(..))
-import Language.Word (Word(Word))
+import Language.Wordd (Wordd(Wordd))
 import Text.ParserCombinators.UU (pSome)
 import Text.ParserCombinators.UU.BasicInstances (Parser)
 import Text.ParserCombinators.UU.Utils (lexeme,pParens,pLetter,pDigit,pAnySym)
@@ -23,7 +23,7 @@ pTree = snd . fix 1 <$> pTree'
         pPOS = POS <$> pText
 
         pLeaf :: Parser Tree
-        pLeaf = (\text -> Leaf (Word text (POS "") (-1))) <$> pText
+        pLeaf = (\text -> Leaf (Wordd text (POS "") (-1))) <$> pText
 
         pNode :: Parser Tree
         pNode = pParens $ Node <$> pPOS <*> pSome pTree'
@@ -32,8 +32,8 @@ pTree = snd . fix 1 <$> pTree'
 -- should really do this with a supply monad
 
 fix :: Int -> Tree -> (Int, Tree)
-fix i (Leaf (Word text pos _))          = (i + 1 , Leaf (Word text pos i))
-fix i (Node pos [Leaf (Word text _ _)]) = (i + 1 , Leaf (Word text pos i))
+fix i (Leaf (Wordd text pos _))          = (i + 1 , Leaf (Wordd text pos i))
+fix i (Node pos [Leaf (Wordd text _ _)]) = (i + 1 , Leaf (Wordd text pos i))
 fix i (Node pos children)               = let
 
   (i' , children') = fixChildren i children

@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(позволило-2, Это-1)
+root(ROOT-0, позволило-2)
+aux(позволило-2, бы-3)
+case(мере-6, в-4)
+amod(мере-6, большей-5)
+obl(позволило-2, мере-6)
+xcomp(позволило-2, использовать-7)
+obj(использовать-7, возможности-8)
+amod(лаборатории-11, уникальной-9)
+amod(лаборатории-11, орбитальной-10)
+obl(использовать-7, лаборатории-11)
+punct(позволило-2, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

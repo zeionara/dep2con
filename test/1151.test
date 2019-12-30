@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(шаттлами-2, С-1)
+obl(ясно-6, шаттлами-2)
+advmod(всё-4, не-3)
+advmod(так-5, всё-4)
+advmod(ясно-6, так-5)
+root(ROOT-0, ясно-6)
+punct(ясно-6, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

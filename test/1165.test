@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(возвращаются-2, Американцы-1)
+root(ROOT-0, возвращаются-2)
+case(системам-7, к-3)
+obl(простым-5, более-4)
+amod(системам-7, простым-5)
+amod(системам-7, космическим-6)
+obl(возвращаются-2, системам-7)
+punct(возвращаются-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

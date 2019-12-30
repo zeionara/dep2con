@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(напоминает-2, Lenta.ru-1)
+root(ROOT-0, напоминает-2)
+punct(проводится-8, ,-3)
+mark(проводится-8, что-4)
+nsubjpass(проводится-8, конкурс-5)
+flatforeign(конкурс-5, The-6)
+flatforeign(конкурс-5, BOBs-7)
+ccomp(напоминает-2, проводится-8)
+amod(Deutsche-10, медиакомпанией-9)
+obj(напоминает-2, Deutsche-10)
+obl(напоминает-2, Welle-11)
+cc(проходит-13, и-12)
+conj(напоминает-2, проходит-13)
+advmod(проходит-13, уже-14)
+case(раз-17, в-15)
+amod(раз-17, шестой-16)
+obl(проходит-13, раз-17)
+punct(напоминает-2, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

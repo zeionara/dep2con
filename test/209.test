@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(отрицать-2, Но-1)
+csubj(невозможно-6, отрицать-2)
+obj(отрицать-2, его-3)
+amod(заслуги-5, огромные-4)
+obj(отрицать-2, заслуги-5)
+root(ROOT-0, невозможно-6)
+punct(невозможно-6, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

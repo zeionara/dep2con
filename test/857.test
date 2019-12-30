@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(раскрывают-8, Сумму-1)
+obj(раскрывают-8, сделки-2)
+nsubj(раскрывают-8, источники-3)
+amod(Ведомостей-5, «-4)
+nmod(источники-3, Ведомостей-5)
+punct(источники-3, »-6)
+advmod(раскрывают-8, не-7)
+root(ROOT-0, раскрывают-8)
+punct(раскрывают-8, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

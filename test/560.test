@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(размере-2, О-1)
+obl(представитель-5, размере-2)
+amod(инвестиций-4, предполагаемых-3)
+nmod(размере-2, инвестиций-4)
+nsubj(говорить-9, представитель-5)
+flatforeign(представитель-5, Philips-6)
+obl(говорить-9, ничего-7)
+amod(ничего-7, конкретного-8)
+xcomp(стала-11, говорить-9)
+advmod(стала-11, не-10)
+root(ROOT-0, стала-11)
+punct(стала-11, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

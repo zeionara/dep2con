@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Правительство-1)
+nmod(Правительство-1, Пакистана-2)
+appos(Правительство-1, объясняло-3)
+nmod(объясняло-3, арест-4)
+nmod(арест-4, необходимостью-5)
+nmod(необходимостью-5, защиты-6)
+nummod(арест-4, Бхутто-7)
+case(митинге-9, на-8)
+nmod(Бхутто-7, митинге-9)
+nmod(митинге-9, оппозиции-10)
+case(пятницу-12, в-11)
+nmod(Бхутто-7, пятницу-12)
+punct(Правительство-1, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

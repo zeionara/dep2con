@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(выполнил-2, Он-1)
+root(ROOT-0, выполнил-2)
+det(роль-4, свою-3)
+obj(выполнил-2, роль-4)
+cc(ушел-6, и-5)
+conj(выполнил-2, ушел-6)
+case(историю-8, в-7)
+obl(ушел-6, историю-8)
+punct(выполнил-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

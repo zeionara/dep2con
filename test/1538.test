@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(задержано-10, Всего-1)
+punct(Всего-1, ,-2)
+case(сообщениям-4, по-3)
+parataxis(задержано-10, сообщениям-4)
+nmod(сообщениям-4, блоггеров-5)
+cc(СМИ-7, и-6)
+conj(сообщениям-4, СМИ-7)
+punct(сообщениям-4, ,-8)
+auxpass(задержано-10, было-9)
+root(ROOT-0, задержано-10)
+nummodgov(человек-13, более-11)
+nummod(человек-13, 30-12)
+nsubjpass(задержано-10, человек-13)
+punct(задержано-10, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(глава-6, Однако-1)
+punct(Однако-1, ,-2)
+mark(известно-4, как-3)
+parataxis(глава-6, известно-4)
+punct(известно-4, ,-5)
+nsubj(побывал-12, глава-6)
+nmod(глава-6, России-7)
+nummod(глава-6, 31-8)
+flat(31-8, октября-9)
+advmod(побывал-12, всё-10)
+advmod(всё-10, же-11)
+root(ROOT-0, побывал-12)
+case(поездкой-15, с-13)
+amod(поездкой-15, рабочей-14)
+obl(побывал-12, поездкой-15)
+case(островах-18, на-16)
+amod(островах-18, южных-17)
+obl(побывал-12, островах-18)
+nmod(островах-18, архипелага-19)
+punct(побывал-12, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

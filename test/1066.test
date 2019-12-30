@@ -1,0 +1,35 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(чемпионом-2, Новым-1)
+obl(стал-4, чемпионом-2)
+nmod(чемпионом-2, Европы-3)
+root(ROOT-0, стал-4)
+nsubj(стал-4, гроссмейстер-5)
+case(Хорватии-7, из-6)
+nmod(гроссмейстер-5, Хорватии-7)
+appos(гроссмейстер-5, Зденко-8)
+flatname(Зденко-8, Кожул-9)
+xcomp(стал-4, —-10)
+nummod(очков-12, 8,5-11)
+nmod(—-10, очков-12)
+case(11-14, из-13)
+nummod(—-10, 11-14)
+punct(6-17, (-15)
+punct(6-17, +-16)
+parataxis(11-14, 6-17)
+nummod(0-19, –-18)
+flatforeign(—-10, 0-19)
+punct(5-21, =-20)
+nummod(—-10, 5-21)
+punct(—-10, )-22)
+punct(стал-4, .-23)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

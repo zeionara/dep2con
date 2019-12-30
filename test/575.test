@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(уверен-8, Однако-1)
+case(году-4, в-2)
+det(году-4, этом-3)
+obl(уверен-8, году-4)
+nsubj(уверен-8, Паулс-5)
+advmod(уверен-8, ещё-6)
+advmod(уверен-8, не-7)
+advcl(сообщает-18, уверен-8)
+punct(примет-11, ,-9)
+mark(примет-11, что-10)
+ccomp(уверен-8, примет-11)
+obj(примет-11, участие-12)
+case(работе-14, в-13)
+nmod(участие-12, работе-14)
+nmod(участие-12, жюри-15)
+nmod(жюри-15, конкурса-16)
+punct(уверен-8, ,-17)
+root(ROOT-0, сообщает-18)
+nsubj(сообщает-18, baltinfo.ru-19)
+punct(сообщает-18, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

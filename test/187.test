@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advcl(сказал-10, Побритый-1)
+flatname(Побритый-1, наголо-2)
+cc(одетый-4, и-3)
+conj(Побритый-1, одетый-4)
+case(форму-7, в-5)
+amod(форму-7, тюремную-6)
+obl(одетый-4, форму-7)
+punct(Побритый-1, ,-8)
+nsubj(сказал-10, он-9)
+root(ROOT-0, сказал-10)
+punct(знает-13, ,-11)
+mark(знает-13, что-12)
+ccomp(сказал-10, знает-13)
+det(права-15, свои-14)
+obj(знает-13, права-15)
+punct(сказал-10, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

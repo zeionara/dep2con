@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(подчеркнул-2, Чиновник-1)
+root(ROOT-0, подчеркнул-2)
+punct(успело-8, ,-3)
+mark(успело-8, что-4)
+amod(мясо-6, заражённое-5)
+nsubj(успело-8, мясо-6)
+advmod(успело-8, не-7)
+ccomp(подчеркнул-2, успело-8)
+xcomp(успело-8, попасть-9)
+case(прилавки-11, на-10)
+obl(попасть-9, прилавки-11)
+nmod(прилавки-11, магазинов-12)
+punct(подчеркнул-2, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

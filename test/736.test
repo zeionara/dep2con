@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(система-2, Эта-1)
+nsubj(включает-3, система-2)
+root(ROOT-0, включает-3)
+obj(включает-3, e-mail-4)
+case(себя-6, в-5)
+nmod(e-mail-4, себя-6)
+flatname(e-mail-4, »-7)
+punct(включает-3, ,-8)
+punct(пояснил-10, —-9)
+parataxis(включает-3, пояснил-10)
+nsubj(пояснил-10, создатель-11)
+flatname(создатель-11, Facebook-12)
+punct(включает-3, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

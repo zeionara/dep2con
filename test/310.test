@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(является-3, Совершенно-1)
+punct(Совершенно-1, непопустимым-2)
+root(ROOT-0, является-3)
+det(факт-5, тот-4)
+nsubj(является-3, факт-5)
+punct(могут-13, ,-6)
+mark(могут-13, что-7)
+nsubj(могут-13, цены-8)
+case(регионах-11, в-9)
+amod(регионах-11, разных-10)
+nmod(цены-8, регионах-11)
+nmod(регионах-11, России-12)
+acl(факт-5, могут-13)
+xcomp(могут-13, колебаться-14)
+case(раза-19, в-15)
+nummod(раза-19, 2-16)
+punct(3-18, --17)
+nummod(2-16, 3-18)
+obl(могут-13, раза-19)
+punct(является-3, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

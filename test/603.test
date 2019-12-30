@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(временем-2, Тем-1)
+obl(утвердил-5, временем-2)
+nsubj(утвердил-5, парламент-3)
+nmod(парламент-3, Грузии-4)
+root(ROOT-0, утвердил-5)
+amod(положение-7, чрезвычайное-6)
+obj(утвердил-5, положение-7)
+punct(должно-10, ,-8)
+nsubj(должно-10, которое-9)
+conj(утвердил-5, должно-10)
+xcomp(должно-10, действовать-11)
+case(22-13, до-12)
+nummod(действовать-11, 22-13)
+flat(22-13, ноября-14)
+punct(утвердил-5, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

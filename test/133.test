@@ -1,0 +1,35 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(власти-2, Московские-1)
+nsubj(обещали-3, власти-2)
+csubjpass(построено-20, обещали-3)
+punct(будет-11, ,-4)
+mark(будет-11, что-5)
+amod(велодорожка-7, первая-6)
+nsubj(будет-11, велодорожка-7)
+case(зоне-10, в-8)
+amod(зоне-10, парковой-9)
+obl(будет-11, зоне-10)
+auxpass(построено-20, будет-11)
+csubj(будет-11, иметь-12)
+nummod(км-15, протяжённость-13)
+nummod(км-15, 5-14)
+obl(иметь-12, км-15)
+advmod(ней-18, и-16)
+case(ней-18, на-17)
+obl(построено-20, ней-18)
+auxpass(построено-20, будет-19)
+root(ROOT-0, построено-20)
+nsubjpass(построено-20, 5-21)
+flatname(5-21, велопарковок-22)
+punct(построено-20, .-23)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

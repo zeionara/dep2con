@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(заложил-2, И-1)
+root(ROOT-0, заложил-2)
+obj(заложил-2, основу-3)
+advmod(заложил-2, этому-4)
+amod(президент-6, первый-5)
+nsubj(заложил-2, президент-6)
+punct(заложил-2, ,-7)
+parataxis(заложил-2, живший-8)
+advmod(живший-8, тогда-9)
+advmod(живший-8, ещё-10)
+case(области-13, в-11)
+amod(области-13, Свердловской-12)
+obl(живший-8, области-13)
+punct(заложил-2, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Похороны-1)
+nmod(Похороны-1, Людмилы-2)
+nummod(Похороны-1, Марковны-3)
+flat(Марковны-3, состоятся-4)
+nummod(Марковны-3, 2-5)
+flat(2-5, апреля-6)
+case(кладбище-9, на-7)
+amod(кладбище-9, Новодевичьем-8)
+nmod(Похороны-1, кладбище-9)
+punct(Похороны-1, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

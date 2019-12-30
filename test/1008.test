@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(говорится-2, Как-1)
+parataxis(придут-6, говорится-2)
+punct(говорится-2, ,-3)
+case(ним-5, за-4)
+obl(придут-6, ним-5)
+root(ROOT-0, придут-6)
+nsubj(придут-6, другие-7)
+punct(придут-6, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

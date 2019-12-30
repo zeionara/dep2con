@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(возник-7, Например-1)
+punct(Например-1, ,-2)
+nummod(возник-7, 27-3)
+flat(27-3, декабря-4)
+amod(года-6, прошлого-5)
+nmod(27-3, года-6)
+root(ROOT-0, возник-7)
+nsubj(возник-7, слух-8)
+case(отставке-11, о-9)
+amod(отставке-11, возможной-10)
+nmod(слух-8, отставке-11)
+nmod(отставке-11, Анатолия-12)
+obl(возник-7, Перминова-13)
+punct(возник-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

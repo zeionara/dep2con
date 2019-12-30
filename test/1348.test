@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(уходит-2, НАТО-1)
+root(ROOT-0, уходит-2)
+case(Афганистана-4, из-3)
+obl(уходит-2, Афганистана-4)
+punct(уходит-2, .-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

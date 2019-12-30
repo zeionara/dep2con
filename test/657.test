@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(день-2, Всемирный-1)
+obl(празднуется-8, день-2)
+appos(день-2, вязания-3)
+case(Бенрате-5, в-4)
+nummod(вязания-3, Бенрате-5)
+nmod(Бенрате-5, 12-6)
+flat(12-6, июня-7)
+root(ROOT-0, празднуется-8)
+amod(день-10, Всемирный-9)
+nsubj(празднуется-8, день-10)
+advmod(празднуется-8, вязания-11)
+punct(празднуется-8, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

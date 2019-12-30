@@ -1,0 +1,36 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(минут-7, Начало-1)
+nmod(Начало-1, туров-2)
+nummod(часов-5, —-3)
+nummod(часов-5, 13-4)
+nmod(Начало-1, часов-5)
+nummod(минут-7, 30-6)
+root(ROOT-0, минут-7)
+punct(время-11, (-8)
+amod(время-11, средне-9)
+amod(время-11, европейское-10)
+parataxis(минут-7, время-11)
+punct(время-11, ,-12)
+punct(время-11, UTC-13)
+punct(1-15, +-14)
+nummod(минут-7, 1-15)
+punct(15-17, ,-16)
+nummod(1-15, 15-17)
+nummod(минут-20, часов-18)
+nummod(минут-20, 30-19)
+obl(1-15, минут-20)
+amod(времени-22, московского-21)
+nmod(минут-20, времени-22)
+punct(минут-7, )-23)
+punct(минут-7, .-24)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

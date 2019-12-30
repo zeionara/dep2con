@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заказали-7, Сотни-1)
+nmod(Сотни-1, тысяч-2)
+nmod(тысяч-2, граждан-3)
+amod(союза-5, Европейского-4)
+nmod(граждан-3, союза-5)
+advmod(заказали-7, уже-6)
+root(ROOT-0, заказали-7)
+obj(заказали-7, Интернет-8)
+nmod(Интернет-8, адреса-9)
+case(новом-11, в-10)
+obl(заказали-7, новом-11)
+nummod(уровня-14, домене-12)
+amod(уровня-14, верхнего-13)
+nmod(новом-11, уровня-14)
+amod(»-18, —-15)
+amod(»-18, «-16)
+amod(»-18, .eu-17)
+punct(заказали-7, »-18)
+punct(заказали-7, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

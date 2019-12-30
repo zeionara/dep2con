@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(запустили-3, Её-1)
+punct(Её-1, «-2)
+root(ROOT-0, запустили-3)
+case(эксплуатацию-5, в-4)
+obl(запустили-3, эксплуатацию-5)
+nummod(6-7, »-6)
+obl(запустили-3, 6-7)
+flat(6-7, сентября-8)
+case(округе-11, в-9)
+amod(округе-11, Центральном-10)
+nmod(6-7, округе-11)
+nmod(округе-11, столицы-12)
+case(Лужниках-14, в-13)
+nmod(округе-11, Лужниках-14)
+punct(запустили-3, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

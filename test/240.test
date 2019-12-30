@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(сообщает-2, Как-1)
+parataxis(принято-10, сообщает-2)
+nsubj(сообщает-2, РБК-3)
+punct(сообщает-2, ,-4)
+nsubjpass(принято-10, решение-5)
+case(увольнении-7, об-6)
+nmod(решение-5, увольнении-7)
+nmod(решение-5, Коно-8)
+auxpass(принято-10, было-9)
+root(ROOT-0, принято-10)
+nummod(принято-10, 22-11)
+flat(22-11, декабря-12)
+punct(принято-10, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

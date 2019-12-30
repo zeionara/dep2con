@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(год-3, *-1)
+nummod(год-3, 3797-2)
+nsubj(сам-8, год-3)
+amod(кончину-5, —-4)
+acl(год-3, кончину-5)
+iobj(кончину-5, миру-6)
+punct(кончину-5, предрёк-7)
+root(ROOT-0, сам-8)
+punct(сам-8, Нострадамус-9)
+punct(сам-8, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

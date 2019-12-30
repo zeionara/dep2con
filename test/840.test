@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(должны-2, Работы-1)
+root(ROOT-0, должны-2)
+xcomp(должны-2, занять-3)
+nummodgov(недели-5, две-4)
+obl(занять-3, недели-5)
+punct(должны-2, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

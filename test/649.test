@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(проводится-8, Матч-1)
+case(чемпионом-3, между-2)
+nmod(Матч-1, чемпионом-3)
+nmod(чемпионом-3, мира-4)
+cc(чемпионом-6, и-5)
+conj(чемпионом-3, чемпионом-6)
+nmod(чемпионом-6, Европы-7)
+root(ROOT-0, проводится-8)
+advmod(проводится-8, впервые-9)
+punct(проводится-8, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

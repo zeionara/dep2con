@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(запретили-4, Страны-1)
+amod(союза-3, Европейского-2)
+nmod(Страны-1, союза-3)
+root(ROOT-0, запретили-4)
+obj(запретили-4, въезд-5)
+case(территорию-8, на-6)
+det(территорию-8, свою-7)
+nmod(въезд-5, территорию-8)
+iobj(въезд-5, президенту-9)
+nmod(президенту-9, Белоруссии-10)
+appos(президенту-9, Александру-11)
+flatname(Александру-11, Лукашенко-12)
+punct(запретили-4, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

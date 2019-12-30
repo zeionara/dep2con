@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(часов-3, В-1)
+nummod(часов-3, 19-2)
+obl(открыт-10, часов-3)
+case(времени-6, по-4)
+amod(времени-6, Московскому-5)
+nmod(часов-3, времени-6)
+case(Болгарии-8, в-7)
+obl(открыт-10, Болгарии-8)
+auxpass(открыт-10, был-9)
+root(ROOT-0, открыт-10)
+amod(год-12, торжественно-11)
+nsubj(открыт-10, год-12)
+amod(Федерации-14, Российской-13)
+nmod(год-12, Федерации-14)
+case(Болгарии-16, в-15)
+nmod(год-12, Болгарии-16)
+punct(открыт-10, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

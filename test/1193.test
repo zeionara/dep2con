@@ -1,0 +1,35 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Ключевым-2, «-1)
+amod(момент-4, Ключевым-2)
+cop(Ключевым-2, был-3)
+root(ROOT-0, момент-4)
+punct(момент-4, ,-5)
+det(момент-4, когда-6)
+nsubj(когда-6, Владимир-7)
+flatname(Владимир-7, Путин-8)
+punct(Владимир-7, попенял-9)
+parataxis(Владимир-7, Громову-10)
+case(то-12, на-11)
+obl(Громову-10, то-12)
+punct(не-21, ,-13)
+mark(не-21, что-14)
+punct(что-14, ,-15)
+mark(можете-18, если-16)
+advmod(можете-18, не-17)
+advcl(не-21, можете-18)
+xcomp(можете-18, сделать-19)
+punct(можете-18, ,-20)
+acl(то-12, не-21)
+flatname(Громову-10, обещайте-22)
+punct(момент-4, .-23)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

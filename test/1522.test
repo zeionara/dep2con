@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(знаем-5, Фактически-1)
+punct(Фактически-1, ,-2)
+nsubj(знаем-5, мы-3)
+advmod(знаем-5, больше-4)
+root(ROOT-0, знаем-5)
+case(полюсах-7, о-6)
+obl(знаем-5, полюсах-7)
+nmod(полюсах-7, Марса-8)
+punct(полюсах-12, ,-9)
+mark(полюсах-12, чем-10)
+case(полюсах-12, о-11)
+advcl(знаем-5, полюсах-12)
+nmod(полюсах-12, Луны-13)
+punct(знаем-5, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

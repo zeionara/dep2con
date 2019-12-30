@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(стала-3, Чемпионкой-1)
+nmod(Чемпионкой-1, Европы-2)
+root(ROOT-0, стала-3)
+nsubj(стала-3, шахматистка-4)
+case(Турции-6, из-5)
+nmod(шахматистка-4, Турции-6)
+appos(шахматистка-4, Екатерина-7)
+flatname(Екатерина-7, Аталык-8)
+punct(Половникова-10, (-9)
+appos(шахматистка-4, Половникова-10)
+punct(Половникова-10, )-11)
+nummod(Половникова-10, —-12)
+nummod(очков-14, 8,5-13)
+nmod(Половникова-10, очков-14)
+case(11-16, из-15)
+nmod(очков-14, 11-16)
+punct(стала-3, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

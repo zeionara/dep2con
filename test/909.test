@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Возникают-1)
+nsubj(Возникают-1, вопросы-2)
+case(качестве-4, о-3)
+nmod(вопросы-2, качестве-4)
+nmod(качестве-4, контроля-5)
+nmod(контроля-5, сборки-6)
+nmod(сборки-6, корабля-7)
+advmod(надёжности-10, и-8)
+case(надёжности-10, о-9)
+conj(качестве-4, надёжности-10)
+nmod(надёжности-10, корабля-11)
+case(целом-13, в-12)
+nmod(надёжности-10, целом-13)
+punct(Возникают-1, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

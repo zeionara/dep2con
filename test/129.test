@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(лет-2, Несколько-1)
+obl(велись-3, лет-2)
+root(ROOT-0, велись-3)
+nsubjpass(велись-3, споры-4)
+case(том-6, о-5)
+nmod(споры-4, том-6)
+punct(нужны-8, ,-7)
+conj(велись-3, нужны-8)
+advmod(нужны-8, ли-9)
+iobj(нужны-8, Москве-10)
+amod(дорожки-13, специальные-11)
+amod(дорожки-13, велосипедные-12)
+nsubj(нужны-8, дорожки-13)
+cc(нет-15, или-14)
+conj(велись-3, нет-15)
+punct(велись-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

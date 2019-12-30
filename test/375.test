@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(докладе-2, В-1)
+obl(отмечается-3, докладе-2)
+root(ROOT-0, отмечается-3)
+nsubj(отмечается-3, увеличение-4)
+nmod(увеличение-4, количества-5)
+nmod(количества-5, арестов-6)
+nmod(арестов-6, журналистов-7)
+obl(обвинений-11, вообще-8)
+case(обвинений-11, без-9)
+det(обвинений-11, всяких-10)
+nmod(увеличение-4, обвинений-11)
+punct(отмечается-3, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

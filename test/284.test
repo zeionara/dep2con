@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Джон-2, Сенатор-1)
+nsubj(прибыл-4, Джон-2)
+appos(Джон-2, Керри-3)
+root(ROOT-0, прибыл-4)
+case(воскресенье-6, в-5)
+obl(прибыл-4, воскресенье-6)
+advmod(прибыл-4, вечером-7)
+case(Пакистан-9, в-8)
+nmod(вечером-7, Пакистан-9)
+punct(прибыл-4, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

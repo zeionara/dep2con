@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(ожидаем-5, Мы-1)
+punct(Мы-1, ,-2)
+advmod(ожидаем-5, все-3)
+punct(все-3, ,-4)
+root(ROOT-0, ожидаем-5)
+det(большое-7, это-6)
+amod(событие-8, большое-7)
+obj(ожидаем-5, событие-8)
+amod(матч-10, —-9)
+obl(ожидаем-5, матч-10)
+case(первенство-12, на-11)
+nmod(матч-10, первенство-12)
+nmod(первенство-12, мира-13)
+case(шахматам-15, по-14)
+nmod(первенство-12, шахматам-15)
+nummod(года-17, 2006-16)
+nmod(матч-10, года-17)
+punct(ожидаем-5, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

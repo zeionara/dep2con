@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заявил-2, Он-1)
+root(ROOT-0, заявил-2)
+punct(сообщает-12, ,-3)
+mark(сообщает-12, что-4)
+amod(результат-10, ничья-5)
+case(выезде-7, на-6)
+nmod(ничья-5, выезде-7)
+amod(результат-10, —-8)
+amod(результат-10, хороший-9)
+nsubj(сообщает-12, результат-10)
+punct(результат-10, ,-11)
+ccomp(заявил-2, сообщает-12)
+amod(уикэнд-15, «-13)
+amod(уикэнд-15, Спорт-14)
+obj(сообщает-12, уикэнд-15)
+punct(заявил-2, »-16)
+punct(заявил-2, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

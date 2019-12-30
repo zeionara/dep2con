@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Отмечается-1)
+advmod(»-11, даже-2)
+punct(имеет-6, ,-3)
+mark(имеет-6, что-4)
+nsubj(имеет-6, оно-5)
+ccomp(даже-2, имеет-6)
+nummodgov(«-8, несколько-7)
+obl(имеет-6, «-8)
+amod(личностей-10, различных-9)
+nmod(«-8, личностей-10)
+punct(Отмечается-1, »-11)
+punct(профилей-15, ,-12)
+mark(профилей-15, то-13)
+fixed(то-13, есть-14)
+parataxis(Отмечается-1, профилей-15)
+nmod(профилей-15, поведения-16)
+punct(Отмечается-1, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

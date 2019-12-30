@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(турнир-2, Главный-1)
+root(ROOT-0, турнир-2)
+punct(собирает-7, —-3)
+cc(собирает-7, А-4)
+punct(А-4, ,-5)
+advmod(собирает-7, обычно-6)
+aclrelcl(турнир-2, собирает-7)
+obl(сильный-9, очень-8)
+amod(состав-10, сильный-9)
+obj(собирает-7, состав-10)
+cc(относится-12, и-11)
+conj(собирает-7, относится-12)
+case(категории-14, к-13)
+obl(относится-12, категории-14)
+amod(»-17, «-15)
+amod(»-17, супертурниров-16)
+nsubj(собирает-7, »-17)
+punct(турнир-2, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

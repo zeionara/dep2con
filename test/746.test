@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(просыпается-3, Когда-1)
+nsubj(просыпается-3, он-2)
+advcl(видит-6, просыпается-3)
+punct(просыпается-3, ,-4)
+mark(видит-6, то-5)
+root(ROOT-0, видит-6)
+punct(происходит-11, ,-7)
+mark(происходит-11, что-8)
+det(сон-10, его-9)
+nsubj(происходит-11, сон-10)
+ccomp(видит-6, происходит-11)
+nsubj(происходит-11, наяву-12)
+punct(орбите-15, ,-13)
+case(орбите-15, на-14)
+obl(видит-6, орбите-15)
+punct(видит-6, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

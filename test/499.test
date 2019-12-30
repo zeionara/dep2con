@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(создание-5, Также-1)
+case(повестке-3, на-2)
+obl(Также-1, повестке-3)
+nmod(повестке-3, дня-4)
+nsubj(позиция-11, создание-5)
+amod(мест-7, рабочих-6)
+nmod(создание-5, мест-7)
+cc(укрепление-9, и-8)
+conj(создание-5, укрепление-9)
+nmod(укрепление-9, экономических-10)
+root(ROOT-0, позиция-11)
+amod(класса-13, среднего-12)
+nmod(позиция-11, класса-13)
+punct(позиция-11, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

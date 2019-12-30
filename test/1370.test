@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(яблочко-3, Эх-1)
+punct(Эх-1, ,-2)
+root(ROOT-0, яблочко-3)
+punct(яблочко-3, "-4)
+punct(яблочко-3, ...-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(считается-5, Михаил-1)
+punct(Михаил-1, Борзыкин-2)
+case(праву-4, по-3)
+obl(считается-5, праву-4)
+root(ROOT-0, считается-5)
+amod(неоромантики-8, родоначальником-6)
+amod(неоромантики-8, русской-7)
+obl(считается-5, неоромантики-8)
+punct(считается-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

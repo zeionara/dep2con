@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заметил-2, Чиновник-1)
+root(ROOT-0, заметил-2)
+punct(случае-7, ,-3)
+nsubj(случае-7, что-4)
+case(случае-7, в-5)
+det(случае-7, том-6)
+ccomp(заметил-2, случае-7)
+punct(сдержит-11, ,-8)
+mark(сдержит-11, если-9)
+nsubj(сдержит-11, Россия-10)
+advcl(случае-7, сдержит-11)
+obj(сдержит-11, обещание-12)
+punct(заметил-2, ,-13)
+advmod(заметил-2, т-14)
+punct(заметил-2, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

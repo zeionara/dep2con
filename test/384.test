@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(содержит-2, Куба-1)
+root(ROOT-0, содержит-2)
+amod(журналиста-4, 24-3)
+obj(содержит-2, журналиста-4)
+case(решёткой-6, за-5)
+obl(содержит-2, решёткой-6)
+punct(второе-9, ,-7)
+det(второе-9, это-8)
+conj(содержит-2, второе-9)
+punct(Китая-12, ,-10)
+case(Китая-12, после-11)
+conj(содержит-2, Китая-12)
+punct(место-14, ,-13)
+conj(содержит-2, место-14)
+punct(содержит-2, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

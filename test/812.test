@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(составляет-11, Доля-1)
+nmod(Доля-1, правительства-2)
+nmod(правительства-2, Китая-3)
+case(Доля-1, в-4)
+flatforeign(Доля-1, Industrial-5)
+flatforeign(Доля-1, and-6)
+flatforeign(Доля-1, Commercial-7)
+flatforeign(Доля-1, Bank-8)
+flatforeign(Доля-1, of-9)
+flatforeign(Доля-1, China-10)
+root(ROOT-0, составляет-11)
+nummod(процентов-13, 70-12)
+obl(составляет-11, процентов-13)
+punct(составляет-11, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

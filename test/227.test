@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(создаются-7, И-1)
+case(Урале-3, на-2)
+obl(создаются-7, Урале-3)
+det(институты-5, такие-4)
+nsubjpass(создаются-7, институты-5)
+advmod(создаются-7, активно-6)
+root(ROOT-0, создаются-7)
+punct(создаются-7, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

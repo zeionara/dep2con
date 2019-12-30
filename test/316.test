@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(забастовке-2, К-1)
+obl(присоединились-3, забастовке-2)
+root(ROOT-0, присоединились-3)
+advmod(работники-6, и-4)
+amod(работники-6, медицинские-5)
+nsubj(присоединились-3, работники-6)
+punct(присоединились-3, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

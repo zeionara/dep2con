@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Словом-2, «-1)
+parataxis(построение-4, Словом-2)
+punct(Словом-2, ,-3)
+nsubj(говорит-18, построение-4)
+amod(реактора-6, гелиевого-5)
+nmod(построение-4, реактора-6)
+punct(построение-4, —-7)
+conj(построение-4, задача-8)
+advmod(не-10, даже-9)
+advmod(XXI-11, не-10)
+nmod(задача-8, XXI-11)
+punct(XXII-14, ,-12)
+cc(XXII-14, а-13)
+conj(построение-4, XXII-14)
+nmod(XXII-14, века-15)
+advmod(говорит-18, »-16)
+obj(говорит-18, —-17)
+root(ROOT-0, говорит-18)
+nsubj(говорит-18, Сагдеев-19)
+punct(говорит-18, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

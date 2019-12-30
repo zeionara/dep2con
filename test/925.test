@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(произошло-5, Если-1)
+aux(произошло-5, бы-2)
+nsubj(произошло-5, этого-3)
+advmod(произошло-5, не-4)
+advcl(погиб-10, произошло-5)
+punct(произошло-5, ,-6)
+mark(погиб-10, то-7)
+nsubj(погиб-10, космонавт-8)
+aux(погиб-10, бы-9)
+root(ROOT-0, погиб-10)
+punct(погиб-10, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

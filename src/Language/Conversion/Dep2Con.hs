@@ -4,7 +4,7 @@ import           Data.List (insert)
 import           Language.POS (POS (..), toXP)
 import qualified Language.Structure.Constituency as Con
 import qualified Language.Structure.Dependency as Dep
-import           Language.Word (Word (Word,pos))
+import           Language.Wordd (Wordd (Wordd,pos))
 
 
 -- |Convert dependency structures to constituency structures,
@@ -12,7 +12,7 @@ import           Language.Word (Word (Word,pos))
 collins :: Dep.Tree -> Con.Tree
 
 -- Special case: keep ROOT node intact, making sure it doesn't project to RP.
-collins (Dep.Node (Word "ROOT" (POS "ROOT") 0) deps)
+collins (Dep.Node (Wordd "ROOT" (POS "ROOT") 0) deps)
   = Con.Node (POS "ROOT") (map collins deps)
 
 -- Collins' algorithm:

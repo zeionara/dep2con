@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(ночь-2, В-1)
+obl(вывели-9, ночь-2)
+case(9-4, на-3)
+nummod(ночь-2, 9-4)
+flat(9-4, августа-5)
+case(улицы-7, на-6)
+obl(вывели-9, улицы-7)
+nmod(улицы-7, Лондона-8)
+root(ROOT-0, вывели-9)
+case(патрулирования-11, для-10)
+obl(вывели-9, патрулирования-11)
+obj(вывели-9, дополнительно-12)
+nummod(полицейских-14, 1700-13)
+nmod(дополнительно-12, полицейских-14)
+punct(вывели-9, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

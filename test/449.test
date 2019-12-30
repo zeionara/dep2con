@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(«-4, Реакцией-1)
+punct(Реакцией-1, Кана-2)
+cop(«-4, было-3)
+root(ROOT-0, «-4)
+amod(разочарование-6, безмерное-5)
+obj(«-4, разочарование-6)
+punct(«-4, »-7)
+punct(«-4, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

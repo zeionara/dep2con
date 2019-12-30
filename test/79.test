@@ -1,0 +1,33 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(нависла-9, Угроза-1)
+case(World-3, над-2)
+nmod(Угроза-1, World-3)
+flatforeign(World-3, Fashion-4)
+punct(World-3, Channel-5)
+punct(WFC-7, (-6)
+nummod(Угроза-1, WFC-7)
+punct(WFC-7, )-8)
+root(ROOT-0, нависла-9)
+case(конфликта-11, изза-10)
+obl(нависла-9, конфликта-11)
+case(руководством-13, между-12)
+obl(нависла-9, руководством-13)
+amod(канала-15, модного-14)
+nmod(руководством-13, канала-15)
+cc(компанией-17, и-16)
+conj(руководством-13, компанией-17)
+punct(нависла-9, «-18)
+amod(»-20, Алтек-19)
+obl(нависла-9, »-20)
+punct(нависла-9, .-21)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

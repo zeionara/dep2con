@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(содержится-3, Сейчас-1)
+nsubj(содержится-3, он-2)
+root(ROOT-0, содержится-3)
+case(следственном-5, в-4)
+obl(содержится-3, следственном-5)
+amod(суда-8, изоляторе-6)
+amod(суда-8, федерального-7)
+nmod(следственном-5, суда-8)
+amod(округа-10, Южного-9)
+nmod(суда-8, округа-10)
+nmod(округа-10, НьюЙорка-11)
+punct(содержится-3, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

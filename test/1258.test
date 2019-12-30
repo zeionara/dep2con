@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(стоит-2, Не-1)
+advcl(выиграл-15, стоит-2)
+obj(вести-4, Адвокату-3)
+csubj(стоит-2, вести-4)
+obj(вести-4, себя-5)
+advmod(вести-4, так-6)
+advmod(вести-4, царственно-7)
+obj(выиграл-15, —-8)
+case(сборной-10, со-9)
+obl(—-8, сборной-10)
+nsubj(выиграл-15, он-11)
+advmod(выиграл-15, ещё-12)
+obl(выиграл-15, ничего-13)
+advmod(выиграл-15, не-14)
+root(ROOT-0, выиграл-15)
+punct(выиграл-15, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

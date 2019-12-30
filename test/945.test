@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(представителей-2, Высказывания-1)
+obl(напоминают-4, представителей-2)
+punct(представителей-2, Роскосмоса-3)
+root(ROOT-0, напоминают-4)
+amod(стиль-6, советский-5)
+nsubj(напоминают-4, стиль-6)
+punct(напоминают-4, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

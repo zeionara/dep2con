@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(город-4, Это-1)
+amod(город-4, красивый-2)
+amod(город-4, респектабельный-3)
+root(ROOT-0, город-4)
+case(Рейне-6, на-5)
+nmod(город-4, Рейне-6)
+case(набережной-10, с-7)
+amod(набережной-10, самой-8)
+amod(набережной-10, изящной-9)
+nmod(Рейне-6, набережной-10)
+punct(город-4, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

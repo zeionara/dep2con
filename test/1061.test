@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(3-2, С-1)
+nummod(проходил-11, 3-2)
+case(17-4, по-3)
+nummod(3-2, 17-4)
+flat(17-4, апреля-5)
+case(Кушадаси-7, в-6)
+nummod(3-2, Кушадаси-7)
+punct(Турции-9, (-8)
+parataxis(Кушадаси-7, Турции-9)
+punct(Турции-9, )-10)
+root(ROOT-0, проходил-11)
+amod(чемпионат-14, 7-й-12)
+amod(чемпионат-14, личный-13)
+nsubj(проходил-11, чемпионат-14)
+nmod(чемпионат-14, Европы-15)
+case(шахматам-17, по-16)
+nmod(чемпионат-14, шахматам-17)
+punct(проходил-11, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(показу-2, К-1)
+obl(доступны-5, показу-2)
+case(онлайнрежиме-4, в-3)
+obl(доступны-5, онлайнрежиме-4)
+root(ROOT-0, доступны-5)
+nummod(тыс-7, 3-6)
+nsubj(доступны-5, тыс-7)
+punct(доступны-5, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

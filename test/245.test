@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(вернулся-10, Однако-1)
+case(время-4, через-2)
+det(время-4, некоторое-3)
+obl(Однако-1, время-4)
+nsubj(вернулся-10, представитель-5)
+amod(дипломатического-7, японского-6)
+amod(ведомства-8, дипломатического-7)
+nmod(представитель-5, ведомства-8)
+advmod(вернулся-10, вновь-9)
+root(ROOT-0, вернулся-10)
+case(Москву-12, в-11)
+obl(вернулся-10, Москву-12)
+punct(вернулся-10, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

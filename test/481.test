@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(среду-2, В-1)
+obl(началась-3, среду-2)
+root(ROOT-0, началась-3)
+amod(сессия-5, новая-4)
+nsubj(началась-3, сессия-5)
+nmod(сессия-5, Конгресса-6)
+nmod(Конгресса-6, США-7)
+punct(началась-3, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

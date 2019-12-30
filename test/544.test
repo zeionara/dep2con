@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(фонд-2, Призовой-1)
+root(ROOT-0, фонд-2)
+nmod(фонд-2, матча-3)
+punct(фонд-2, —-4)
+nummod(миллион-6, 1-5)
+nmod(—-4, миллион-6)
+nmod(миллион-6, долларов-7)
+punct(фонд-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

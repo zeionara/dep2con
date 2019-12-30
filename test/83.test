@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(том-2, О-1)
+obl(решило-9, том-2)
+punct(»-8, ,-3)
+advmod(,-3, почему-4)
+nsubj(почему-4, ООО-5)
+punct(ООО-5, «-6)
+punct(ООО-5, Алтек-7)
+nsubj(решило-9, »-8)
+root(ROOT-0, решило-9)
+xcomp(решило-9, отступить-10)
+case(договорённости-12, от-11)
+nummod(отступить-10, договорённости-12)
+punct(знают-18, ,-13)
+case(администрации-15, в-14)
+obl(знают-18, администрации-15)
+nmod(администрации-15, телеканала-16)
+advmod(знают-18, не-17)
+conj(решило-9, знают-18)
+punct(решило-9, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

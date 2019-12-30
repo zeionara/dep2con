@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(огурцы-5, Сначала-1)
+nsubj(Сначала-1, вино-2)
+punct(Сначала-1, ,-3)
+advmod(огурцы-5, теперь-4)
+root(ROOT-0, огурцы-5)
+punct(огурцы-5, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

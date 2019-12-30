@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(получит-2, Facebook-1)
+root(ROOT-0, получит-2)
+obj(получит-2, патент-3)
+case(часть-5, на-4)
+nmod(патент-3, часть-5)
+det(названия-7, своего-6)
+nmod(часть-5, названия-7)
+punct(получит-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

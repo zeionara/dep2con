@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(языковом-2, В-1)
+nmod(народы-9, языковом-2)
+punct(отношении-5, ,-3)
+amod(отношении-5, культурном-4)
+conj(языковом-2, отношении-5)
+punct(языковом-2, —-6)
+nsubj(народы-9, мы-7)
+amod(народы-9, родственные-8)
+root(ROOT-0, народы-9)
+punct(народы-9, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

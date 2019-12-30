@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(ложной-4, Однако-1)
+nsubj(ложной-4, тревога-2)
+cop(ложной-4, была-3)
+root(ROOT-0, ложной-4)
+punct(ложной-4, .-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

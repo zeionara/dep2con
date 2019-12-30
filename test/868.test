@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(владельцем-2, Главным-1)
+obl(является-4, владельцем-2)
+nmod(владельцем-2, Facebook-3)
+root(ROOT-0, является-4)
+nmod(основатель-6, её-5)
+nsubj(является-4, основатель-6)
+appos(основатель-6, Марк-7)
+flatname(Марк-7, Цукерберг-8)
+punct(является-4, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

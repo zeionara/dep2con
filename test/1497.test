@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(приостановлена-17, Работа-1)
+case(тысяч-4, около-2)
+nummod(тысяч-4, 5-3)
+nmod(Работа-1, тысяч-4)
+amod(ферм-6, немецких-5)
+nmod(тысяч-4, ферм-6)
+punct(производящих-8, ,-7)
+acl(тысяч-4, производящих-8)
+obj(производящих-8, свинину-9)
+punct(Работа-1, ,-10)
+punct(мясо-12, птичье-11)
+nsubjpass(приостановлена-17, мясо-12)
+cc(яйца-14, и-13)
+conj(мясо-12, яйца-14)
+punct(мясо-12, ,-15)
+advmod(приостановлена-17, временно-16)
+root(ROOT-0, приостановлена-17)
+punct(приостановлена-17, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

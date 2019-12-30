@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(же-3, Если-1)
+punct(Если-1, --2)
+advmod(ошиблись-6, же-3)
+advmod(майя-5, и-4)
+punct(же-3, майя-5)
+parataxis(расслабляться-9, ошиблись-6)
+punct(ошиблись-6, ,-7)
+mark(расслабляться-9, то-8)
+xcomp(стоит-12, расслабляться-9)
+nsubj(стоит-12, всёравно-10)
+advmod(стоит-12, не-11)
+root(ROOT-0, стоит-12)
+punct(стоит-12, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

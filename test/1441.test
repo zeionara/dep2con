@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(достигли-5, цены-1)
+case(продукты-3, на-2)
+nmod(цены-1, продукты-3)
+nmod(продукты-3, питания-4)
+root(ROOT-0, достигли-5)
+nummod(уровней-7, рекордных-6)
+obl(достигли-5, уровней-7)
+punct(достигли-5, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

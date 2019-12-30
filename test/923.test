@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(частью-11, Корабль-1)
+appos(Корабль-1, вошёл-2)
+case(атмосферу-4, в-3)
+nmod(Корабль-1, атмосферу-4)
+case(менее-6, с-5)
+obl(частью-11, менее-6)
+nummod(менее-6, защищённой-7)
+case(перегрева-9, от-8)
+obl(частью-11, перегрева-9)
+nmod(перегрева-9, верхней-10)
+root(ROOT-0, частью-11)
+nmod(частью-11, корабля-12)
+advmod(частью-11, вперёд-13)
+punct(частью-11, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

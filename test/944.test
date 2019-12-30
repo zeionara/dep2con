@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(обходят-8, Миллиардные-1)
+obj(Миллиардные-1, потоки-2)
+nmod(потоки-2, долларов-3)
+punct(Миллиардные-1, ,-4)
+advmod(рублей-6, не-5)
+obj(обходят-8, рублей-6)
+punct(рублей-6, ,-7)
+root(ROOT-0, обходят-8)
+det(структуры-10, эти-9)
+obj(обходят-8, структуры-10)
+obl(обходят-8, »-11)
+punct(обходят-8, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

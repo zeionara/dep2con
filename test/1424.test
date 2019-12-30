@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+acl(мы-5, «-1)
+advmod(все-3, Только-2)
+det(вместе-4, все-3)
+obl(«-1, вместе-4)
+nsubj(сможем-6, мы-5)
+root(ROOT-0, сможем-6)
+obj(сделать-8, это-7)
+xcomp(сможем-6, сделать-8)
+xcomp(сможем-6, »-9)
+punct(говорит-11, ,-10)
+parataxis(сможем-6, говорит-11)
+nsubj(говорит-11, Проди-12)
+punct(сможем-6, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

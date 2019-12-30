@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(мнению-2, По-1)
+root(ROOT-0, мнению-2)
+punct(мнению-2, скульптора-3)
+punct(мнению-2, ,-4)
+nmod(мнению-2, мрамор-5)
+punct(мрамор-5, —-6)
+amod(материал-8, наилучший-7)
+nmod(мрамор-5, материал-8)
+case(воплощения-10, для-9)
+nmod(материал-8, воплощения-10)
+det(замысла-12, его-11)
+nmod(воплощения-10, замысла-12)
+punct(мнению-2, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

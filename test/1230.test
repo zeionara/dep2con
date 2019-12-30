@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(сбросы-2, Все-1)
+root(ROOT-0, сбросы-2)
+punct(сбросы-2, осуществлялись-3)
+case(один-5, через-4)
+nummodgov(сбросы-2, один-5)
+cc(тот-7, и-6)
+det(один-5, тот-7)
+advmod(один-5, же-8)
+punct(один-5, коллектор-9)
+punct(предположительно-11, ,-10)
+conj(один-5, предположительно-11)
+nsubjpass(предположительно-11, идущий-12)
+case(промзоны-14, из-13)
+obl(идущий-12, промзоны-14)
+punct(идущий-12, «-15)
+amod(»-17, Рыбацкое-16)
+flatname(«-15, »-17)
+punct(сбросы-2, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

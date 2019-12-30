@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(время-3, В-1)
+det(время-3, это-2)
+obl(выслали-6, время-3)
+nsubj(выслали-6, ВВС-4)
+nmod(ВВС-4, США-5)
+root(ROOT-0, выслали-6)
+nummod(судна-12, истребители-7)
+case(перехвата-9, для-8)
+nummod(истребители-7, перехвата-9)
+amod(судна-12, подозрительного-10)
+amod(судна-12, воздушного-11)
+obj(выслали-6, судна-12)
+punct(выслали-6, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

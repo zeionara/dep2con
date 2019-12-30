@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(задерживали-11, Кстати-1)
+case(дня-4, за-2)
+nummodgov(дня-4, два-3)
+obl(Кстати-1, дня-4)
+case(итальянцев-6, до-5)
+nmod(дня-4, итальянцев-6)
+punct(Кстати-1, ,-7)
+amod(пограничники-9, мальтийские-8)
+nsubj(задерживали-11, пограничники-9)
+advmod(задерживали-11, уже-10)
+root(ROOT-0, задерживали-11)
+obj(задерживали-11, лодку-12)
+punct(задерживали-11, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

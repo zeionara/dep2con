@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(возможность-4, Правда-1)
+punct(Правда-1, ,-2)
+case(возможность-4, за-3)
+root(ROOT-0, возможность-4)
+nmod(возможность-4, их-5)
+nmod(возможность-4, скачивания-6)
+advmod(вносить-8, придётся-7)
+csubj(возможность-4, вносить-8)
+amod(взносы-11, ежемесячные-9)
+amod(взносы-11, денежные-10)
+obj(вносить-8, взносы-11)
+punct(возможность-4, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

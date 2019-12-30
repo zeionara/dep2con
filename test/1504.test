@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(станет-7, В-1)
+fixed(В-1, конце-2)
+fixed(В-1, концов-3)
+punct(В-1, ,-4)
+amod(станция-6, лунная-5)
+nsubj(станет-7, станция-6)
+root(ROOT-0, станет-7)
+advmod(станет-7, постоянно-8)
+punct(станет-7, обитаемой-9)
+punct(жить-15, ,-10)
+case(которой-12, на-11)
+obl(жить-15, которой-12)
+punct(которой-12, астронавты-13)
+aux(жить-15, будут-14)
+aclrelcl(обитаемой-9, жить-15)
+case(месяцев-18, по-16)
+nummodgov(месяцев-18, шесть-17)
+obl(жить-15, месяцев-18)
+punct(станет-7, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

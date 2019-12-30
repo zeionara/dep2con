@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(предлагает-2, Facebook-1)
+xcomp(могут-10, предлагает-2)
+obj(предлагает-2, множество-3)
+nmod(множество-3, функций-4)
+punct(пользователи-9, ,-5)
+case(которых-8, с-6)
+fixed(с-6, помощью-7)
+nmod(пользователи-9, которых-8)
+nsubj(могут-10, пользователи-9)
+root(ROOT-0, могут-10)
+xcomp(могут-10, взаимодействовать-11)
+punct(могут-10, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(ассоциация-2, Футбольная-1)
+nsubj(поддержали-7, ассоциация-2)
+cc(профсоюз-4, и-3)
+conj(ассоциация-2, профсоюз-4)
+nmod(профсоюз-4, игроков-5)
+advmod(поддержали-7, уже-6)
+root(ROOT-0, поддержали-7)
+det(инициативу-9, эту-8)
+obj(поддержали-7, инициативу-9)
+punct(поддержали-7, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

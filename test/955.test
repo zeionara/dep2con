@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(произошли-7, Однако-1)
+punct(Однако-1, ,-2)
+det(три-4, эти-3)
+nummodgov(спуска-6, три-4)
+amod(спуска-6, баллистических-5)
+nsubj(произошли-7, спуска-6)
+root(ROOT-0, произошли-7)
+case(модификацией-10, с-8)
+amod(модификацией-10, новой-9)
+obl(произошли-7, модификацией-10)
+nmod(модификацией-10, корабля-11)
+amod(Союз-13, «-12)
+nsubj(произошли-7, Союз-13)
+nmod(Союз-13, »-14)
+flatname(»-14, —-15)
+nmod(Союз-13, ТМА-16)
+punct(произошли-7, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

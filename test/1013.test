@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(идеями-4, Со-1)
+det(идеями-4, своими-2)
+amod(идеями-4, стратегическими-3)
+obl(выступил-6, идеями-4)
+punct(идеями-4, Хван-5)
+root(ROOT-0, выступил-6)
+case(визита-9, во-7)
+fixed(во-7, время-8)
+obl(выступил-6, визита-9)
+case(США-11, в-10)
+nmod(визита-9, США-11)
+punct(выступил-6, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

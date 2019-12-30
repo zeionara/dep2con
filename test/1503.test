@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(планируется-4, Станцию-1)
+case(Луне-3, на-2)
+obl(Станцию-1, Луне-3)
+root(ROOT-0, планируется-4)
+csubjpass(планируется-4, создавать-5)
+obj(создавать-5, поэтапно-6)
+punct(лет-11, ,-7)
+case(лет-11, в-8)
+fixed(в-8, течение-9)
+nummod(лет-11, нескольких-10)
+obl(планируется-4, лет-11)
+punct(планируется-4, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

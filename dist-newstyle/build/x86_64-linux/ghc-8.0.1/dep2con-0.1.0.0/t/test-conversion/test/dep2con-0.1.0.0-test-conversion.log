@@ -1,0 +1,25 @@
+Test suite test-conversion: RUNNING...
+[]
+[("VP" "likes"/"VBZ"/4 ("S" ("VP" "eating"/"VBG"/5 ("NP" "sausage"/"NN"/6)))),("NP" "My"/"PRP$"/1 "dog"/"NN"/2)]
+[]
+["likes"/"VBZ"/4]
+[]
+[("NP" "sausage"/"NN"/6)]
+[]
+["My"/"PRP$"/1]
+[]
+[("VP" "likes"/"VBZ"/4 ("S" ("VP" "eating"/"VBG"/5 ("NP" "sausage"/"NN"/6)))),("ADVP" "also"/"RB"/3)]
+["My"/"PRP$"/1]
+[("S" ("VP" "eating"/"VBG"/5 ("NP" "sausage"/"NN"/6)))]
+[]
+["eating"/"VBG"/5]
+[]
+[]
+Running test in /home/dima/dep2con/test/1420.test
+Input deps: ["ROOT" ["S" ["NP" "My" "dog"] ["ADVP" "also"] ["VP" "likes" ["S" ["VP" "eating" ["NP" "sausage"]]]]]]
+Output cons:   ["RP" ["RP" ["RP" ["RP" ["NP" "\1055\1088\1077\1076\1074\1099\1073\1086\1088\1085\1072\1103" "\1082\1072\1084\1087\1072\1085\1080\1103"] "\1089\1086\1087\1088\1086\1074\1086\1078\1076\1072\1083\1072\1089\1100"] ["VP" "\1084\1085\1086\1075\1086\1095\1080\1089\1083\1077\1085\1085\1099\1084\1080" "\1083\1080\1095\1085\1099\1084\1080"]] "\1086\1089\1082\1086\1088\1073\1083\1077\1085\1080\1103\1084\1080"] "."]
+Running test in /home/dima/dep2con/test/101.test
+Input deps: ["ROOT" ["S" ["NP" "My" "dog"] ["ADVP" "also"] ["VP" "likes" ["S" ["VP" "eating" ["NP" "sausage"]]]]]]
+test-conversion: Prelude.!!: index too large
+Test suite test-conversion: FAIL
+Test suite logged to: /home/dima/dep2con/dist-newstyle/build/x86_64-linux/ghc-8.0.1/dep2con-0.1.0.0/t/test-conversion/test/dep2con-0.1.0.0-test-conversion.log

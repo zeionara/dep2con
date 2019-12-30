@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(собираемся-4, Конечно-1)
+punct(Конечно-1, ,-2)
+nsubj(собираемся-4, мы-3)
+root(ROOT-0, собираемся-4)
+xcomp(собираемся-4, сосредотачивать-5)
+det(ресурсы-7, наши-6)
+obj(сосредотачивать-5, ресурсы-7)
+case(выборе-9, на-8)
+obl(сосредотачивать-5, выборе-9)
+obl(интересных-11, наиболее-10)
+amod(мест-12, интересных-11)
+nmod(выборе-9, мест-12)
+case(Луне-14, на-13)
+nmod(выборе-9, Луне-14)
+punct(собираемся-4, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

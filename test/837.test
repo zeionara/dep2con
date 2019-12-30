@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заявила-2, Бхутто-1)
+root(ROOT-0, заявила-2)
+case(телефону-4, по-3)
+obl(заявила-2, телефону-4)
+obj(заявила-2, агенству-5)
+flatname(агенству-5, France-Presse-6)
+punct(заявила-2, -7)
+punct(боюсь-11, «-8)
+nsubj(боюсь-11, Я-9)
+advmod(боюсь-11, не-10)
+parataxis(заявила-2, боюсь-11)
+det(тактики-13, их-12)
+obj(боюсь-11, тактики-13)
+punct(заявила-2, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

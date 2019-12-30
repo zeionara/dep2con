@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(году-3, В-1)
+amod(году-3, прошлом-2)
+root(ROOT-0, году-3)
+case(стране-5, в-4)
+nmod(году-3, стране-5)
+case(причинам-8, по-6)
+amod(причинам-8, разным-7)
+nmod(стране-5, причинам-8)
+punct(причинам-8, умерло-9)
+punct(причинам-8, 1449-10)
+nmod(причинам-8, наркоманов-11)
+punct(году-3, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

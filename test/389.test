@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(Эфиопии-3, В-1)
+amod(Эфиопии-3, соседней-2)
+root(ROOT-0, Эфиопии-3)
+nummod(журналистов-6, 18-4)
+amod(журналистов-6, заключенных-5)
+nmod(Эфиопии-3, журналистов-6)
+punct(осуждены-11, ,-7)
+nsubjpass(осуждены-11, большинство-8)
+nmod(большинство-8, которых-9)
+auxpass(осуждены-11, были-10)
+aclrelcl(журналистов-6, осуждены-11)
+case(измену-13, за-12)
+obl(осуждены-11, измену-13)
+punct(Эфиопии-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(связи-3, В-1)
+det(связи-3, этой-2)
+obl(призвал-6, связи-3)
+punct(связи-3, Барак-4)
+nsubj(призвал-6, Обама-5)
+root(ROOT-0, призвал-6)
+obj(призвал-6, однопартийцев-7)
+punct(демократов-9, --8)
+appos(однопартийцев-7, демократов-9)
+advmod(дать-11, «-10)
+xcomp(призвал-6, дать-11)
+obj(дать-11, отпор-12)
+iobj(дать-11, »-13)
+obl(дать-11, республиканцам-14)
+punct(призвал-6, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

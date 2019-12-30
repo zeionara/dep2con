@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obj(зовут-2, Россию-1)
+root(ROOT-0, зовут-2)
+case(систему-5, в-3)
+amod(систему-5, европейскую-4)
+obl(зовут-2, систему-5)
+punct(зовут-2, роуминга-6)
+punct(зовут-2, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

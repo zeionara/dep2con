@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(ответ-2, В-1)
+obl(раскрывают-5, ответ-2)
+nmod(ответ-2, средства-3)
+nmod(средства-3, информации-4)
+root(ROOT-0, раскрывают-5)
+obj(раскрывают-5, планы-6)
+nmod(планы-6, Америки-7)
+case(ударе-10, о-8)
+amod(ударе-10, превентивном-9)
+nmod(планы-6, ударе-10)
+case(объектам-13, по-11)
+amod(объектам-13, ядерным-12)
+nmod(ударе-10, объектам-13)
+nmod(объектам-13, Ирана-14)
+punct(раскрывают-5, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

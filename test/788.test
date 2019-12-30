@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Ранее-1)
+punct(Ранее-1, перестыковка-2)
+punct(Ранее-1, планировалась-3)
+case(7-5, на-4)
+nummod(планировалась-3, 7-5)
+flat(7-5, мая-6)
+punct(Ранее-1, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

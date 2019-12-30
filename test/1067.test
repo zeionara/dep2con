@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(место-2, Второе-1)
+obj(занял-3, место-2)
+root(ROOT-0, занял-3)
+nsubj(занял-3, Василий-4)
+flatname(Василий-4, Иванчук-5)
+nummod(очков-8, —-6)
+nummod(очков-8, 8-7)
+obl(занял-3, очков-8)
+punct(–-12, (-9)
+punct(5-11, +-10)
+nummod((-9, 5-11)
+parataxis(очков-8, –-12)
+punct(–-12, 0-13)
+punct(6-15, =-14)
+nummod(занял-3, 6-15)
+punct(занял-3, )-16)
+punct(занял-3, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

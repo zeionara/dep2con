@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(создаёт-2, Чернова-1)
+root(ROOT-0, создаёт-2)
+det(условия-4, все-3)
+obj(создаёт-2, условия-4)
+case(расширения-6, для-5)
+obl(создаёт-2, расширения-6)
+nmod(расширения-6, деятельности-7)
+nmod(деятельности-7, детей-8)
+cc(подростков-10, и-9)
+conj(детей-8, подростков-10)
+punct(создаёт-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

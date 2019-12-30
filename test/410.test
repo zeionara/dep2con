@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(случае-2, В-1)
+obl(снизятся-12, случае-2)
+nmod(случае-2, принятия-3)
+det(решения-5, такого-4)
+nmod(принятия-3, решения-5)
+nsubj(снизятся-12, тарифы-6)
+case(роуминг-8, на-7)
+nmod(тарифы-6, роуминг-8)
+case(операторов-11, для-9)
+amod(операторов-11, российских-10)
+nmod(роуминг-8, операторов-11)
+root(ROOT-0, снизятся-12)
+case(раз-15, в-13)
+nummodgov(раз-15, несколько-14)
+obl(снизятся-12, раз-15)
+punct(снизятся-12, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

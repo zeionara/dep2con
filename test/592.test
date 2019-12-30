@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(продолжается-9, Спор-1)
+case(чиновниками-3, между-2)
+nmod(Спор-1, чиновниками-3)
+nmod(чиновниками-3, ЕС-4)
+cc(«-6, и-5)
+conj(чиновниками-3, «-6)
+punct(Спор-1, Майкрософт-7)
+punct(Спор-1, »-8)
+root(ROOT-0, продолжается-9)
+advmod(несколько-11, уже-10)
+nummodgov(лет-12, несколько-11)
+obl(продолжается-9, лет-12)
+punct(продолжается-9, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

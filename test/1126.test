@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(планируется-2, Завод-1)
+root(ROOT-0, планируется-2)
+csubjpass(планируется-2, построить-3)
+case(Ступино-5, в-4)
+obl(построить-3, Ступино-5)
+punct(км-8, ,-6)
+nummod(км-8, 110-7)
+obl(построить-3, км-8)
+case(югу-10, к-9)
+nmod(км-8, югу-10)
+case(Москвы-12, от-11)
+nmod(югу-10, Москвы-12)
+punct(планируется-2, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

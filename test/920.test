@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(имели-3, Они-1)
+advmod(имели-3, не-2)
+root(ROOT-0, имели-3)
+obl(информации-5, достаточно-4)
+obl(имели-3, информации-5)
+punct(оценить-9, ,-6)
+mark(оценить-9, чтобы-7)
+advmod(оценить-9, точно-8)
+advcl(имели-3, оценить-9)
+obj(оценить-9, ситуацию-10)
+cc(произошло-13, и-11)
+mark(произошло-13, как-12)
+conj(оценить-9, произошло-13)
+nsubj(произошло-13, разделение-14)
+nmod(разделение-14, модулей-15)
+punct(имели-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

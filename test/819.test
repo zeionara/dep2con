@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(трети-2, Около-1)
+nsubjpass(обеспечены-5, трети-2)
+amod(доходов-4, бюджетных-3)
+nmod(трети-2, доходов-4)
+root(ROOT-0, обеспечены-5)
+obl(обеспечены-5, поступлениями-6)
+case(налога-9, от-7)
+amod(налога-9, корпоративного-8)
+obl(обеспечены-5, налога-9)
+punct(обеспечены-5, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

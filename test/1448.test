@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(включает-6, Индекс-1)
+nmod(Индекс-1, цен-2)
+nmod(Индекс-1, ФАО-3)
+case(продовольствие-5, на-4)
+nmod(ФАО-3, продовольствие-5)
+root(ROOT-0, включает-6)
+obj(включает-6, рис-7)
+punct(пшеницу-9, ,-8)
+conj(рис-7, пшеницу-9)
+punct(кукурузу-11, ,-10)
+conj(рис-7, кукурузу-11)
+punct(сахар-13, ,-12)
+conj(рис-7, сахар-13)
+punct(мясо-15, ,-14)
+conj(рис-7, мясо-15)
+advmod(ряд-17, и-16)
+obj(включает-6, ряд-17)
+amod(продуктов-19, других-18)
+nmod(ряд-17, продуктов-19)
+punct(включает-6, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

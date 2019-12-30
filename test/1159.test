@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(шаттла-2, Два-1)
+nsubj(потерпели-3, шаттла-2)
+root(ROOT-0, потерпели-3)
+obj(потерпели-3, катастрофу-4)
+punct(погибли-6, ,-5)
+conj(потерпели-3, погибли-6)
+nummod(погибли-6, четырнадцать-7)
+nummod(погибли-6, астронавтов-8)
+punct(потерпели-3, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

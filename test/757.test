@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(оповестила-2, Полиция-1)
+root(ROOT-0, оповестила-2)
+amod(служащих-4, правительственных-3)
+nmod(оповестила-2, служащих-4)
+case(необходимости-6, о-5)
+obl(срочно-7, необходимости-6)
+advmod(оповестила-2, срочно-7)
+nsubj(срочно-7, эвакуироваться-8)
+punct(оповестила-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

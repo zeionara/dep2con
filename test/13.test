@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(временем-2, Со-1)
+obl(намерен-7, временем-2)
+nmod(основатель-4, его-3)
+nsubj(намерен-7, основатель-4)
+appos(основатель-4, Джон-5)
+punct(основатель-4, Килинг-6)
+root(ROOT-0, намерен-7)
+xcomp(намерен-7, монетизировать-8)
+flatname(монетизировать-8, портал-9)
+punct(введя-11, ,-10)
+conj(монетизировать-8, введя-11)
+obj(введя-11, ряд-12)
+amod(услуг-14, платных-13)
+nmod(ряд-12, услуг-14)
+punct(намерен-7, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(акция-2, Эта-1)
+nsubj(фанатами-5, акция-2)
+cop(фанатами-5, была-3)
+amod(фанатами-5, организованна-4)
+root(ROOT-0, фанатами-5)
+nmod(фанатами-5, «-6)
+flatname(«-6, шпор-7)
+flatname(«-6, »-8)
+punct(являются-14, ,-9)
+amod(часть-11, большая-10)
+nsubj(являются-14, часть-11)
+nmod(часть-11, которые-12)
+obl(являются-14, сами-13)
+aclrelcl(фанатами-5, являются-14)
+obl(являются-14, евреями-15)
+punct(фанатами-5, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

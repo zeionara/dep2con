@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(говорит-2, Он-1)
+root(ROOT-0, говорит-2)
+punct(решаться-10, ,-3)
+mark(решаться-10, что-4)
+nsubjpass(решаться-10, вопрос-5)
+amod(ориентации-7, политической-6)
+nmod(вопрос-5, ориентации-7)
+nmod(ориентации-7, Грузии-8)
+aux(решаться-10, будет-9)
+ccomp(говорит-2, решаться-10)
+case(Америке-12, в-11)
+obl(решаться-10, Америке-12)
+cc(России-14, и-13)
+conj(Америке-12, России-14)
+punct(говорит-2, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

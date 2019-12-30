@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(борьба-2, Моя-1)
+root(ROOT-0, борьба-2)
+punct(борьба-2, —-3)
+case(людей-5, за-4)
+nmod(—-3, людей-5)
+nmod(людей-5, Пакистана-6)
+punct(борьба-2, ,-7)
+case(права-10, за-8)
+det(права-10, их-9)
+nmod(борьба-2, права-10)
+cc(конец-13, и-11)
+case(конец-13, за-12)
+conj(права-10, конец-13)
+nmod(конец-13, диктатуры-14)
+punct(борьба-2, »-15)
+punct(борьба-2, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

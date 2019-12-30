@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(вывод-2, Такой-1)
+nsubj(позволяет-3, вывод-2)
+root(ROOT-0, позволяет-3)
+xcomp(позволяет-3, сделать-4)
+obj(сделать-4, появление-5)
+amod(вакансии-7, новой-6)
+nmod(появление-5, вакансии-7)
+punct(позволяет-3, ,-8)
+obl(позволяет-3, размещённой-9)
+case(сайте-11, на-10)
+nmod(размещённой-9, сайте-11)
+nmod(сайте-11, интернетгиганта-12)
+punct(позволяет-3, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

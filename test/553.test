@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(гарантирует-2, Мехико-1)
+root(ROOT-0, гарантирует-2)
+amod(фонд-4, призовой-3)
+obj(гарантирует-2, фонд-4)
+nmod(фонд-4, турнира-5)
+case(размере-7, в-6)
+obl(гарантирует-2, размере-7)
+nummod(миллионов-9, 1,3-8)
+nmod(размере-7, миллионов-9)
+nmod(миллионов-9, долларов-10)
+punct(гарантирует-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

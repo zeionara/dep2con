@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(последнему-2, Согласно-1)
+obl(имеет-8, последнему-2)
+nmod(последнему-2, рейтинг-3)
+nmod(рейтинг-3, списку-4)
+nmod(списку-4, ФИДЕ-5)
+punct(последнему-2, ,-6)
+nsubj(имеет-8, Топалов-7)
+root(ROOT-0, имеет-8)
+amod(рейтинг-10, наивысший-9)
+obj(имеет-8, рейтинг-10)
+amod(2804-12, —-11)
+obl(имеет-8, 2804-12)
+punct(имеет-8, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

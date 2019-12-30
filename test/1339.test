@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(официальным-8, Поскольку-1)
+advmod(Крым-3, сейчас-2)
+nsubj(официальным-8, Крым-3)
+case(составе-5, в-4)
+nmod(Крым-3, составе-5)
+nmod(составе-5, Украины-6)
+punct(Крым-3, --7)
+obl(должен-10, официальным-8)
+obl(официальным-8, обязательно-9)
+root(ROOT-0, должен-10)
+xcomp(должен-10, быть-11)
+advmod(украинский-13, и-12)
+nsubj(должен-10, украинский-13)
+punct(должен-10, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

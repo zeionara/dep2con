@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Специалисты-1)
+nmod(Специалисты-1, компании-2)
+punct(Специалисты-1, True-3)
+punct(создали-5, Companion-4)
+parataxis(Специалисты-1, создали-5)
+obj(создали-5, робота-6)
+punct(создали-5, ,-7)
+nmod(Специалисты-1, способного-8)
+xcomp(способного-8, удовлетворять-9)
+amod(потребности-11, сексуальные-10)
+obj(удовлетворять-9, потребности-11)
+nmod(потребности-11, мужчин-12)
+punct(Специалисты-1, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(году-3, В-1)
+nummod(году-3, 1996-2)
+obl(ушел-5, году-3)
+nsubj(ушел-5, он-4)
+root(ROOT-0, ушел-5)
+case(отставку-7, в-6)
+obl(ушел-5, отставку-7)
+case(знак-9, в-8)
+obl(ушел-5, знак-9)
+nmod(знак-9, протеста-10)
+case(действий-12, против-11)
+nmod(протеста-10, действий-12)
+nmod(действий-12, президента-13)
+appos(президента-13, Александра-14)
+flatname(Александра-14, Лукашенко-15)
+punct(ушел-5, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

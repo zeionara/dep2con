@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(пишет-2, Как-1)
+parataxis(закрытой-15, пишет-2)
+nsubj(пишет-2, Lenta.ru-3)
+punct(пишет-2, ,-4)
+case(апреля-6, до-5)
+obl(закрытой-15, апреля-6)
+nummod(года-8, 2010-7)
+nmod(апреля-6, года-8)
+nsubj(закрытой-15, регистрация-9)
+nmod(регистрация-9, сайтов-10)
+case(зоне-12, в-11)
+nmod(регистрация-9, зоне-12)
+punct(регистрация-9, .РФ-13)
+cop(закрытой-15, будет-14)
+root(ROOT-0, закрытой-15)
+punct(закрытой-15, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

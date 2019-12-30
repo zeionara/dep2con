@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(технологий-5, С-1)
+fixed(С-1, помощью-2)
+det(технологий-5, таких-3)
+amod(технологий-5, новых-4)
+obl(возможна-6, технологий-5)
+root(ROOT-0, возможна-6)
+advmod(выработка-8, также-7)
+nsubj(возможна-6, выработка-8)
+amod(энергии-10, тепловой-9)
+nmod(выработка-8, энергии-10)
+punct(возможна-6, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

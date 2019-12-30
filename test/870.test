@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(считают-2, Инвесторы-1)
+root(ROOT-0, считают-2)
+punct(олицетворяет-6, ,-3)
+mark(олицетворяет-6, что-4)
+nsubj(олицетворяет-6, Facebook-5)
+ccomp(считают-2, олицетворяет-6)
+fixed(олицетворяет-6, собой-7)
+obj(олицетворяет-6, будущее-8)
+nmod(будущее-8, интернета-9)
+punct(считают-2, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

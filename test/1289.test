@@ -1,0 +1,38 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(того-2, Кроме-1)
+root(ROOT-0, того-2)
+punct(того-2, ,-3)
+case(году-6, в-4)
+nummod(году-6, 2010-5)
+obl(того-2, году-6)
+nmod(году-6, Google-7)
+punct(Google-7, вложила-8)
+case(Zynga-10, в-9)
+nummod(Google-7, Zynga-10)
+punct(году-6, —-11)
+nummod(игр-14, разработчика-12)
+amod(игр-14, популярных-13)
+conj(году-6, игр-14)
+nummod(—-18, FarmVille-15)
+cc(CityVille-17, и-16)
+conj(FarmVille-15, CityVille-17)
+nmod(игр-14, —-18)
+obj(—-18, сумму-19)
+case(100-21, от-20)
+nummod(сумму-19, 100-21)
+case(млн-24, до-22)
+nummod(млн-24, 200-23)
+nmod(сумму-19, млн-24)
+nmod(млн-24, долларов-25)
+punct(того-2, .-26)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

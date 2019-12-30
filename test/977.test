@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(способно-2, Устройство-1)
+root(ROOT-0, способно-2)
+advmod(реагировать-4, также-3)
+xcomp(способно-2, реагировать-4)
+case(прикосновения-6, на-5)
+obl(реагировать-4, прикосновения-6)
+det(любовника-8, своего-7)
+nmod(прикосновения-6, любовника-8)
+punct(способно-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

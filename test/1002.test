@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(образом-2, Таким-1)
+parataxis(обходились-4, образом-2)
+punct(образом-2, ,-3)
+root(ROOT-0, обходились-4)
+nsubj(обходились-4, законы-5)
+punct(обходились-4, ,-6)
+amod(пытки-8, запрещающие-7)
+obl(обходились-4, пытки-8)
+case(стране-11, в-9)
+amod(стране-11, собственной-10)
+nmod(пытки-8, стране-11)
+punct(обходились-4, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

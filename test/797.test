@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(заявление-2, Это-1)
+nsubj(сделал-4, заявление-2)
+punct(заявление-2, Тифензее-3)
+root(ROOT-0, сделал-4)
+case(открытии-6, на-5)
+obl(сделал-4, открытии-6)
+amod(ярмарки-9, международной-7)
+amod(ярмарки-9, автомобильной-8)
+nmod(открытии-6, ярмарки-9)
+case(Лейпциге-11, в-10)
+nmod(открытии-6, Лейпциге-11)
+punct(сделал-4, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

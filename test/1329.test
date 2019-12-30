@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Голос-1)
+nmod(Голос-1, Америки-2)
+punct(Голос-1, -3)
+advmod(сегодня-6, Достаточно-4)
+advmod(Достаточно-4, ли-5)
+parataxis(Голос-1, сегодня-6)
+case(Крыма-8, у-7)
+nmod(сегодня-6, Крыма-8)
+nmod(Крыма-8, полномочий-9)
+case(решения-11, для-10)
+nmod(сегодня-6, решения-11)
+det(проблем-14, своих-12)
+amod(проблем-14, внутренних-13)
+nmod(решения-11, проблем-14)
+punct(Голос-1, ?-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

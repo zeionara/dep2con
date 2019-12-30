@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(Германии-7, Дюссельдорф-1)
+punct(Дюссельдорф-1, —-2)
+nsubj(Германии-7, центр-3)
+nmod(центр-3, моды-4)
+advmod(только-6, не-5)
+advmod(Германии-7, только-6)
+root(ROOT-0, Германии-7)
+punct(Западной-12, ,-8)
+cc(Западной-12, но-9)
+advmod(но-9, и-10)
+det(Западной-12, всей-11)
+conj(Германии-7, Западной-12)
+nmod(Западной-12, Европы-13)
+punct(Германии-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

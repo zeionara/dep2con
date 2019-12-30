@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(друзья-2, Дорогие-1)
+root(ROOT-0, друзья-2)
+nmod(друзья-2, шахмат-3)
+punct(друзья-2, ,-4)
+case(день-7, Сегодня-5)
+amod(день-7, исторический-6)
+nmod(друзья-2, день-7)
+case(спорта-11, для-8)
+case(спорта-11, на-9)
+det(спорта-11, нашего-10)
+nmod(день-7, спорта-11)
+punct(друзья-2, !-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

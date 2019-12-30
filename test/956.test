@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(корабли-2, Эти-1)
+nsubj(летают-3, корабли-2)
+root(ROOT-0, летают-3)
+case(года-6, с-4)
+nummod(года-6, 2002-5)
+obl(летают-3, года-6)
+punct(летают-3, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

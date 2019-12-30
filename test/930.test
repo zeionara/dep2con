@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(дают-7, Однако-1)
+det(объяснения-3, своего-2)
+obl(дают-7, объяснения-3)
+nmod(объяснения-3, произошедшего-4)
+nsubj(дают-7, они-5)
+advmod(дают-7, не-6)
+root(ROOT-0, дают-7)
+punct(дают-7, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

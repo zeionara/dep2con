@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(намечено-4, Начало-1)
+nmod(Начало-1, акции-2)
+auxpass(намечено-4, было-3)
+root(ROOT-0, намечено-4)
+case(часов-7, на-5)
+nummod(часов-7, 19-6)
+obl(намечено-4, часов-7)
+punct(намечено-4, ;-8)
+nummod(намечено-4, подчёркивалось-9)
+punct(состоится-13, ,-10)
+mark(состоится-13, что-11)
+nsubj(состоится-13, она-12)
+acl(подчёркивалось-9, состоится-13)
+case(запрет-16, несмотря-14)
+fixed(несмотря-14, на-15)
+nsubj(состоится-13, запрет-16)
+nmod(запрет-16, властей-17)
+punct(намечено-4, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

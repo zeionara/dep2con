@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(напомним-3, Sun-1)
+punct(Sun-1, ,-2)
+nsubj(приобрела-5, напомним-3)
+punct(напомним-3, ,-4)
+root(ROOT-0, приобрела-5)
+obl(приобрела-5, MySQL-6)
+case(млрд-9, за-7)
+nummod(млрд-9, 1-8)
+nmod(MySQL-6, млрд-9)
+nmod(млрд-9, долларов-10)
+case(году-13, в-11)
+nummod(году-13, 2008-12)
+nmod(млрд-9, году-13)
+punct(приобрела-5, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

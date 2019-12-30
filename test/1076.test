@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(случае-2, В-1)
+obl(станет-7, случае-2)
+nmod(случае-2, избрания-3)
+punct(случае-2, Гачечиладзе-4)
+obl(станет-7, премьерминистром-5)
+nmod(премьерминистром-5, страны-6)
+root(ROOT-0, станет-7)
+amod(Путь-11, глава-8)
+nmod(глава-8, партии-9)
+amod(Путь-11, «-10)
+nsubj(станет-7, Путь-11)
+nmod(Путь-11, Грузии-12)
+punct(станет-7, »-13)
+parataxis(станет-7, Саломе-14)
+flatname(Саломе-14, Зурабишвили-15)
+punct(станет-7, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

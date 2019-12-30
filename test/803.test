@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(необходима-5, Поддержка-1)
+det(технологий-4, этих-2)
+amod(технологий-4, новых-3)
+nmod(Поддержка-1, технологий-4)
+root(ROOT-0, необходима-5)
+punct(снизить-8, ,-6)
+mark(снизить-8, чтобы-7)
+advcl(необходима-5, снизить-8)
+obj(снизить-8, зависимость-9)
+case(ресурсов-12, от-10)
+amod(ресурсов-12, нефтяных-11)
+nmod(зависимость-9, ресурсов-12)
+punct(необходима-5, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

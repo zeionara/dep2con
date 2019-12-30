@@ -17,7 +17,9 @@ import           System.FilePath.Glob (globDir1, compile)
 import           Text.ParserCombinators.UU.BasicInstances (Parser)
 import           Text.ParserCombinators.UU.Utils (runParser)
 
-
+import System.IO hiding (hPutStr, hPutStrLn, hGetLine, hGetContents, putStrLn)
+import System.IO.UTF8
+import Codec.Binary.UTF8.String (utf8Encode)
 
 pTest :: Parser (Dep.Tree, Con.Tree)
 pTest = (,) <$> Dep.pDeps <*> Con.pTree
@@ -33,19 +35,19 @@ main = do
   forM_ testFiles $ \testFile -> do
 
     putStrLn $ "Running test in " ++ testFile
-    (dep, con2) <- runParser "StdIn" pTest <$> readFile testFile
+    (input_deps_raw, input_cons) <- runParser "StdIn" pTest <$> readFile testFile
 
-    let bin1 = Dep2Bin.collinsToledo dep
-    let bin2 = Con2Bin.toledo dep con2
-    let con1 = Dep2Con.collins dep
+    let input_deps = Dep2Bin.collinsToledo input_deps_raw
+    let output_deps = Con2Bin.toledo input_deps_raw input_cons
+    let output_cons = Dep2Con.collins input_deps_raw
 
-    when (not (bin1 Bin.==^ bin2)) $ do
+    when (not (input_deps Bin.==^ output_deps)) $ do
 
       writeIORef hasFailed True
-      putStrLn ("Expected: " ++ Con.asMarkdown con2)
-      putStrLn ("Actual:   " ++ Con.asMarkdown con1)
-      putStrLn ("Expected: " ++ Bin.asMarkdown bin2)
-      putStrLn ("Actual:   " ++ Bin.asMarkdown bin1)
+      System.IO.UTF8.putStrLn ("Input deps: " ++ Con.asMarkdown input_cons)
+      --putStrLn ("Actual:   " ++ Con.asMarkdown output_cons)
+      --putStrLn ("Expected: " ++ Bin.asMarkdown output_deps)
+      System.IO.UTF8.putStrLn ("Output cons:   " ++ Bin.asMarkdown input_deps)
 
   hasFailed' <- readIORef hasFailed
   if hasFailed'

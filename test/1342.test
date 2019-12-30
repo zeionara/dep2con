@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(Спасибо-4, Голос-1)
+nmod(Голос-1, Америки-2)
+punct(Голос-1, -3)
+root(ROOT-0, Спасибо-4)
+case(интервью-6, за-5)
+nmod(Спасибо-4, интервью-6)
+punct(Спасибо-4, !-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

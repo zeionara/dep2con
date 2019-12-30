@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Йозефа-1)
+punct(Германия-4, Бойса-2)
+punct(Германия-4, (-3)
+parataxis(Йозефа-1, Германия-4)
+punct(Германия-4, )-5)
+punct(Йозефа-1, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

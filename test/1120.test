@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(случае-2, В-1)
+obl(грозит-6, случае-2)
+nmod(случае-2, осуждения-3)
+punct(случае-2, 43-летнему-4)
+iobj(грозит-6, россиянину-5)
+root(ROOT-0, грозит-6)
+case(лет-9, от-7)
+nummod(лет-9, 25-8)
+obl(грозит-6, лет-9)
+nmod(лет-9, тюрьмы-10)
+case(пожизненного-12, до-11)
+obl(грозит-6, пожизненного-12)
+nmod(пожизненного-12, наказания-13)
+punct(грозит-6, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

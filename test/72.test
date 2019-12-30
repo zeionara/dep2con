@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(рамках-2, В-1)
+orphan(реальности-11, рамках-2)
+nmod(рамках-2, конференции-3)
+amod(конкурс-5, пройдёт-4)
+nsubj(рамках-2, конкурс-5)
+punct(конкурс-5, видеороликов-6)
+punct(видеороликов-6, «-7)
+punct(«-7, Субкультуры-8)
+punct(рамках-2, --9)
+amod(реальности-11, маркер-10)
+root(ROOT-0, реальности-11)
+punct(реальности-11, »-12)
+punct(реальности-11, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

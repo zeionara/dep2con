@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(выиграла-15, Сборная-1)
+nmod(Сборная-1, России-2)
+punct(Сборная-1, ,-3)
+amod(канадцев-5, обыграв-4)
+nmod(Сборная-1, канадцев-5)
+case(счётом-7, со-6)
+nmod(Сборная-1, счётом-7)
+nummod(счётом-7, 4-8)
+punct(Сборная-1, -9)
+punct(ОТ-12, 5-10)
+punct(ОТ-12, (-11)
+parataxis(Сборная-1, ОТ-12)
+punct(ОТ-12, )-13)
+punct(Сборная-1, ,-14)
+root(ROOT-0, выиграла-15)
+obj(выиграла-15, чемпионат-16)
+nmod(чемпионат-16, мира-17)
+case(хоккею-19, по-18)
+nmod(чемпионат-16, хоккею-19)
+punct(выиграла-15, !-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

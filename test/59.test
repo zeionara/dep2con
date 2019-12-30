@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(опроверг-2, Он-1)
+root(ROOT-0, опроверг-2)
+obj(опроверг-2, предположения-3)
+punct(решено-8, ,-4)
+mark(решено-8, что-5)
+amod(реформу-7, налоговую-6)
+nsubjpass(решено-8, реформу-7)
+acl(предположения-3, решено-8)
+csubj(решено-8, отложить-9)
+case(будущее-11, на-10)
+obl(отложить-9, будущее-11)
+punct(опроверг-2, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

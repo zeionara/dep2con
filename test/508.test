@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(состоится-3, Церемония-1)
+nmod(Церемония-1, награждения-2)
+root(ROOT-0, состоится-3)
+case(июне-5, в-4)
+obl(состоится-3, июне-5)
+nummod(года-7, 2010-6)
+nmod(июне-5, года-7)
+case(Бонне-9, в-8)
+obl(состоится-3, Бонне-9)
+punct(состоится-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

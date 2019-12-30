@@ -1,0 +1,34 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(сообщается-2, Как-1)
+parataxis(платить-9, сообщается-2)
+case(сайте-4, на-3)
+obl(сообщается-2, сайте-4)
+punct(сообщается-2, Roem.ru-5)
+punct(сообщается-2, ,-6)
+advmod(платить-9, сейчас-7)
+advmod(платить-9, не-8)
+xcomp(могут-14, платить-9)
+case(трафик-11, за-10)
+obl(платить-9, трафик-11)
+case(Facebook-13, на-12)
+obl(платить-9, Facebook-13)
+root(ROOT-0, могут-14)
+nsubj(могут-14, абоненты-15)
+nummod(операторов-18, 50-16)
+amod(операторов-18, сотовых-17)
+nmod(абоненты-15, операторов-18)
+case(странах-21, в-19)
+nummod(странах-21, 45-20)
+nmod(абоненты-15, странах-21)
+punct(могут-14, .-22)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

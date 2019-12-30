@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(встреча-2, Вашингтонская-1)
+nsubj(проходит-3, встреча-2)
+root(ROOT-0, проходит-3)
+case(канун-5, в-4)
+obl(проходит-3, канун-5)
+amod(полномочий-8, передачи-6)
+nmod(передачи-6, Франции-7)
+nmod(канун-5, полномочий-8)
+nmod(полномочий-8, главы-9)
+nummod(двадцатки-12, «-10)
+amod(двадцатки-12, Большой-11)
+obl(проходит-3, двадцатки-12)
+nmod(двадцатки-12, »-13)
+punct(проходит-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

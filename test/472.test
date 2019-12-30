@@ -1,0 +1,34 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(предъявляли-6, Ранее-1)
+amod(Facebook-3, адвокаты-2)
+nsubj(предъявляли-6, Facebook-3)
+nummodgov(раз-5, несколько-4)
+nmod(Facebook-3, раз-5)
+root(ROOT-0, предъявляли-6)
+iobj(предъявляли-6, претензии-7)
+iobj(претензии-7, сайтам-8)
+punct(содержится-12, ,-9)
+case(которых-11, в-10)
+obl(содержится-12, которых-11)
+aclrelcl(предъявляли-6, содержится-12)
+nsubjpass(содержится-12, слово-13)
+punct(содержится-12, «-14)
+punct(содержится-12, book-15)
+punct(предъявляли-6, »-16)
+punct(Teachbook-18, (-17)
+nummod(»-16, Teachbook-18)
+punct(Teachbook-18, ,-19)
+nummod(предъявляли-6, Placebook-20)
+punct(Placebook-20, )-21)
+punct(предъявляли-6, .-22)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

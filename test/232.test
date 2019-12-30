@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(году-3, В-1)
+nummod(году-3, 1982-2)
+obl(появились-4, году-3)
+root(ROOT-0, появились-4)
+amod(передачи-7, регулярные-5)
+amod(передачи-7, телевизионные-6)
+nsubj(появились-4, передачи-7)
+punct(разговоры-9, --8)
+appos(передачи-7, разговоры-9)
+nmod(разговоры-9, Ельцина-10)
+case(жителями-12, с-11)
+nmod(разговоры-9, жителями-12)
+nmod(жителями-12, области-13)
+punct(появились-4, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

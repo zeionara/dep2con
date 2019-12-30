@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(Ереване-2, В-1)
+obl(вышли-6, Ереване-2)
+advmod(Ереване-2, же-3)
+case(поле-5, на-4)
+obl(вышли-6, поле-5)
+root(ROOT-0, вышли-6)
+nsubj(вышли-6, игроки-7)
+mark(подбор-10, как-8)
+case(подбор-10, на-9)
+advcl(вышли-6, подбор-10)
+nsubj(вышли-6, —-11)
+amod(—-11, лучшие-12)
+case(странах-15, в-13)
+det(странах-15, своих-14)
+nmod(лучшие-12, странах-15)
+punct(вышли-6, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

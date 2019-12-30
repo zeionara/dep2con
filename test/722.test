@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(незаконно-10, «-1)
+case(Большому-5, По-2)
+fixed(По-2, отношению-3)
+fixed(По-2, к-4)
+parataxis(незаконно-10, Большому-5)
+punct(Большому-5, театру-6)
+det(слово-8, это-7)
+nsubj(незаконно-10, слово-8)
+advmod(незаконно-10, абсолютно-9)
+root(ROOT-0, незаконно-10)
+punct(незаконно-10, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

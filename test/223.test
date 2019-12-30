@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(помним-2, Мы-1)
+root(ROOT-0, помним-2)
+punct(сыграл-10, ,-3)
+det(роль-6, какую-4)
+amod(роль-6, значительную-5)
+obj(сыграл-10, роль-6)
+case(создании-8, в-7)
+nmod(роль-6, создании-8)
+nmod(создании-8, Конституции-9)
+conj(помним-2, сыграл-10)
+amod(президент-12, первый-11)
+obj(помним-2, президент-12)
+nmod(президент-12, России-13)
+punct(помним-2, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(пытается-5, Служба-1)
+amod(суда-4, прессы-2)
+amod(суда-4, Конституционного-3)
+nmod(Служба-1, суда-4)
+root(ROOT-0, пытается-5)
+xcomp(пытается-5, нейтрализовать-6)
+obj(нейтрализовать-6, высказывание-7)
+nmod(высказывание-7, Зорькина-8)
+punct(пытается-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

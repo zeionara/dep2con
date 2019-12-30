@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(книги-2, Хозяева-1)
+nsubj(приобрели-3, книги-2)
+root(ROOT-0, приобрели-3)
+obj(приобрели-3, её-4)
+nummodgov(лет-6, много-5)
+obl(приобрели-3, лет-6)
+advmod(лет-6, назад-7)
+case(развале-10, на-8)
+amod(развале-10, книжном-9)
+obl(приобрели-3, развале-10)
+advmod(несколько-13, всего-11)
+case(несколько-13, за-12)
+nummodgov(шиллингов-14, несколько-13)
+obl(приобрели-3, шиллингов-14)
+punct(приобрели-3, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

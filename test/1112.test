@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(супруга-4, В-1)
+fixed(В-1, настоящее-2)
+fixed(В-1, время-3)
+obl(проживают-11, супруга-4)
+punct(дочь-6, ,-5)
+conj(супруга-4, дочь-6)
+cc(мама-8, и-7)
+conj(супруга-4, мама-8)
+appos(мама-8, Виктора-9)
+punct(супруга-4, Бута-10)
+root(ROOT-0, проживают-11)
+case(арендуемой-13, в-12)
+obl(проживают-11, арендуемой-13)
+case(квартире-16, в-14)
+amod(квартире-16, НьюЙорке-15)
+nmod(арендуемой-13, квартире-16)
+punct(проживают-11, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

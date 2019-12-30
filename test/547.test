@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(объявлен-4, Победитель-1)
+nmod(Победитель-1, матча-2)
+auxpass(объявлен-4, будет-3)
+root(ROOT-0, объявлен-4)
+obl(объявлен-4, чемпионом-5)
+nmod(чемпионом-5, мира-6)
+punct(объявлен-4, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

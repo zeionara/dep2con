@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(Ямадаева-9, Попытка-1)
+nmod(Попытка-1, покушения-2)
+punct(Попытка-1, совершена-3)
+advmod(Ямадаева-9, вчера-4)
+advmod(вчера-4, вечером-5)
+case(квартире-7, на-6)
+obl(вчера-4, квартире-7)
+punct(вчера-4, Исы-8)
+root(ROOT-0, Ямадаева-9)
+punct(Ямадаева-9, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

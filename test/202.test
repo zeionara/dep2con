@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(мск-3, В-1)
+nummod(мск-3, 19.58-2)
+obl(приземлился-5, мск-3)
+nsubj(приземлился-5, он-4)
+root(ROOT-0, приземлился-5)
+case(космодроме-7, на-6)
+obl(приземлился-5, космодроме-7)
+case(мысе-9, на-8)
+nummod(приземлился-5, мысе-9)
+nmod(мысе-9, Канаверал-10)
+case(Флориде-12, во-11)
+obl(Канаверал-10, Флориде-12)
+punct(приземлился-5, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

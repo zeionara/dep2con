@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(количество-2, Наибольшее-1)
+nsubj(Кубе-8, количество-2)
+amod(журналистов-4, арестованных-3)
+nmod(количество-2, журналистов-4)
+case(Китае-6, в-5)
+nmod(количество-2, Китае-6)
+punct(количество-2, ,-7)
+root(ROOT-0, Кубе-8)
+punct(Кубе-8, ,-9)
+punct(Эфиопии-13, Эритрее-10)
+cc(Эфиопии-13, и-11)
+case(Эфиопии-13, в-12)
+conj(Кубе-8, Эфиопии-13)
+punct(Кубе-8, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

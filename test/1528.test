@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(времени-3, К-1)
+det(времени-3, этому-2)
+obl(должен-4, времени-3)
+root(ROOT-0, должен-4)
+xcomp(должен-4, быть-5)
+xcomp(должен-4, создана-6)
+amod(ракета-8, тяжелая-7)
+nsubjpass(создана-6, ракета-8)
+punct(носитель-10, --9)
+appos(ракета-8, носитель-10)
+case(вывода-12, для-11)
+obl(создана-6, вывода-12)
+case(космос-14, в-13)
+nmod(вывода-12, космос-14)
+amod(модуля-16, лунного-15)
+nmod(вывода-12, модуля-16)
+punct(должен-4, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

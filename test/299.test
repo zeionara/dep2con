@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(видимо-11, Вашингтон-1)
+case(замену-4, на-2)
+det(замену-4, такую-3)
+nmod(Вашингтон-1, замену-4)
+punct(Вашингтон-1, отреагировал-5)
+advmod(спокойно-7, вполне-6)
+advmod(видимо-11, спокойно-7)
+punct(чем-9, ,-8)
+conj(спокойно-7, чем-9)
+punct(спокойно-7, ,-10)
+root(ROOT-0, видимо-11)
+punct(больше-14, ,-12)
+advmod(больше-14, ещё-13)
+conj(видимо-11, больше-14)
+amod(премьера-16, расстроил-15)
+obl(больше-14, премьера-16)
+punct(видимо-11, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

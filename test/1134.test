@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(постройкой-2, С-1)
+obl(должна-8, постройкой-2)
+nmod(постройкой-2, завода-3)
+punct(постройкой-2, ,-4)
+nsubj(должна-8, доля-5)
+amod(рынка-7, автомобильного-6)
+nmod(доля-5, рынка-7)
+root(ROOT-0, должна-8)
+xcomp(должна-8, возрасти-9)
+case(%-12, до-10)
+nummod(%-12, 10-11)
+obl(возрасти-9, %-12)
+punct(должна-8, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

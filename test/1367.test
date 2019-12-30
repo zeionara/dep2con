@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(крупный-2, Единственный-1)
+amod(плакат-3, крупный-2)
+nsubj(фотографией-11, плакат-3)
+punct(держали-6, ,-4)
+obj(держали-6, который-5)
+aclrelcl(плакат-3, держали-6)
+nsubj(держали-6, собравшиеся-7)
+punct(плакат-3, ,-8)
+cop(фотографией-11, был-9)
+case(фотографией-11, с-10)
+root(ROOT-0, фотографией-11)
+nmod(фотографией-11, Свиридова-12)
+punct(фотографией-11, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

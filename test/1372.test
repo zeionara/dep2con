@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(итоге-2, В-1)
+obl(появились-5, итоге-2)
+punct(итоге-2, ,-3)
+advmod(появились-5, там-4)
+root(ROOT-0, появились-5)
+advmod(несколько-7, только-6)
+nummodgov(яблочников-8, несколько-7)
+nsubj(появились-5, яблочников-8)
+punct(включая-10, ,-9)
+conj(появились-5, включая-10)
+obj(включая-10, главу-11)
+nmod(главу-11, партии-12)
+obj(включая-10, Сергея-13)
+flatname(Сергея-13, Митрохина-14)
+punct(появились-5, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

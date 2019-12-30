@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(время-3, В-1)
+amod(время-3, ближайшее-2)
+obl(появятся-6, время-3)
+case(продаже-5, в-4)
+obl(появятся-6, продаже-5)
+root(ROOT-0, появятся-6)
+advmod(варианты-8, также-7)
+nsubj(появятся-6, варианты-8)
+nmod(варианты-8, Roxxxy-9)
+case(геев-11, для-10)
+nmod(Roxxxy-9, геев-11)
+cc(женщин-13, и-12)
+conj(геев-11, женщин-13)
+punct(появятся-6, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

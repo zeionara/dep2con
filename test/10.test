@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, часов-1)
+nmod(часов-1, телепрограмм-2)
+punct(матчей-5, ,-3)
+amod(матчей-5, спортивных-4)
+conj(часов-1, матчей-5)
+cc(сериалов-7, и-6)
+conj(часов-1, сериалов-7)
+punct(часов-1, ,-8)
+det(,-11, таких-9)
+advmod(таких-9, как-10)
+punct(например-12, ,-11)
+parataxis(часов-1, например-12)
+punct(часов-1, ,-13)
+flatforeign(часов-1, The-14)
+flatforeign(часов-1, IT-15)
+punct(часов-1, Crowd-16)
+cc(Doctor-18, и-17)
+conj(часов-1, Doctor-18)
+flatname(Doctor-18, Who-19)
+punct(часов-1, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

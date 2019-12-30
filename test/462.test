@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(аэропорту-2, В-1)
+obl(встречали-4, аэропорту-2)
+obj(встречали-4, его-3)
+root(ROOT-0, встречали-4)
+case(30-6, около-5)
+nsubj(встречали-4, 30-6)
+nmod(30-6, друзей-7)
+cc(родственников-9, и-8)
+conj(друзей-7, родственников-9)
+punct(встречали-4, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

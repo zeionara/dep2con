@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(населённые-5, Есть-1)
+amod(районы-3, целые-2)
+nsubj(Есть-1, районы-3)
+punct(Есть-1, ,-4)
+root(ROOT-0, населённые-5)
+amod(русскоязычными-7, преимущественно-6)
+flatname(населённые-5, русскоязычными-7)
+punct(населённые-5, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

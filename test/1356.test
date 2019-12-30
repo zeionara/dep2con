@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(представляют-3, 23-1)
+nmod(23-1, арбитра-2)
+root(ROOT-0, представляют-3)
+nummod(страны-5, 23-4)
+obj(представляют-3, страны-5)
+punct(представляют-3, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

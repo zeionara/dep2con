@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(положения-2, Под-1)
+obl(подпадает-5, положения-2)
+amod(закона-4, нового-3)
+nmod(положения-2, закона-4)
+root(ROOT-0, подпадает-5)
+advmod(каждый-7, не-6)
+det(наркозависимый-8, каждый-7)
+nsubjpass(подпадает-5, наркозависимый-8)
+punct(подпадает-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(полиция-2, Лондонская-1)
+root(ROOT-0, полиция-2)
+case(своем-4, в-3)
+nmod(полиция-2, своем-4)
+punct(своем-4, твиттере-5)
+parataxis(своем-4, сообщает-6)
+case(аресте-8, об-7)
+obl(сообщает-6, аресте-8)
+nummod(подозреваемых-10, 334-9)
+nmod(аресте-8, подозреваемых-10)
+punct(полиция-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

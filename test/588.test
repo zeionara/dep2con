@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(собирается-6, Видениус-1)
+case(тем-3, меж-2)
+obl(сдаваться-4, тем-3)
+csubj(собирается-6, сдаваться-4)
+advmod(собирается-6, не-5)
+advcl(собрал-10, собирается-6)
+punct(собирается-6, -7)
+nsubj(собрал-10, он-8)
+advmod(собрал-10, уже-9)
+root(ROOT-0, собрал-10)
+nummod(тыс-12, 30-11)
+obl(собрал-10, тыс-12)
+punct(собрал-10, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

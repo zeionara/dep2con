@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(попадали-7, Фирмы-1)
+punct(Фирмы-1, ,-2)
+advcl(попадали-7, нарушавшие-3)
+det(запрет-5, этот-4)
+obj(нарушавшие-3, запрет-5)
+punct(нарушавшие-3, ,-6)
+root(ROOT-0, попадали-7)
+case(«-9, в-8)
+obl(попадали-7, «-9)
+amod(список-11, черный-10)
+obj(попадали-7, список-11)
+punct(попадали-7, »-12)
+punct(попадали-7, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

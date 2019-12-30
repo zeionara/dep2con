@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(охватывали-3, Вопросы-1)
+nmod(Вопросы-1, корреспондентов-2)
+root(ROOT-0, охватывали-3)
+amod(диапазон-5, широкий-4)
+obj(охватывали-3, диапазон-5)
+punct(снов-8, ,-6)
+case(снов-8, от-7)
+conj(охватывали-3, снов-8)
+case(исследований-11, до-9)
+amod(исследований-11, научных-10)
+nmod(снов-8, исследований-11)
+case(станции-13, на-12)
+nmod(снов-8, станции-13)
+punct(охватывали-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

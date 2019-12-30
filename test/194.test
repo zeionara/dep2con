@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(учреждения-6, Ньюйоркская-1)
+amod(биржа-3, фондовая-2)
+nsubj(учреждения-6, биржа-3)
+cc(государственные-5, и-4)
+conj(биржа-3, государственные-5)
+nsubj(почтили-8, учреждения-6)
+advmod(почтили-8, также-7)
+root(ROOT-0, почтили-8)
+obj(почтили-8, память-9)
+nmod(память-9, погибших-10)
+punct(почтили-8, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

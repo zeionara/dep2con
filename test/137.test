@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(лодки-2, У-1)
+obl(закончилось-3, лодки-2)
+root(ROOT-0, закончилось-3)
+nsubj(закончилось-3, горючее-4)
+punct(недели-9, ,-5)
+cc(недели-9, и-6)
+nsubj(недели-9, она-7)
+nummodgov(недели-9, три-8)
+conj(закончилось-3, недели-9)
+punct(море-13, дрейфовала-10)
+case(море-13, в-11)
+amod(море-13, открытом-12)
+conj(недели-9, море-13)
+punct(закончилось-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

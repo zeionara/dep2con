@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, кафедрой-1)
+amod(коммуникаций-3, социальных-2)
+nmod(кафедрой-1, коммуникаций-3)
+cc(технологий-5, и-4)
+conj(коммуникаций-3, технологий-5)
+nmod(кафедрой-1, РГГУ-6)
+punct(кафедрой-1, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

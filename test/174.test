@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Vestas-1)
+punct(Vestas-1, —-2)
+amod(работодатель-4, основной-3)
+nsubj(Vestas-1, работодатель-4)
+case(Острове-6, на-5)
+nmod(работодатель-4, Острове-6)
+appos(работодатель-4, Уайт-7)
+case(населением-9, с-8)
+obl(Уайт-7, населением-9)
+case(140-11, около-10)
+nummod(Уайт-7, 140-11)
+nummod(человек-13, 000-12)
+nmod(работодатель-4, человек-13)
+punct(Vestas-1, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

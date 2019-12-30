@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(официальными-2, Тогда-1)
+amod(языками-3, официальными-2)
+root(ROOT-0, языками-3)
+nmod(языками-3, автономии-4)
+cop(языками-3, были-5)
+nsubj(языками-3, русский-6)
+cc(крымскотатарские-8, и-7)
+conj(языками-3, крымскотатарские-8)
+obj(крымскотатарские-8, языки-9)
+punct(языками-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

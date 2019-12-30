@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obj(спросили-2, Понтеса-1)
+root(ROOT-0, спросили-2)
+case(снах-4, о-3)
+obl(спросили-2, снах-4)
+punct(видит-8, ,-5)
+obj(видит-8, которые-6)
+nsubj(видит-8, он-7)
+aclrelcl(снах-4, видит-8)
+case(станции-10, на-9)
+obl(видит-8, станции-10)
+punct(спросили-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

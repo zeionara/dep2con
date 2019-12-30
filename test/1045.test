@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(предлагает-2, Microsoft-1)
+root(ROOT-0, предлагает-2)
+xcomp(предлагает-2, покупать-3)
+obj(предлагает-2, лицензии-4)
+case(использование-6, на-5)
+nmod(лицензии-4, использование-6)
+nmod(использование-6, кодов-7)
+acl(кодов-7, относящихся-8)
+case(работе-10, к-9)
+obl(относящихся-8, работе-10)
+nmod(работе-10, сетей-11)
+punct(предлагает-2, .-12)
+punct(предлагает-2, "-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

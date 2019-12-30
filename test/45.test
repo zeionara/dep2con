@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(найдены-7, Судьи-1)
+case(суда-4, для-2)
+amod(суда-4, высшего-3)
+nmod(Судьи-1, суда-4)
+nmod(суда-4, страны-5)
+auxpass(найдены-7, были-6)
+root(ROOT-0, найдены-7)
+advmod(улице-10, не-8)
+case(улице-10, на-9)
+obl(найдены-7, улице-10)
+punct(подобраны-14, ,-11)
+nsubjpass(подобраны-14, они-12)
+auxpass(подобраны-14, были-13)
+conj(найдены-7, подобраны-14)
+case(порядке-17, в-15)
+amod(порядке-17, индивидуальном-16)
+obl(подобраны-14, порядке-17)
+punct(найдены-7, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

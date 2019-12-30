@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(решение-2, Окончательное-1)
+nsubjpass(принято-5, решение-2)
+advmod(принято-5, ещё-3)
+advmod(принято-5, не-4)
+root(ROOT-0, принято-5)
+punct(принято-5, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

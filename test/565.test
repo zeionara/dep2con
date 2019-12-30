@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(того-2, Кроме-1)
+parataxis(хотела-7, того-2)
+punct(того-2, ,-3)
+case(перспективе-5, в-4)
+amod(корпорация-6, перспективе-5)
+nsubj(хотела-7, корпорация-6)
+root(ROOT-0, хотела-7)
+aux(хотела-7, бы-8)
+xcomp(хотела-7, заняться-9)
+case(Сколково-11, в-10)
+obl(заняться-9, Сколково-11)
+obl(заняться-9, реализацией-12)
+amod(проектов-14, медицинских-13)
+nmod(реализацией-12, проектов-14)
+punct(хотела-7, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

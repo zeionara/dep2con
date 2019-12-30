@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(выхода-2, Два-1)
+root(ROOT-0, выхода-2)
+case(космос-5, в-3)
+amod(космос-5, открытый-4)
+nmod(выхода-2, космос-5)
+punct(выхода-2, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

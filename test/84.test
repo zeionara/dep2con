@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(тем-2, Между-1)
+parataxis(пишет-4, тем-2)
+punct(тем-2, ,-3)
+advcl(имеет-12, пишет-4)
+xcomp(пишет-4, «-5)
+flatname(«-5, Коммерсантъ-6)
+flatname(«-5, »-7)
+punct(World-9, ,-8)
+flatforeign(«-5, World-9)
+punct(«-5, Fashion-10)
+nsubj(имеет-12, Channel-11)
+root(ROOT-0, имеет-12)
+obj(имеет-12, сложности-13)
+advmod(расплате-16, и-14)
+case(расплате-16, в-15)
+obl(кредиторами-19, расплате-16)
+case(другими-18, с-17)
+obl(кредиторами-19, другими-18)
+obl(имеет-12, кредиторами-19)
+punct(имеет-12, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

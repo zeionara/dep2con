@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Пилотируемые-1)
+nummod(Пилотируемые-1, полёты-2)
+case(Луну-4, на-3)
+obl(полёты-2, Луну-4)
+punct(полёты-2, возобновятся-5)
+case(году-8, в-6)
+nummod(году-8, 2020-7)
+obl(Пилотируемые-1, году-8)
+punct(Пилотируемые-1, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(количество-2, Наибольшее-1)
+nsubj(67-6, количество-2)
+amod(журналистов-4, арестованных-3)
+nmod(количество-2, журналистов-4)
+punct(количество-2, (-5)
+root(ROOT-0, 67-6)
+punct(67-6, )-7)
+punct(репортёры-10, —-8)
+nsubj(репортёры-10, это-9)
+conj(67-6, репортёры-10)
+punct(редакторы-12, ,-11)
+conj(67-6, редакторы-12)
+cc(фотографы-14, и-13)
+conj(67-6, фотографы-14)
+punct(67-6, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

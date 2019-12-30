@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(значит-4, «-1)
+nsubj(значит-4, Это-2)
+advmod(значит-4, не-3)
+discourse(Алла-17, значит-4)
+punct(хочет-8, ,-5)
+mark(хочет-8, что-6)
+nsubj(хочет-8, он-7)
+ccomp(значит-4, хочет-8)
+xcomp(хочет-8, поменять-9)
+obj(поменять-9, адвоката-10)
+cc(недоволен-12, или-11)
+conj(хочет-8, недоволен-12)
+obl(недоволен-12, ею-13)
+punct(значит-4, ,-14)
+punct(значит-4, —-15)
+nsubj(Алла-17, пояснила-16)
+root(ROOT-0, Алла-17)
+punct(Алла-17, Бут-18)
+punct(Алла-17, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

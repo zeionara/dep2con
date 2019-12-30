@@ -3,13 +3,13 @@ module Language.Structure.Constituency where
 import           Data.Monoid ((<>))
 import qualified Data.Tree as Rose
 import           Language.POS (POS)
-import           Language.Word (Word (Word, serial))
+import           Language.Wordd (Wordd (Wordd, serial))
 
 
 -- |Constituency trees are rose trees with POS tags in their nodes and words in
 --  their leaves.
 data Tree
-  = Leaf Word
+  = Leaf Wordd
   | Node POS [Tree]
   deriving (Eq)
 
@@ -23,26 +23,26 @@ instance Show Tree where
 
 -- |Get the first part-of-speech tag in a tree.
 topMostPOS :: Tree -> POS
-topMostPOS (Leaf (Word _ pos _)) = pos
+topMostPOS (Leaf (Wordd _ pos _)) = pos
 topMostPOS (Node pos _)          = pos
 
 
 -- |Get the left-most index from a constituency tree.
 leftMostIndex :: Tree -> Int
-leftMostIndex (Leaf (Word _ _ i)) = i
+leftMostIndex (Leaf (Wordd _ _ i)) = i
 leftMostIndex (Node _ rest) = minimum (map leftMostIndex rest)
 
 
 -- |Get all words in a constituency tree.
-allWords :: Tree -> [Word]
-allWords (Leaf word)  = return word
-allWords (Node _ children) = concatMap allWords children
+allWordds :: Tree -> [Wordd]
+allWordds (Leaf word)  = return word
+allWordds (Node _ children) = concatMap allWordds children
 
 
 -- |Compute the minimum distance from any node in the (sub-)tree to a
 --  specific serial. /O(n)/
 minDistance :: Int -> Tree -> Int
-minDistance i = minimum . map (abs . (i -) . serial) . allWords
+minDistance i = minimum . map (abs . (i -) . serial) . allWordds
 
 
 -- |Compare two trees, first by their distance to their governor, and
@@ -65,5 +65,5 @@ asASCII = Rose.drawTree . go
 
 -- |Convert a given tree to a Markdown representation of it.
 asMarkdown :: Tree -> String
-asMarkdown (Leaf (Word txt _ _)) = show txt
+asMarkdown (Leaf (Wordd txt _ _)) = show txt
 asMarkdown (Node pos children)   = "[" ++ unwords (show pos : map asMarkdown children) ++ "]"

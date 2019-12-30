@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(рассказала-3, Сябренко-1)
+advmod(рассказала-3, также-2)
+root(ROOT-0, рассказала-3)
+case(том-5, о-4)
+obl(рассказала-3, том-5)
+punct(хотела-9, ,-6)
+mark(хотела-9, чем-7)
+fixed(чем-7, бы-8)
+acl(том-5, хотела-9)
+xcomp(хотела-9, заняться-10)
+nsubj(хотела-9, корпорация-11)
+flatforeign(корпорация-11, Philips-12)
+case(рамках-14, в-13)
+nmod(том-5, рамках-14)
+nmod(рамках-14, подмосковного-15)
+punct(рамках-14, иннограда-16)
+punct(рассказала-3, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

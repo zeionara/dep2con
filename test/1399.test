@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(памяти-2, Акции-1)
+nsubj(прошли-5, памяти-2)
+nmod(памяти-2, Егора-3)
+flatname(Егора-3, Свиридова-4)
+root(ROOT-0, прошли-5)
+advmod(прошли-5, сегодня-6)
+advmod(городах-10, и-7)
+case(городах-10, в-8)
+amod(городах-10, других-9)
+obl(прошли-5, городах-10)
+obj(прошли-5, России-11)
+punct(прошли-5, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

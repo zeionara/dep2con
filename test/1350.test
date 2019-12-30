@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(процесс-2, Этот-1)
+nsubjpass(планируется-3, процесс-2)
+root(ROOT-0, планируется-3)
+advmod(планируется-3, полностью-4)
+xcomp(планируется-3, завершить-5)
+advmod(году-9, лишь-6)
+case(году-9, к-7)
+nummod(году-9, 2014-8)
+obl(завершить-5, году-9)
+punct(планируется-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

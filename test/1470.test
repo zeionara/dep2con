@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(кампанию-2, Свою-1)
+obj(проводит-7, кампанию-2)
+amod(предприниматель-4, нидерландский-3)
+nsubj(проводит-7, предприниматель-4)
+appos(предприниматель-4, Бессель-5)
+appos(предприниматель-4, Кок-6)
+root(ROOT-0, проводит-7)
+case(девизом-9, под-8)
+obl(проводит-7, девизом-9)
+flatforeign(девизом-9, The-10)
+flatforeign(девизом-9, Right-11)
+flatforeign(девизом-9, Move-12)
+punct(Правильный-14, (-13)
+appos(девизом-9, Правильный-14)
+obj(Правильный-14, ход-15)
+punct(Правильный-14, )-16)
+punct(проводит-7, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(предъявлено-2, Лофнеру-1)
+acl(обвинение-3, предъявлено-2)
+nsubj(состоящее-5, обвинение-3)
+punct(обвинение-3, ,-4)
+root(ROOT-0, состоящее-5)
+case(пунктов-8, из-6)
+nummod(пунктов-8, нескольких-7)
+obl(состоящее-5, пунктов-8)
+punct(состоящее-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

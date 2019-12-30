@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(%-5, Гиорги-1)
+nummod(%-5, Маисашвили-2)
+nummod(%-5, —-3)
+nummod(%-5, 0,74-4)
+root(ROOT-0, %-5)
+punct(%-5, (-6)
+nummod(голосов-8, 13009-7)
+nmod(%-5, голосов-8)
+punct(%-5, )-9)
+punct(%-5, 7-10)
+punct(%-5, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

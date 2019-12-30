@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(деле-2, На-1)
+obl(оказалось-3, деле-2)
+root(ROOT-0, оказалось-3)
+punct(имеет-7, ,-4)
+mark(имеет-7, что-5)
+nsubj(имеет-7, велотрасса-6)
+ccomp(оказалось-3, имеет-7)
+obj(имеет-7, протяжённость-8)
+advmod(2,5-10, всего-9)
+nummod(км-11, 2,5-10)
+nmod(протяжённость-8, км-11)
+cc(включает-13, и-12)
+conj(имеет-7, включает-13)
+nummodgov(включает-13, одну-14)
+punct(оказалось-3, велопарковку-15)
+punct(оказалось-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(планах-2, В-1)
+root(ROOT-0, планах-2)
+nmod(планах-2, республиканцев-3)
+advmod(попытки-5, также-4)
+nsubj(планах-2, попытки-5)
+obl(попытки-5, сократить-6)
+amod(расходы-8, федеральные-7)
+obj(сократить-6, расходы-8)
+cc(сократить-10, и-9)
+conj(сократить-6, сократить-10)
+obj(сократить-10, госаппарат-11)
+punct(планах-2, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

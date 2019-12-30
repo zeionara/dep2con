@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(прикрываясь-3, Одновременно-1)
+punct(Одновременно-1, ,-2)
+acl(Иран-7, прикрываясь-3)
+det(переговорами-5, этими-4)
+obl(прикрываясь-3, переговорами-5)
+punct(прикрываясь-3, ,-6)
+nsubj(продолжал-8, Иран-7)
+root(ROOT-0, продолжал-8)
+obj(продолжал-8, работы-9)
+case(обогащению-11, по-10)
+nmod(работы-9, обогащению-11)
+nmod(обогащению-11, урана-12)
+punct(продолжал-8, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

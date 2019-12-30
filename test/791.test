@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(дала-2, Россия-1)
+advcl(сообщает-11, дала-2)
+iobj(дала-2, Украине-3)
+obj(дала-2, кредит-4)
+case(сумму-6, на-5)
+nmod(кредит-4, сумму-6)
+nummod(миллиарда-8, 2-7)
+nummodgov(долларов-9, миллиарда-8)
+nmod(сумму-6, долларов-9)
+punct(дала-2, ,-10)
+root(ROOT-0, сообщает-11)
+nsubj(сообщает-11, Лента.ру-12)
+punct(сообщает-11, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

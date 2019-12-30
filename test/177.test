@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(получаем-6, «-1)
+advmod(отлично-3, Всё-2)
+advmod(получаем-6, отлично-3)
+punct(отлично-3, ,-4)
+nsubj(получаем-6, мы-5)
+root(ROOT-0, получаем-6)
+amod(поддержку-8, большую-7)
+obj(получаем-6, поддержку-8)
+obl(получаем-6, »-9)
+punct(получаем-6, ,-10)
+parataxis(получаем-6, сказал-11)
+nsubj(сказал-11, он-12)
+punct(получаем-6, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

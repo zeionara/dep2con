@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(турнире-3, В-1)
+amod(турнире-3, мужском-2)
+obl(принимали-4, турнире-3)
+root(ROOT-0, принимали-4)
+obj(принимали-4, участие-5)
+nummod(шахматистов-7, 138-6)
+nsubj(принимали-4, шахматистов-7)
+case(стран-10, из-8)
+nummod(стран-10, 36-9)
+nmod(шахматистов-7, стран-10)
+punct(принимали-4, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

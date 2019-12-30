@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(смесь-2, Ядовитая-1)
+nsubj(находится-3, смесь-2)
+root(ROOT-0, находится-3)
+case(экспертизе-5, на-4)
+obl(находится-3, экспертизе-5)
+punct(находится-3, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

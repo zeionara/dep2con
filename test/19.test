@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(понадобится-4, Да-1)
+advmod(Да-1, и-2)
+punct(Да-1, гелий-3-3)
+root(ROOT-0, понадобится-4)
+advmod(ранее-6, не-5)
+case(80-9, ранее-6)
+fixed(ранее-6, чем-7)
+case(80-9, через-8)
+obl(понадобится-4, 80-9)
+nummod(лет-12, —-10)
+nummod(лет-12, 100-11)
+nmod(80-9, лет-12)
+punct(понадобится-4, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

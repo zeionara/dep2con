@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(отмечает-2, Как-1)
+parataxis(меняет-10, отмечает-2)
+nsubj(отмечает-2, NEWSru.com-3)
+punct(отмечает-2, ,-4)
+nsubj(меняет-10, Израиль-5)
+advmod(первый-8, уже-6)
+advmod(первый-8, не-7)
+amod(раз-9, первый-8)
+obl(меняет-10, раз-9)
+root(ROOT-0, меняет-10)
+det(решения-12, своё-11)
+obj(меняет-10, решения-12)
+case(участия-15, относительно-13)
+det(участия-15, своего-14)
+nmod(решения-12, участия-15)
+case(саммите-17, в-16)
+nmod(участия-15, саммите-17)
+punct(меняет-10, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

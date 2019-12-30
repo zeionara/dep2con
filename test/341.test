@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(поддержали-5, Шестеро-1)
+case(кандидатов-4, из-2)
+nummod(кандидатов-4, семи-3)
+nmod(Шестеро-1, кандидатов-4)
+root(ROOT-0, поддержали-5)
+obj(поддержали-5, вступление-6)
+nmod(вступление-6, Грузии-7)
+case(альянс-10, в-8)
+amod(альянс-10, Атлантический-9)
+obl(поддержали-5, альянс-10)
+punct(поддержали-5, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -8,7 +8,7 @@ import           Language.POS (toXP)
 import qualified Language.Structure.Binary       as Bin
 import qualified Language.Structure.Constituency as Con
 import qualified Language.Structure.Dependency   as Dep
-import           Language.Word (Word (..))
+import           Language.Wordd (Wordd (..))
 import           Debug.Trace (traceShow)
 
 
@@ -20,7 +20,7 @@ toledo dep (Con.Node _ children) = let
 
   gov :: Con.Tree
   gov =
-    minimumBy (comparing (minimum . map (dependencyLevel dep) . Con.allWords)) children
+    minimumBy (comparing (minimum . map (dependencyLevel dep) . Con.allWordds)) children
 
   deps :: [Con.Tree]
   deps = delete gov children
@@ -41,9 +41,9 @@ toledo dep (Con.Node _ children) = let
 
 
 -- |Compute the depth of a word in the dependency tree.
-dependencyLevel :: Dep.Tree -> Word -> Int
-dependencyLevel dep (Word _ _ i) = fromMaybe maxBound (go 0 dep)
+dependencyLevel :: Dep.Tree -> Wordd -> Int
+dependencyLevel dep (Wordd _ _ i) = fromMaybe maxBound (go 0 dep)
   where
     go :: Int -> Dep.Tree -> Maybe Int
-    go n (Dep.Node (Word _ _ j) deps)
+    go n (Dep.Node (Wordd _ _ j) deps)
       = if i == j then Just n else msum (map (go (n+1)) deps)

@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(состоялось-3, 9-1)
+flat(9-1, сентября-2)
+root(ROOT-0, состоялось-3)
+nsubjpass(состоялось-3, освящение-4)
+nmod(освящение-4, помещений-5)
+amod(центра-8, русского-6)
+amod(центра-8, развивающего-7)
+nmod(помещений-5, центра-8)
+obl(состоялось-3, «-9)
+flatname(«-9, КинТоп-10)
+flatname(КинТоп-10, »-11)
+case(Дюссельдорфе-13, в-12)
+nmod(КинТоп-10, Дюссельдорфе-13)
+punct(ФРГ-15, (-14)
+parataxis(Дюссельдорфе-13, ФРГ-15)
+punct(ФРГ-15, )-16)
+punct(состоялось-3, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

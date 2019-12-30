@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(почта-5, «-1)
+nsubj(почта-5, Это-2)
+advmod(электронная-4, не-3)
+amod(почта-5, электронная-4)
+root(ROOT-0, почта-5)
+punct(почта-5, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

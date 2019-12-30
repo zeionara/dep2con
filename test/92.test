@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(впечатляет-3, Сумма-1)
+nmod(Сумма-1, сделки-2)
+root(ROOT-0, впечатляет-3)
+nummod(млрд-6, —-4)
+nummod(млрд-6, 2,7-5)
+obl(впечатляет-3, млрд-6)
+nmod(млрд-6, долларов-7)
+punct(впечатляет-3, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(эффективным-2, Самым-1)
+amod(способом-3, эффективным-2)
+obl(является-7, способом-3)
+nmod(способом-3, воздействия-4)
+case(КНДР-6, на-5)
+nmod(воздействия-4, КНДР-6)
+root(ROOT-0, является-7)
+amod(воздействие-9, идеологическое-8)
+nsubj(является-7, воздействие-9)
+case(Китая-12, со-10)
+fixed(со-10, стороны-11)
+nmod(воздействие-9, Китая-12)
+punct(является-7, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

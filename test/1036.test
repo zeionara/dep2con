@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(передала-2, Как-1)
+acl(Маяк-5, передала-2)
+nsubj(передала-2, радиостанция-3)
+punct(передала-2, «-4)
+iobj(возбуждено-14, Маяк-5)
+appos(Маяк-5, »-6)
+punct(Маяк-5, ,-7)
+case(факту-9, по-8)
+parataxis(возбуждено-14, факту-9)
+nmod(факту-9, покушения-10)
+case(Ису-12, на-11)
+punct(факту-9, Ису-12)
+punct(факту-9, Ямадаева-13)
+root(ROOT-0, возбуждено-14)
+amod(дело-16, уголовное-15)
+nsubjpass(возбуждено-14, дело-16)
+punct(возбуждено-14, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

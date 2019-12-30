@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(находимся-2, Мы-1)
+root(ROOT-0, находимся-2)
+case(давлением-5, под-3)
+amod(давлением-5, постоянным-4)
+obl(находимся-2, давлением-5)
+punct(находимся-2, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(называется-2, Также-1)
+root(ROOT-0, называется-2)
+advmod(предвыборная-5, и-3)
+det(предвыборная-5, его-4)
+amod(страница-7, предвыборная-5)
+amod(страница-7, Интернет-6)
+nsubj(называется-2, страница-7)
+flatforeign(страница-7, The-8)
+flatforeign(страница-7, Right-9)
+flatforeign(страница-7, Move-10)
+punct(называется-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

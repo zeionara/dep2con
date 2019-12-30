@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(осуществлялись-7, До-1)
+fixed(До-1, сих-2)
+fixed(До-1, пор-3)
+nsubj(осуществлялись-7, доставка-4)
+amod(нефти-6, сырой-5)
+nmod(доставка-4, нефти-6)
+root(ROOT-0, осуществлялись-7)
+case(дороге-10, по-8)
+amod(дороге-10, железной-9)
+obl(осуществлялись-7, дороге-10)
+case(порт-13, в-11)
+amod(порт-13, тихоокеанский-12)
+nmod(дороге-10, порт-13)
+nummod(осуществлялись-7, Козьмино-14)
+punct(осуществлялись-7, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

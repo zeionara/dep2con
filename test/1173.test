@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(нет-6, Всётаки-1)
+punct(Всётаки-1, Проди-2)
+punct(Всётаки-1, Белоруссия-3)
+case(Белоруссии-5, В-4)
+obl(нет-6, Белоруссии-5)
+root(ROOT-0, нет-6)
+nsubj(нет-6, проблем-7)
+case(демократией-9, с-8)
+nmod(проблем-7, демократией-9)
+advmod(нет-11, и-10)
+conj(нет-6, нет-11)
+nsubj(нет-11, проблем-12)
+case(победителем-14, с-13)
+nmod(проблем-12, победителем-14)
+punct(нет-6, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

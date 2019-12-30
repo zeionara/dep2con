@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Архнадзор-1)
+case(вмешательства-3, против-2)
+obl(Архнадзор-1, вмешательства-3)
+amod(властей-5, столичных-4)
+nmod(вмешательства-3, властей-5)
+case(ремонт-7, в-6)
+nmod(вмешательства-3, ремонт-7)
+amod(театра-9, Большого-8)
+nmod(ремонт-7, театра-9)
+punct(Архнадзор-1, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

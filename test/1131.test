@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(планируется-2, Первоначально-1)
+root(ROOT-0, планируется-2)
+nsubjpass(планируется-2, сборка-3)
+nmod(сборка-3, автомобилей-4)
+case(комплектующих-7, из-5)
+nummod(комплектующих-7, поставляемых-6)
+nmod(сборка-3, комплектующих-7)
+punct(планируется-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

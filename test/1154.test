@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(пытается-2, NASA-1)
+root(ROOT-0, пытается-2)
+xcomp(пытается-2, успеть-3)
+punct(степени-9, ,-4)
+advmod(степени-9, хотя-5)
+fixed(хотя-5, бы-6)
+case(степени-9, в-7)
+amod(степени-9, минимальной-8)
+parataxis(пытается-2, степени-9)
+punct(достроить-11, ,-10)
+xcomp(пытается-2, достроить-11)
+obj(достроить-11, МКС-12)
+case(окончательным-14, перед-13)
+obl(достроить-11, окончательным-14)
+punct(пытается-2, списанием-15)
+det(шаттлов-17, всех-16)
+nmod(списанием-15, шаттлов-17)
+punct(пытается-2, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(несут-6, «-1)
+amod(»-3, Краснорубашечники-2)
+punct(«-1, »-3)
+punct(»-3, ,-4)
+nsubj(несут-6, которые-5)
+root(ROOT-0, несут-6)
+amod(потери-8, большие-7)
+obj(несут-6, потери-8)
+punct(объявили-10, ,-9)
+conj(несут-6, объявили-10)
+case(готовности-12, о-11)
+obl(объявили-10, готовности-12)
+case(переговорам-14, к-13)
+nmod(готовности-12, переговорам-14)
+punct(несут-6, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

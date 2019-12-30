@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(словом-2, Одним-1)
+obl(состоялся-10, словом-2)
+punct(словом-2, ,-3)
+amod(марш-7, очередной-4)
+amod(марш-7, «-5)
+amod(марш-7, Русский-6)
+nsubj(состоялся-10, марш-7)
+punct(марш-7, »-8)
+advmod(состоялся-10, не-9)
+root(ROOT-0, состоялся-10)
+punct(состоялся-10, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

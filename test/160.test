@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(отечественного-5, Два-1)
+case(одном-3, в-2)
+nmod(Два-1, одном-3)
+amod(отечественного-5, Звёзды-4)
+nsubj(встретятся-8, отечественного-5)
+punct(отечественного-5, рокн-ролла-6)
+punct(отечественного-5, 80-х-7)
+root(ROOT-0, встретятся-8)
+case(сцене-10, на-9)
+obl(встретятся-8, сцене-10)
+amod(клуба-12, московского-11)
+nmod(сцене-10, клуба-12)
+nummod(тонн-15, «-13)
+nummod(тонн-15, 16-14)
+obl(встретятся-8, тонн-15)
+punct(тонн-15, »-16)
+punct(встретятся-8, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

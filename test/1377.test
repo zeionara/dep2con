@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(акция-6, «-1)
+nsubj(акция-6, Это-2)
+cop(акция-6, была-3)
+advmod(политическая-5, не-4)
+amod(акция-6, политическая-5)
+root(ROOT-0, акция-6)
+punct(имеет-13, ,-7)
+cc(имеет-13, но-8)
+punct(но-8, ,-9)
+parataxis(имеет-13, конечно-10)
+punct(конечно-10, ,-11)
+nsubj(имеет-13, она-12)
+conj(акция-6, имеет-13)
+amod(значение-15, общественное-14)
+obj(имеет-13, значение-15)
+punct(акция-6, ,-16)
+punct(уточнил-18, –-17)
+parataxis(акция-6, уточнил-18)
+nsubj(уточнил-18, Белов-19)
+punct(акция-6, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

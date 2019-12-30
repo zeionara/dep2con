@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(выжидала-4, Белорусская-1)
+nsubj(выжидала-4, сторона-2)
+advmod(выжидала-4, долго-3)
+root(ROOT-0, выжидала-4)
+cc(отреагировала-9, и-5)
+punct(и-5, ,-6)
+parataxis(отреагировала-9, наконец-7)
+punct(наконец-7, ,-8)
+conj(выжидала-4, отреагировала-9)
+case(газовый-11, на-10)
+obl(отреагировала-9, газовый-11)
+obj(отреагировала-9, ультиматум-12)
+nmod(ультиматум-12, России-13)
+punct(выжидала-4, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

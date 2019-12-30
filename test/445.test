@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(образом-2, Таким-1)
+parataxis(запасным-13, образом-2)
+punct(образом-2, ,-3)
+amod(вратарь-5, первый-4)
+nsubj(запасным-13, вратарь-5)
+nmod(вратарь-5, сборной-6)
+amod(лет-8, последних-7)
+nmod(вратарь-5, лет-8)
+punct(вратарь-5, ,-9)
+appos(вратарь-5, Оливер-10)
+flatname(Оливер-10, Кан-11)
+auxpass(запасным-13, будет-12)
+root(ROOT-0, запасным-13)
+obl(запасным-13, вратарём-14)
+case(чемпионате-16, на-15)
+nmod(вратарём-14, чемпионате-16)
+nmod(чемпионате-16, мира-17)
+punct(запасным-13, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

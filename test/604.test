@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(предполагает-3, Агенство-1)
+punct(Агенство-1, France-Presse-2)
+root(ROOT-0, предполагает-3)
+punct(отменено-9, ,-4)
+mark(отменено-9, что-5)
+amod(положение-7, чрезвычайное-6)
+nsubjpass(отменено-9, положение-7)
+auxpass(отменено-9, будет-8)
+ccomp(предполагает-3, отменено-9)
+advmod(отменено-9, раньше-10)
+punct(предполагает-3, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(область-3, Это-1)
+det(область-3, та-2)
+root(ROOT-0, область-3)
+punct(работают-11, ,-4)
+advmod(работают-11, где-5)
+nsubj(работают-11, сообщество-6)
+nmod(сообщество-6, учёных-7)
+cc(сообщество-9, и-8)
+conj(сообщество-6, сообщество-9)
+nmod(сообщество-9, инженеров-10)
+aclrelcl(область-3, работают-11)
+case(полном-13, в-12)
+obl(работают-11, полном-13)
+punct(область-3, согласии-14)
+punct(область-3, »-15)
+punct(область-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

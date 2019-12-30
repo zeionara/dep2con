@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(контракт-2, Третий-1)
+nsubjpass(подписан-4, контракт-2)
+auxpass(подписан-4, был-3)
+root(ROOT-0, подписан-4)
+case(ФИДЕ-6, между-5)
+nmod(подписан-4, ФИДЕ-6)
+cc(Мехико-8, и-7)
+conj(ФИДЕ-6, Мехико-8)
+punct(подписан-4, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(воскресенье-3, В-1)
+amod(воскресенье-3, прошедшее-2)
+obl(предстала-10, воскресенье-3)
+case(центре-6, в-4)
+amod(центре-6, самом-5)
+obl(предстала-10, центре-6)
+amod(местечка-8, старинного-7)
+nmod(центре-6, местечка-8)
+punct(центре-6, свиделелям-9)
+root(ROOT-0, предстала-10)
+amod(группа-12, необычная-11)
+nsubj(предстала-10, группа-12)
+punct(предстала-10, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

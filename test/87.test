@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(исключают-3, Эксперты-1)
+advmod(исключают-3, не-2)
+root(ROOT-0, исключают-3)
+punct(может-9, ,-4)
+mark(может-9, что-5)
+nsubj(может-9, конфликт-6)
+nmod(конфликт-6, акционеров-7)
+advmod(может-9, действительно-8)
+ccomp(исключают-3, может-9)
+xcomp(может-9, довести-10)
+obj(довести-10, канал-11)
+case(банкротства-13, до-12)
+obl(довести-10, банкротства-13)
+punct(исключают-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

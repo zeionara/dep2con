@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(число-2, В-1)
+obl(попал-4, число-2)
+nmod(число-2, избранных-3)
+root(ROOT-0, попал-4)
+advmod(лучший-6, и-5)
+amod(арбитр-7, лучший-6)
+nsubj(попал-4, арбитр-7)
+nmod(арбитр-7, Россия-8)
+appos(арбитр-7, —-9)
+flatname(—-9, Валентин-10)
+flatname(—-9, Иванов-11)
+punct(попал-4, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

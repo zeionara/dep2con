@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(заявок-3, Среди-1)
+det(заявок-3, этих-2)
+root(ROOT-0, заявок-3)
+punct(заявок-3, ,-4)
+nummod(заявок-3, 375000-5)
+case(Германии-7, из-6)
+nmod(375000-5, Германии-7)
+punct(375000-5, ,-8)
+nummod(375000-5, 260000-9)
+case(Великобритании-11, из-10)
+nmod(260000-9, Великобритании-11)
+punct(заявок-3, ,-12)
+punct(заявок-3, 147000-13)
+case(Нидерландов-15, из-14)
+nmod(заявок-3, Нидерландов-15)
+punct(заявок-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

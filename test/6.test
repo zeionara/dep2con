@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(онлайн-5, Законно-1)
+punct(Законно-1, ,-2)
+compound(онлайн-5, бесплатно-3)
+punct(бесплатно-3, ,-4)
+root(ROOT-0, онлайн-5)
+punct(онлайн-5, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

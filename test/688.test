@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(считает-3, Архиепископ-1)
+punct(Архиепископ-1, Лонгин-2)
+root(ROOT-0, считает-3)
+punct(нужно-9, ,-4)
+mark(нужно-9, что-5)
+discourse(нужно-9, в-6)
+fixed(в-6, первую-7)
+fixed(в-6, очередь-8)
+ccomp(считает-3, нужно-9)
+csubj(нужно-9, уделять-10)
+obj(уделять-10, внимание-11)
+iobj(внимание-11, детям-12)
+punct(считает-3, ,-13)
+advmod(,-13, поскольку-14)
+det(будущее-16, это-15)
+nsubj(поскольку-14, будущее-16)
+nmod(будущее-16, страны-17)
+cc(церкви-19, и-18)
+conj(страны-17, церкви-19)
+punct(поскольку-14, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

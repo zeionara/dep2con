@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(стала-2, Эстония-1)
+root(ROOT-0, стала-2)
+amod(государством-5, первым-3)
+amod(государством-5, постсоветским-4)
+obl(стала-2, государством-5)
+punct(вошедшим-7, ,-6)
+conj(стала-2, вошедшим-7)
+case(зону-9, в-8)
+obl(вошедшим-7, зону-9)
+nmod(зону-9, евро-10)
+punct(стала-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

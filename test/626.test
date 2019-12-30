@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Вопрос-2, «-1)
+nsubj(может-6, Вопрос-2)
+det(глубокого-4, такого-3)
+nmod(Вопрос-2, глубокого-4)
+nmod(глубокого-4, ограничения-5)
+root(ROOT-0, может-6)
+nsubj(»-11, зацепить-7)
+cc(вопросы-9, и-8)
+conj(зацепить-7, вопросы-9)
+nmod(вопросы-9, транзита-10)
+xcomp(может-6, »-11)
+punct(»-11, ,-12)
+punct(намекнул-14, --13)
+nummod(»-11, намекнул-14)
+punct(»-11, Товпинец-15)
+punct(цитирует-18, ,-16)
+obj(цитирует-18, которого-17)
+parataxis(может-6, цитирует-18)
+nsubj(цитирует-18, РБК-19)
+punct(может-6, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(беспорядки-2, Лондонские-1)
+root(ROOT-0, беспорядки-2)
+nmod(беспорядки-2, перекинулись-3)
+case(Ливерпуль-5, на-4)
+nummod(перекинулись-3, Ливерпуль-5)
+cc(Манчестер-7, и-6)
+conj(перекинулись-3, Манчестер-7)
+punct(беспорядки-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

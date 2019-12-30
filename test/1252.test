@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(выиграл-4, Кто-1)
+advmod(Кто-1, же-2)
+obj(выиграл-4, его-3)
+root(ROOT-0, выиграл-4)
+case(счёте-6, при-5)
+obl(выиграл-4, счёте-6)
+punct(выиграл-4, 0-7)
+punct(выиграл-4, -8)
+parataxis(выиграл-4, 0-9)
+punct(превосходила-15, ,-10)
+mark(превосходила-15, когда-11)
+nummodgov(команда-13, одна-12)
+nsubj(превосходила-15, команда-13)
+advmod(превосходила-15, потенциально-14)
+advcl(0-9, превосходила-15)
+obj(превосходила-15, другую-16)
+punct(выиграл-4, ?-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(ночь-2, В-1)
+obl(были-14, ночь-2)
+case(20-4, с-3)
+nummod(ночь-2, 20-4)
+case(21-6, на-5)
+nummod(20-4, 21-6)
+flat(21-6, июля-7)
+case(приток-9, в-8)
+obl(были-14, приток-9)
+nmod(приток-9, Невы-10)
+nmod(приток-9, реку-11)
+punct(приток-9, Славянку-12)
+advmod(были-14, опять-13)
+root(ROOT-0, были-14)
+amod(отходы-16, слиты-15)
+nsubjpass(были-14, отходы-16)
+amod(производства-18, лакокрасочного-17)
+nmod(отходы-16, производства-18)
+punct(были-14, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

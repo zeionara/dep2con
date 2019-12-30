@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Стоит-1)
+csubj(Стоит-1, отметить-2)
+punct(потеряла-14, ,-3)
+mark(потеряла-14, что-4)
+case(нулевой-6, после-5)
+obl(потеряла-14, нулевой-6)
+nmod(нулевой-6, ничьей-7)
+case(матче-9, в-8)
+obl(потеряла-14, матче-9)
+case(Ереване-11, в-10)
+nmod(матче-9, Ереване-11)
+nsubj(потеряла-14, сборная-12)
+nmod(сборная-12, России-13)
+ccomp(отметить-2, потеряла-14)
+nummodgov(очка-16, два-15)
+obl(потеряла-14, очка-16)
+punct(Стоит-1, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

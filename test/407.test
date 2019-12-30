@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(россиян-2, Для-1)
+obl(означает-4, россиян-2)
+nsubj(означает-4, это-3)
+root(ROOT-0, означает-4)
+punct(могут-12, ,-5)
+mark(могут-12, что-6)
+nsubjpass(могут-12, тарифы-7)
+case(вид-10, на-8)
+det(вид-10, этот-9)
+nmod(тарифы-7, вид-10)
+nmod(вид-10, услуг-11)
+ccomp(означает-4, могут-12)
+xcomp(могут-12, снизиться-13)
+case(раз-16, в-14)
+nummodgov(раз-16, несколько-15)
+obl(снизиться-13, раз-16)
+punct(означает-4, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(месте-3, На-1)
+amod(месте-3, шестом-2)
+root(ROOT-0, месте-3)
+amod(Узбекистан-5, —-4)
+nmod(месте-3, Узбекистан-5)
+punct(держит-8, ,-6)
+nsubj(держит-8, который-7)
+aclrelcl(месте-3, держит-8)
+nummodgov(журналистов-10, пять-9)
+obl(держит-8, журналистов-10)
+case(заключении-12, в-11)
+obl(держит-8, заключении-12)
+punct(месте-3, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

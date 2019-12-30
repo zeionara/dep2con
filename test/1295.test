@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(провели-6, А-1)
+fixed(А-1, кроме-2)
+det(пользователи-5, того-3)
+punct(того-3, ,-4)
+nsubj(провели-6, пользователи-5)
+root(ROOT-0, провели-6)
+case(сети-9, в-7)
+amod(сети-9, социальной-8)
+obl(провели-6, сети-9)
+nummodgov(времени-11, больше-10)
+obl(провели-6, времени-11)
+punct(провели-6, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

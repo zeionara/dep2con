@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(способствует-2, Сделка-1)
+root(ROOT-0, способствует-2)
+obl(способствует-2, укреплений-3)
+amod(связей-5, растущих-4)
+nmod(укреплений-3, связей-5)
+case(странами-7, между-6)
+nmod(связей-5, странами-7)
+punct(способствует-2, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,33 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(думаю-3, «-1)
+nsubj(думаю-3, Я-2)
+root(ROOT-0, думаю-3)
+punct(тема-5, ,-4)
+nsubj(развиваться-10, тема-5)
+punct(тема-5, светодиодов-6)
+advmod(активно-8, очень-7)
+advmod(развиваться-10, активно-8)
+aux(развиваться-10, будет-9)
+xcomp(думаю-3, развиваться-10)
+case(России-12, в-11)
+obl(думаю-3, России-12)
+case(ближайшие-14, в-13)
+obl(думаю-3, ближайшие-14)
+punct(ближайшие-14, 5-15)
+punct(думаю-3, —-16)
+nummod(лет-20, 8-17)
+nummod(лет-20, —-18)
+nummod(лет-20, 10-19)
+obl(думаю-3, лет-20)
+punct(думаю-3, .-21)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(формулировка-2, Такая-1)
+nsubj(могла-4, формулировка-2)
+advmod(могла-4, не-3)
+root(ROOT-0, могла-4)
+advmod(возмутить-6, не-5)
+xcomp(могла-4, возмутить-6)
+punct(возмутить-6, «-7)
+obl(возмутить-6, Архнадзор-8)
+flatname(Архнадзор-8, »-9)
+punct(могла-4, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

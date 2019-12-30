@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(поставки-2, Новые-1)
+nsubj(увеличат-6, поставки-2)
+nmod(поставки-2, нефти-3)
+advmod(вдвое-5, почти-4)
+advmod(увеличат-6, вдвое-5)
+root(ROOT-0, увеличат-6)
+obj(увеличат-6, объем-7)
+nmod(объем-7, «-8)
+amod(золота-10, черного-9)
+nmod(«-8, золота-10)
+nummod(увеличат-6, »-11)
+punct(поставляемого-13, ,-12)
+acl(»-11, поставляемого-13)
+obl(поставляемого-13, Россией-14)
+case(Китай-16, в-15)
+obl(поставляемого-13, Китай-16)
+punct(увеличат-6, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

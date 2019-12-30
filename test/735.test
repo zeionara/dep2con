@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+iobj(кажется-3, Нам-1)
+advmod(кажется-3, не-2)
+root(ROOT-0, кажется-3)
+punct(должна-10, ,-4)
+mark(должна-10, что-5)
+amod(система-7, современная-6)
+nsubj(должна-10, система-7)
+nmod(система-7, обмена-8)
+nmod(обмена-8, сообщениями-9)
+ccomp(кажется-3, должна-10)
+xcomp(должна-10, создаваться-11)
+case(почты-15, в-12)
+fixed(в-12, виде-13)
+amod(почты-15, электронной-14)
+obl(должна-10, почты-15)
+punct(кажется-3, ...-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

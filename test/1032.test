@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(длились-7, Тогда-1)
+obl(длились-7, митинги-2)
+case(требованием-4, с-3)
+nmod(митинги-2, требованием-4)
+nmod(требованием-4, отставки-5)
+nsubj(длились-7, Саакашвили-6)
+root(ROOT-0, длились-7)
+punct(длились-7, неделями-8)
+punct(длились-7, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

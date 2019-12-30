@@ -1,0 +1,34 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Контроль-1)
+nmod(Контроль-1, времени-2)
+punct(Контроль-1, —-3)
+nummod(часа-5, 2-4)
+nmod(Контроль-1, часа-5)
+case(40-7, на-6)
+nmod(часа-5, 40-7)
+nmod(40-7, ходов-8)
+punct(Контроль-1, ,-9)
+case(час-12, далее-10)
+amod(час-12, 1-11)
+nmod(Контроль-1, час-12)
+case(20-14, на-13)
+obl(ходов-15, 20-14)
+nmod(час-12, ходов-15)
+case(минут-18, далее-16)
+nummod(минут-18, 30-17)
+nmod(час-12, минут-18)
+case(конца-20, до-19)
+nmod(час-12, конца-20)
+nmod(конца-20, партии-21)
+punct(Контроль-1, .-22)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

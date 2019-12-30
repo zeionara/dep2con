@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(согласилась-3, Компания-1)
+nmod(Компания-1, Microsoft-2)
+root(ROOT-0, согласилась-3)
+xcomp(согласилась-3, открыть-4)
+iobj(открыть-4, конкурентам-5)
+det(коды-7, некоторые-6)
+obj(согласилась-3, коды-7)
+amod(системы-9, операционной-8)
+nmod(коды-7, системы-9)
+flatforeign(системы-9, Windows-10)
+punct(согласилась-3, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

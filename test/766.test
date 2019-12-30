@@ -1,0 +1,33 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(НАСА-2, Менеджеры-1)
+nsubj(обсуждают-3, НАСА-2)
+root(ROOT-0, обсуждают-3)
+obj(обсуждают-3, варианты-4)
+nmod(варианты-4, эвакуации-5)
+det(эвакуации-5, своего-6)
+obl(обсуждают-3, астронавта-7)
+case(МКС-9, с-8)
+nmod(астронавта-7, МКС-9)
+case(шаттле-11, на-10)
+nmod(МКС-9, шаттле-11)
+nummod(обсуждают-3, «-12)
+nummod(«-12, Дискавери-13)
+flatname(Дискавери-13, »-14)
+flatname(»-14, STS-124-15)
+punct(стартует-18, ,-16)
+nsubj(стартует-18, который-17)
+aclrelcl(«-12, стартует-18)
+nummod(стартует-18, 31-19)
+flat(31-19, мая-20)
+punct(обсуждают-3, .-21)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(знаем-3, «-1)
+nsubj(знаем-3, Мы-2)
+root(ROOT-0, знаем-3)
+punct(были-6, ,-4)
+mark(были-6, что-5)
+ccomp(знаем-3, были-6)
+nsubj(были-6, проблемы-7)
+case(разделением-9, с-8)
+nmod(проблемы-7, разделением-9)
+nmod(разделением-9, модулей-10)
+nsubj(говорит-13, »-11)
+punct(»-11, ,-12)
+parataxis(знаем-3, говорит-13)
+punct(говорит-13, Гернстермайер-14)
+punct(знаем-3, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

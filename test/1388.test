@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(знаем-3, «-1)
+nsubj(знаем-3, Мы-2)
+root(ROOT-0, знаем-3)
+punct(опасно-6, ,-4)
+mark(опасно-6, как-5)
+ccomp(знаем-3, опасно-6)
+nsubj(опасно-6, разделение-7)
+nmod(разделение-7, людей-8)
+case(признаку-11, по-9)
+amod(признаку-11, национальному-10)
+nmod(разделение-7, признаку-11)
+punct(знаем-3, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

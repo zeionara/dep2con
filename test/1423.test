@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(призывает-2, Проди-1)
+root(ROOT-0, призывает-2)
+obj(призывает-2, граждан-3)
+case(возрождению-5, к-4)
+obl(призывает-2, возрождению-5)
+nmod(возрождению-5, страны-6)
+punct(призывает-2, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

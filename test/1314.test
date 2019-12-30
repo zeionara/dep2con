@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Мустафа-1)
+punct(Мустафа-1, Джемилев-2)
+punct(Мустафа-1, -3)
+nsubj(реакция-6, Положительная-4)
+cop(реакция-6, была-5)
+parataxis(Мустафа-1, реакция-6)
+punct(Мустафа-1, !-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

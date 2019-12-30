@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(понимается-4, Что-1)
+case(этим-3, под-2)
+obl(понимается-4, этим-3)
+root(ROOT-0, понимается-4)
+advmod(понимается-4, будет-5)
+xcomp(будет-5, разъяснено-6)
+advmod(разъяснено-6, позже-7)
+punct(понимается-4, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

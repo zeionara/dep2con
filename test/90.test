@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(берёт-2, Hewlett-Packard-1)
+xcomp(принимает-7, берёт-2)
+obj(берёт-2, пример-3)
+case(Google-5, с-4)
+nmod(пример-3, Google-5)
+nsubj(принимает-7, Компания-6)
+root(ROOT-0, принимает-7)
+obj(принимает-7, решение-8)
+case(расширении-10, о-9)
+nmod(решение-8, расширении-10)
+nmod(расширении-10, бизнеса-11)
+case(время-14, в-12)
+amod(время-14, кризисное-13)
+nmod(расширении-10, время-14)
+punct(принимает-7, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

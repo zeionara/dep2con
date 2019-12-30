@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(привёл-2, Он-1)
+root(ROOT-0, привёл-2)
+det(цифры-5, некоторые-3)
+amod(цифры-5, статистические-4)
+obj(привёл-2, цифры-5)
+punct(привёл-2, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

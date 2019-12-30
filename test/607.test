@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Обама-2, Барак-1)
+nsubj(принимает-3, Обама-2)
+root(ROOT-0, принимает-3)
+case(доме-6, в-4)
+amod(доме-6, Белом-5)
+obl(принимает-3, доме-6)
+det(коллегу-9, своего-7)
+amod(коллегу-9, французского-8)
+nmod(доме-6, коллегу-9)
+appos(коллегу-9, Николя-10)
+flatname(Николя-10, Саркози-11)
+punct(принимает-3, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

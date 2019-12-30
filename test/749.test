@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(сказал-2, Макартур-1)
+root(ROOT-0, сказал-2)
+punct(смотрит-6, ,-3)
+mark(смотрит-6, что-4)
+nsubj(смотрит-6, он-5)
+ccomp(сказал-2, смотрит-6)
+advmod(смотрит-6, вперёд-7)
+punct(увидит-14, ,-8)
+mark(увидит-14, когда-9)
+nsubj(увидит-14, он-10)
+punct(он-10, вернётся-11)
+advmod(увидит-14, домой-12)
+cc(увидит-14, и-13)
+advcl(смотрит-6, увидит-14)
+det(семью-16, свою-15)
+obj(увидит-14, семью-16)
+punct(сказал-2, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(элементы-12, евро-1)
+case(исследования-3, на-2)
+nmod(евро-1, исследования-3)
+case(области-5, в-4)
+nmod(евро-1, области-5)
+nmod(евро-1, технологии-6)
+amod(двигателя-8, водородного-7)
+nmod(технологии-6, двигателя-8)
+cc(технологии-10, и-9)
+conj(технологии-6, технологии-10)
+amod(элементы-12, Топливные-11)
+root(ROOT-0, элементы-12)
+punct(элементы-12, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

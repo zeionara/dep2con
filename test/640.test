@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(словам-2, По-1)
+parataxis(удалось-7, словам-2)
+punct(словам-2, Ратманского-3)
+punct(словам-2, ,-4)
+case(галаконцерт-6, в-5)
+obl(удалось-7, галаконцерт-6)
+root(ROOT-0, удалось-7)
+csubj(удалось-7, включить-8)
+advmod(половину-10, лишь-9)
+nummodgov(того-11, половину-10)
+obl(включить-8, того-11)
+punct(было-14, ,-12)
+mark(было-14, что-13)
+acl(того-11, было-14)
+cop(было-14, сделано-15)
+case(театре-18, в-16)
+amod(театре-18, Большом-17)
+obl(было-14, театре-18)
+punct(удалось-7, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(системе-15, долларов-1)
+case(сутки-3, в-2)
+nmod(долларов-1, сутки-3)
+case(долларов-1, на-4)
+flatforeign(долларов-1, Microsoft-5)
+punct(долларов-1, ,-6)
+mark(раскрыты-10, если-7)
+advmod(раскрыты-10, не-8)
+auxpass(раскрыты-10, будут-9)
+advcl(системе-15, раскрыты-10)
+nsubjpass(раскрыты-10, коды-11)
+punct(раскрыты-10, интерфейса-12)
+case(системе-15, к-13)
+amod(системе-15, операционной-14)
+root(ROOT-0, системе-15)
+flatforeign(системе-15, Windows-16)
+punct(системе-15, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этапе-3, На-1)
+amod(этапе-3, заключительном-2)
+obl(потеряна-6, этапе-3)
+nmod(этапе-3, спуска-4)
+auxpass(потеряна-6, была-5)
+root(ROOT-0, потеряна-6)
+nsubjpass(потеряна-6, связь-7)
+case(кораблём-9, с-8)
+nmod(связь-7, кораблём-9)
+punct(потеряна-6, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

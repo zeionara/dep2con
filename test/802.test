@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(проводятся-6, В-1)
+fixed(В-1, настоящее-2)
+fixed(В-1, время-3)
+case(Германии-5, в-4)
+obl(проводятся-6, Германии-5)
+root(ROOT-0, проводятся-6)
+advmod(научные-8, только-7)
+amod(исследования-9, научные-8)
+nsubjpass(проводятся-6, исследования-9)
+case(области-12, в-10)
+det(области-12, этой-11)
+nmod(исследования-9, области-12)
+punct(проводятся-6, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

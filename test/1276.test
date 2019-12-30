@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(является-9, Однако-1)
+case(кандидата-3, для-2)
+obl(является-9, кандидата-3)
+amod(карьера-5, спортивная-4)
+nmod(кандидата-3, карьера-5)
+case(плечами-7, за-6)
+nmod(кандидата-3, плечами-7)
+advmod(является-9, не-8)
+root(ROOT-0, является-9)
+amod(условием-11, обязательным-10)
+obl(является-9, условием-11)
+punct(является-9, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

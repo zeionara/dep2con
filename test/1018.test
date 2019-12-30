@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(ломает-3, Как-1)
+nsubj(ломает-3, вода-2)
+root(ROOT-0, ломает-3)
+obj(ломает-3, железо-4)
+punct(ломает-3, ?-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

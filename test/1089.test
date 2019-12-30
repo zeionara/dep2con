@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(перешли-13, Напомним-1)
+punct(Напомним-1, ,-2)
+nummod(Напомним-1, 28-3)
+flat(28-3, марта-4)
+nummod(года-6, 2010-5)
+nmod(28-3, года-6)
+punct(Напомним-1, Камчатский-7)
+amod(округ-12, край-8)
+cc(Чукотский-10, и-9)
+conj(край-8, Чукотский-10)
+amod(округ-12, автономный-11)
+nsubj(перешли-13, округ-12)
+root(ROOT-0, перешли-13)
+case(время-16, на-14)
+amod(время-16, магаданское-15)
+obl(перешли-13, время-16)
+punct(перешли-13, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,38 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummod(стартовал-3, 7-1)
+flat(7-1, декабря-2)
+root(ROOT-0, стартовал-3)
+amod(конкурс-5, международный-4)
+nsubj(стартовал-3, конкурс-5)
+flatforeign(конкурс-5, The-6)
+flatforeign(конкурс-5, Best-7)
+flatforeign(конкурс-5, of-8)
+flatforeign(конкурс-5, Blogs-9)
+punct(будет-14, ,-10)
+case(которого-13, в-11)
+fixed(в-11, ходе-12)
+obl(будет-14, которого-13)
+aclrelcl(конкурс-5, будет-14)
+amod(блог-17, определён-15)
+amod(блог-17, лучший-16)
+nsubj(будет-14, блог-17)
+punct(подкаст-20, ,-18)
+amod(подкаст-20, лучший-19)
+conj(будет-14, подкаст-20)
+advmod(лучший-22, и-21)
+amod(видеоблог-23, лучший-22)
+nsubj(будет-14, видеоблог-23)
+case(Сети-25, в-24)
+nmod(видеоблог-23, Сети-25)
+punct(стартовал-3, .-26)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(декабре-2, В-1)
+obl(наложить-7, декабре-2)
+nsubj(наложить-7, комиссия-3)
+amod(союза-5, Европейского-4)
+nmod(комиссия-3, союза-5)
+advmod(наложить-7, пригрозила-6)
+root(ROOT-0, наложить-7)
+obj(наложить-7, штраф-8)
+case(размере-10, в-9)
+obl(наложить-7, размере-10)
+nummod(млн-12, 2-11)
+nmod(размере-10, млн-12)
+punct(наложить-7, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

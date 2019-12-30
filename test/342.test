@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(единодушно-3, Столь-1)
+advmod(Столь-1, же-2)
+advmod(высказывается-4, единодушно-3)
+root(ROOT-0, высказывается-4)
+cc(население-6, и-5)
+conj(высказывается-4, население-6)
+nmod(население-6, страны-7)
+punct(высказывается-4, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

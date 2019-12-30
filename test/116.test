@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(подано-6, Уже-1)
+case(часы-4, в-2)
+amod(часы-4, первые-3)
+obl(подано-6, часы-4)
+auxpass(подано-6, было-5)
+root(ROOT-0, подано-6)
+nsubjpass(подано-6, более-7)
+nummod(заявок-10, 300-8)
+nummod(300-8, 000-9)
+obl(более-7, заявок-10)
+case(адрес-12, на-11)
+nmod(заявок-10, адрес-12)
+case(окончанием-14, с-13)
+obl(подано-6, окончанием-14)
+nmod(окончанием-14, «-15)
+nummod(»-17, .eu-16)
+punct(подано-6, »-17)
+punct(подано-6, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

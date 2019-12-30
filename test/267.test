@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(должен-7, Министр-1)
+amod(дел-3, иностранных-2)
+nmod(Министр-1, дел-3)
+nmod(Министр-1, Японии-4)
+appos(Министр-1, Сейдзи-5)
+flatname(Сейдзи-5, Маэхара-6)
+root(ROOT-0, должен-7)
+xcomp(должен-7, прибыть-8)
+case(Москву-10, в-9)
+obl(прибыть-8, Москву-10)
+case(неделе-13, на-11)
+det(неделе-13, этой-12)
+obl(прибыть-8, неделе-13)
+punct(должен-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

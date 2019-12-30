@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(может-2, Оно-1)
+root(ROOT-0, может-2)
+amod(Россию-4, погубить-3)
+obl(может-2, Россию-4)
+punct(лишить-6, ,-5)
+aclrelcl(Россию-4, лишить-6)
+obj(лишить-6, нас-7)
+obj(лишить-6, будущего-8)
+punct(может-2, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

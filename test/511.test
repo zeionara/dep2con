@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(стали-3, Предметом-1)
+nmod(Предметом-1, обсуждения-2)
+root(ROOT-0, стали-3)
+nsubj(стали-3, вопросы-4)
+nmod(вопросы-4, сотрудничества-5)
+case(организациях-8, в-6)
+amod(организациях-8, международных-7)
+nmod(сотрудничества-5, организациях-8)
+punct(стали-3, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

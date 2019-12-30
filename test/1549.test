@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, При-1)
+obl(ограничения-10, этом-2)
+punct(этом-2, ,-3)
+parataxis(ограничения-10, однако-4)
+punct(однако-4, ,-5)
+case(фетвы-7, на-6)
+obl(ограничения-10, фетвы-7)
+punct(фетвы-7, наложены-8)
+det(ограничения-10, некоторые-9)
+root(ROOT-0, ограничения-10)
+punct(ограничения-10, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

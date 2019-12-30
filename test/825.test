@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(правительство-2, Кипрское-1)
+nsubj(намерено-3, правительство-2)
+root(ROOT-0, намерено-3)
+xcomp(намерено-3, ужесточить-4)
+obj(ужесточить-4, борьбу-5)
+case(нарушениями-8, с-6)
+amod(нарушениями-8, подобными-7)
+nmod(борьбу-5, нарушениями-8)
+punct(намерено-3, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

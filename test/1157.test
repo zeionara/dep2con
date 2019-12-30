@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(совершил-6, Сегодня-1)
+amod(большое-3, самое-2)
+amod(количество-4, большое-3)
+nsubj(совершил-6, количество-4)
+punct(количество-4, полётов-5)
+root(ROOT-0, совершил-6)
+amod(полёт-12, «-7)
+nummod(«-7, Дискавери-8)
+flatname(Дискавери-8, »-9)
+flatname(Дискавери-8, —-10)
+amod(полёт-12, 31-11)
+obj(совершил-6, полёт-12)
+punct(совершил-6, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

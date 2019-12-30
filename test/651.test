@@ -1,0 +1,37 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(0-14, •-1)
+nummod(•-1, 9-2)
+flat(9-2, апреля-3)
+punct(•-1, ,-4)
+amod(партия-6, 4-я-5)
+nsubj(0-14, партия-6)
+appos(партия-6, •-7)
+flatname(•-7, •-8)
+flatname(•-7, Топалов-9)
+punct(1-12, —-10)
+punct(1-12, Нисипяну-11)
+appos(партия-6, 1-12)
+punct(1-12, -13)
+root(ROOT-0, 0-14)
+amod(счёт-16, Общий-15)
+obj(0-14, счёт-16)
+nmod(счёт-16, матча-17)
+punct(0-14, 3-18)
+punct(3-18, -19)
+conj(0-14, 1-20)
+case(пользу-22, в-21)
+obl(1-20, пользу-22)
+nmod(пользу-22, Веселина-23)
+flatname(Веселина-23, Топалова-24)
+punct(0-14, .-25)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

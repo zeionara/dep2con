@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(запрещал-10, —-1)
+advmod(пока-5, По-2)
+fixed(По-2, крайней-3)
+fixed(По-2, мере-4)
+obl(запрещал-10, пока-5)
+iobj(запрещал-10, нам-6)
+nsubj(запрещал-10, никто-7)
+obl(запрещал-10, этого-8)
+advmod(запрещал-10, не-9)
+root(ROOT-0, запрещал-10)
+punct(запрещал-10, »-11)
+punct(запрещал-10, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

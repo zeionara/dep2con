@@ -1,0 +1,37 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(1-2, На-1)
+nummod(—-9, 1-2)
+flat(1-2, декабря-3)
+nummod(года-5, 2006-4)
+nmod(1-2, года-5)
+case(мире-8, во-6)
+det(мире-8, всём-7)
+obl(—-9, мире-8)
+obl(находятся-12, —-9)
+amod(журналиста-11, 134-10)
+obj(—-9, журналиста-11)
+advcl(больше-19, находятся-12)
+case(тюрьмах-14, в-13)
+obl(находятся-12, тюрьмах-14)
+punct(находятся-12, ,-15)
+nsubj(больше-19, это-16)
+case(9-18, на-17)
+obl(больше-19, 9-18)
+root(ROOT-0, больше-19)
+punct(году-24, ,-20)
+mark(году-24, чем-21)
+case(году-24, в-22)
+nummod(году-24, 2005-23)
+advcl(больше-19, году-24)
+punct(больше-19, .-25)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

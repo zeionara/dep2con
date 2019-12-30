@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(мае-2, В-1)
+obl(открыла-7, мае-2)
+amod(года-4, прошлого-3)
+nmod(мае-2, года-4)
+nsubj(открыла-7, корпорация-5)
+nmod(корпорация-5, Google-6)
+root(ROOT-0, открыла-7)
+nummod(игр-9, онлайнмагазин-8)
+obj(открыла-7, игр-9)
+case(пользователей-11, для-10)
+nmod(игр-9, пользователей-11)
+nmod(браузера-14, её-12)
+amod(браузера-14, собственного-13)
+nmod(пользователей-11, браузера-14)
+punct(открыла-7, Chrome-15)
+punct(открыла-7, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(первое-4, Это-1)
+advmod(не-3, далеко-2)
+advmod(первое-4, не-3)
+amod(предсказание-6, первое-4)
+amod(предсказание-6, несбывшееся-5)
+root(ROOT-0, предсказание-6)
+punct(предсказание-6, апокалипсиса-7)
+punct(предсказание-6, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

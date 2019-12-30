@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(государства-3, Два-1)
+amod(государства-3, других-2)
+nsubj(планируют-10, государства-3)
+nmod(государства-3, Балтии-4)
+punct(Латвия-6, —-5)
+conj(государства-3, Латвия-6)
+cc(Литва-8, и-7)
+conj(государства-3, Литва-8)
+punct(государства-3, —-9)
+root(ROOT-0, планируют-10)
+xcomp(планируют-10, перейти-11)
+case(евро-13, на-12)
+obl(перейти-11, евро-13)
+case(году-16, в-14)
+nummod(году-16, 2014-15)
+obl(перейти-11, году-16)
+punct(планируют-10, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

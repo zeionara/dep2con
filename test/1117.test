@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(предъявлены-7, Буту-1)
+nummod(Буту-1, 17-2)
+flat(17-2, ноября-3)
+nummod(года-5, 2010-4)
+nmod(17-2, года-5)
+auxpass(предъявлены-7, были-6)
+root(ROOT-0, предъявлены-7)
+iobj(предъявлены-7, обвинения-8)
+case(пунктов-11, из-9)
+nummod(пунктов-11, четырёх-10)
+obl(предъявлены-7, пунктов-11)
+punct(предъявлены-7, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, Об-1)
+obl(сообщает-3, этом-2)
+root(ROOT-0, сообщает-3)
+nsubj(сообщает-3, Комитет-4)
+nmod(Комитет-4, защиты-5)
+nmod(защиты-5, журналистов-6)
+punct(КЗЖ-8, (-7)
+appos(Комитет-4, КЗЖ-8)
+punct(КЗЖ-8, )-9)
+punct(Committee-11, (-10)
+nummod(сообщает-3, Committee-11)
+punct(Committee-11, to-12)
+punct(Journalists-14, Protect-13)
+conj(Committee-11, Journalists-14)
+punct(сообщает-3, )-15)
+punct(сообщает-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

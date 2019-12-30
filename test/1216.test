@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(обнаружилось-3, Таковых-1)
+advmod(обнаружилось-3, не-2)
+root(ROOT-0, обнаружилось-3)
+punct(зафиксировано-9, ,-4)
+advmod(визуально-8, как-5)
+fixed(как-5, не-6)
+fixed(как-5, было-7)
+advmod(зафиксировано-9, визуально-8)
+conj(обнаружилось-3, зафиксировано-9)
+advmod(мертвой-11, и-10)
+amod(рыбы-12, мертвой-11)
+nsubj(обнаружилось-3, рыбы-12)
+punct(обнаружилось-3, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

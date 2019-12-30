@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(требовали-3, Там-1)
+nsubj(требовали-3, демонстранты-2)
+root(ROOT-0, требовали-3)
+xcomp(требовали-3, предоставить-4)
+iobj(предоставить-4, им-5)
+amod(время-7, эфирное-6)
+obj(требовали-3, время-7)
+punct(требовали-3, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

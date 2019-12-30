@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(претендента-2, Оба-1)
+nsubj(указывают-3, претендента-2)
+root(ROOT-0, указывают-3)
+case(поддержку-5, на-4)
+obl(указывают-3, поддержку-5)
+nmod(поддержку-5, Афганистана-6)
+punct(указывают-3, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

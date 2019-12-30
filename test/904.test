@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(перегрузки-4, «-1)
+case(меня-3, Для-2)
+obl(«-1, меня-3)
+nsubj(вещь-8, перегрузки-4)
+advmod(очень-6, не-5)
+obl(приятная-7, очень-6)
+amod(вещь-8, приятная-7)
+root(ROOT-0, вещь-8)
+punct(особенно-10, ,-9)
+parataxis(вещь-8, особенно-10)
+punct(доходят-14, ,-11)
+mark(доходят-14, если-12)
+nsubj(доходят-14, они-13)
+parataxis(вещь-8, доходят-14)
+case(8-16, до-15)
+nummod(доходят-14, 8-16)
+nsubj(доходят-14, G-17)
+punct(вещь-8, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

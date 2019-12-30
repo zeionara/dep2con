@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(словам-3, По-1)
+det(словам-3, его-2)
+parataxis(намерена-7, словам-3)
+punct(словам-3, ,-4)
+nsubj(намерена-7, ФИФА-5)
+advmod(намерена-7, не-6)
+root(ROOT-0, намерена-7)
+xcomp(намерена-7, мириться-8)
+case(любыми-10, с-9)
+obl(мириться-8, любыми-10)
+obj(намерена-7, проявлениями-11)
+obj(проявлениями-11, нарушения-12)
+det(ценностей-14, этих-13)
+nmod(нарушения-12, ценностей-14)
+punct(намерена-7, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

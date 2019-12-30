@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(запасы-3, Хотя-1)
+punct(Хотя-1, ,-2)
+root(ROOT-0, запасы-3)
+appos(запасы-3, дейтерия-4)
+case(воде-7, в-5)
+amod(воде-7, морской-6)
+obl(дейтерия-4, воде-7)
+advmod(неограничены-9, практически-8)
+punct(дейтерия-4, неограничены-9)
+punct(запасы-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

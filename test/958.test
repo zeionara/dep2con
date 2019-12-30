@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(корабле-3, На-1)
+det(корабле-3, этом-2)
+obl(возвращался-4, корабле-3)
+root(ROOT-0, возвращался-4)
+case(Землю-6, на-5)
+obl(возвращался-4, Землю-6)
+amod(турист-8, первый-7)
+nsubj(возвращался-4, турист-8)
+appos(турист-8, Денис-9)
+flatname(Денис-9, Тито-10)
+punct(возвращался-4, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, Об-1)
+obl(заявил-3, этом-2)
+root(ROOT-0, заявил-3)
+nsubj(заявил-3, шеф-4)
+nmod(шеф-4, концерна-5)
+nsubj(заявил-3, Бернд-6)
+flatname(Бернд-6, Пишетсридер-7)
+punct(Bernd-9, (-8)
+nummod(Бернд-6, Bernd-9)
+nummod(Bernd-9, Pischetsrieder-10)
+punct(Бернд-6, )-11)
+case(автомобильной-13, на-12)
+parataxis(Бернд-6, автомобильной-13)
+nmod(автомобильной-13, ярмарке-14)
+case(Детройте-16, в-15)
+nmod(автомобильной-13, Детройте-16)
+punct(США-18, (-17)
+parataxis(Детройте-16, США-18)
+punct(США-18, )-19)
+punct(заявил-3, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

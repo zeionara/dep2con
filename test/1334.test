@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(Крым-2, Нынешний-1)
+root(ROOT-0, Крым-2)
+case(крымскотатарского-4, для-3)
+nmod(Крым-2, крымскотатарского-4)
+nmod(крымскотатарского-4, народа-5)
+punct(Крым-2, —-6)
+obj(—-6, это-7)
+mark(оккупированная-9, как-8)
+acl(это-7, оккупированная-9)
+nsubj(оккупированная-9, страна-10)
+punct(Крым-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

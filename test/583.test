@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заявил-5, Основатель-1)
+nmod(Основатель-1, MySQL-2)
+appos(Основатель-1, Майкл-3)
+flatforeign(Основатель-1, Видениус-4)
+root(ROOT-0, заявил-5)
+punct(выступает-8, ,-6)
+mark(выступает-8, что-7)
+ccomp(заявил-5, выступает-8)
+case(сделки-10, против-9)
+obl(выступает-8, сделки-10)
+case(слиянию-12, по-11)
+nmod(сделки-10, слиянию-12)
+nmod(слиянию-12, компаний-13)
+flatforeign(компаний-13, Oracle-14)
+cc(Sun-16, и-15)
+conj(сделки-10, Sun-16)
+punct(Sun-16, Microsystems-17)
+punct(заявил-5, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

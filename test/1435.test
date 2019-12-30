@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(принят-2, Закон-1)
+root(ROOT-0, принят-2)
+punct(счёт-8, ,-3)
+case(основном-5, в-4)
+obl(счёт-8, основном-5)
+punct(основном-5, ,-6)
+case(счёт-8, за-7)
+obl(принят-2, счёт-8)
+nmod(счёт-8, голосов-9)
+nmod(голосов-9, социалдемократов-10)
+punct(принят-2, ,-11)
+nummod(партий-15, зелёных-12)
+cc(левых-14, и-13)
+conj(зелёных-12, левых-14)
+obl(принят-2, партий-15)
+punct(принят-2, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

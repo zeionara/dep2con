@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(закрыт-4, Последнему-1)
+nsubjpass(закрыт-4, диктатору-2)
+nmod(диктатору-2, Европы-3)
+root(ROOT-0, закрыт-4)
+nsubjpass(закрыт-4, путь-5)
+case(Запад-7, на-6)
+nmod(путь-5, Запад-7)
+punct(закрыт-4, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(километрах-3, В-1)
+nummod(километрах-3, пяти-2)
+root(ROOT-0, километрах-3)
+case(километрах-3, от-4)
+punct(километрах-3, впадения-5)
+case(Неву-7, в-6)
+obl(2010-12, Неву-7)
+nmod(Неву-7, 3-8)
+punct(4-10, --9)
+nummod(Неву-7, 4-10)
+flat(4-10, июня-11)
+nummod(километрах-3, 2010-12)
+appos(2010-12, г-13)
+punct(километрах-3, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

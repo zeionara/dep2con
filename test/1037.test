@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, Об-1)
+obl(сообщил-3, этом-2)
+root(ROOT-0, сообщил-3)
+amod(представитель-5, официальный-4)
+nsubj(сообщил-3, представитель-5)
+nmod(представитель-5, Следственного-6)
+amod(Следственного-6, комитета-7)
+case(прокуратуре-9, при-8)
+nmod(представитель-5, прокуратуре-9)
+appos(представитель-5, Владимир-10)
+flatname(Владимир-10, Маркин-11)
+punct(сообщил-3, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

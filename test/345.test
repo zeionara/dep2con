@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(врач-2, Тбилисский-1)
+nsubj(Акакий-3, врач-2)
+advmod(считает-5, Акакий-3)
+nsubj(считает-5, Нишнианидзе-4)
+root(ROOT-0, считает-5)
+punct(стала-9, ,-6)
+mark(стала-9, что-7)
+nsubj(стала-9, Грузия-8)
+ccomp(считает-5, стала-9)
+obl(стала-9, пешкой-10)
+case(игре-13, в-11)
+amod(игре-13, геополитической-12)
+nmod(пешкой-10, игре-13)
+punct(решит-19, ,-14)
+obj(решит-19, которую-15)
+punct(которую-15, субботний-16)
+nsubj(решит-19, референдум-17)
+advmod(решит-19, не-18)
+aclrelcl(игре-13, решит-19)
+punct(считает-5, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

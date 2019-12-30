@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Мустафа-1)
+flatname(Мустафа-1, Джемилев-2)
+punct(Мустафа-1, -3)
+amod(полномочий-5, Особых-4)
+nsubj(нет-9, полномочий-5)
+case(крымской-7, у-6)
+nmod(полномочий-5, крымской-7)
+nmod(крымской-7, автономии-8)
+parataxis(Мустафа-1, нет-9)
+punct(Мустафа-1, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

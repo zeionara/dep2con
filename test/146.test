@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(оправдание-3, В-1)
+det(оправдание-3, свое-2)
+obl(горят-5, оправдание-3)
+nsubj(горят-5, мальтийцы-4)
+root(ROOT-0, горят-5)
+punct(просили-11, ,-6)
+mark(просили-11, что-7)
+amod(мигранты-9, африканские-8)
+nsubj(просили-11, мигранты-9)
+advmod(просили-11, не-10)
+ccomp(горят-5, просили-11)
+obj(просили-11, их-12)
+xcomp(просили-11, спасти-13)
+punct(горят-5, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(пятницу-2, В-1)
+obl(призывал-5, пятницу-2)
+nmod(пятницу-2, Берлускони-3)
+advmod(призывал-5, убедительно-4)
+root(ROOT-0, призывал-5)
+det(сторонников-7, своих-6)
+obj(призывал-5, сторонников-7)
+xcomp(призывал-5, прийти-8)
+case(участки-11, на-9)
+amod(участки-11, избирательные-10)
+obl(прийти-8, участки-11)
+punct(призывал-5, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

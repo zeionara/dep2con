@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(выдано-8, Всего-1)
+punct(Всего-1, ,-2)
+case(7-4, до-3)
+nummod(выдано-8, 7-4)
+flat(7-4, апреля-5)
+punct(7-4, ,-6)
+auxpass(выдано-8, было-7)
+root(ROOT-0, выдано-8)
+nsubjpass(выдано-8, 55-9)
+nummod(адресов-12, 000-10)
+det(адресов-12, таких-11)
+nmod(55-9, адресов-12)
+punct(выдано-8, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

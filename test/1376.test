@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, подал-1)
+case(инициативе-4, по-2)
+amod(инициативе-4, личной-3)
+obl(подал-1, инициативе-4)
+nsubj(подал-1, советник-5)
+nmod(советник-5, руководителя-6)
+nmod(руководителя-6, партии-7)
+punct(подал-1, «-8)
+parataxis(подал-1, Яблоко-9)
+amod(Артур-11, »-10)
+appos(Яблоко-9, Артур-11)
+flatname(Артур-11, Гороховский-12)
+nmod(Яблоко-9, »-13)
+punct(подал-1, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

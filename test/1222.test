@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advcl(погибла-14, Погибло-1)
+advmod(нескольких-3, примерно-2)
+nummod(тысяч-4, нескольких-3)
+nsubj(Погибло-1, тысяч-4)
+amod(рыб-6, взрослых-5)
+nmod(тысяч-4, рыб-6)
+punct(Погибло-1, ,-7)
+advmod(много-9, очень-8)
+advmod(мальков-10, много-9)
+obl(Погибло-1, мальков-10)
+punct(икры-12, ,-11)
+conj(мальков-10, икры-12)
+punct(Погибло-1, ,-13)
+root(ROOT-0, погибла-14)
+det(кормовая-16, вся-15)
+punct(т-19, кормовая-16)
+nsubj(т-19, база-17)
+punct(база-17, ,-18)
+parataxis(погибла-14, т-19)
+punct(погибла-14, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

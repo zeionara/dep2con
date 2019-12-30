@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(спуска-3, Во-1)
+fixed(Во-1, время-2)
+obl(произошло-8, спуска-3)
+case(орбиты-5, с-4)
+nmod(спуска-3, орбиты-5)
+punct(спуска-3, ,-6)
+advmod(произошло-8, не-7)
+root(ROOT-0, произошло-8)
+amod(модуля-11, разделения-9)
+amod(модуля-11, спускаемого-10)
+nsubj(произошло-8, модуля-11)
+advmod(ПАО-13, и-12)
+nsubj(произошло-8, ПАО-13)
+punct(произошло-8, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

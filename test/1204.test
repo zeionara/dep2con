@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(хунта-2, Военная-1)
+nsubj(признала-7, хунта-2)
+punct(хунта-2, ,-3)
+parataxis(признала-7, однако-4)
+punct(однако-4, ,-5)
+advmod(признала-7, не-6)
+root(ROOT-0, признала-7)
+obj(признала-7, результаты-8)
+nmod(результаты-8, выборов-9)
+cc(арестовала-11, и-10)
+conj(признала-7, арестовала-11)
+obj(арестовала-11, лидеров-12)
+nmod(лидеров-12, оппозиции-13)
+punct(признала-7, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

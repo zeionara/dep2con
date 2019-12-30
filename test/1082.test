@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obj(поддержали-2, Предложение-1)
+root(ROOT-0, поддержали-2)
+nummod(депутатов-4, 26-3)
+obj(поддержали-2, депутатов-4)
+case(30-6, из-5)
+obl(поддержали-2, 30-6)
+punct(поддержали-2, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

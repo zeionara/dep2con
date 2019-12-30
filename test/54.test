@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(проведена-9, Реформа-1)
+nmod(Реформа-1, системы-2)
+amod(налогообложения-4, корпоративного-3)
+nmod(системы-2, налогообложения-4)
+case(Зеландии-7, в-5)
+amod(Зеландии-7, Новой-6)
+nmod(Реформа-1, Зеландии-7)
+auxpass(проведена-9, будет-8)
+root(ROOT-0, проведена-9)
+advmod(ранее-11, не-10)
+advmod(проведена-9, ранее-11)
+punct(года-16, ,-12)
+mark(года-16, чем-13)
+case(года-16, через-14)
+nummodgov(года-16, два-15)
+advcl(ранее-11, года-16)
+punct(проведена-9, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

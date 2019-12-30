@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Считается-1)
+punct(один-5, ,-2)
+mark(один-5, что-3)
+nsubj(один-5, это-4)
+ccomp(Считается-1, один-5)
+case(центров-10, из-6)
+amod(крупных-8, самых-7)
+amod(центров-10, крупных-8)
+amod(центров-10, русскоязычных-9)
+nmod(один-5, центров-10)
+case(Германии-12, в-11)
+nmod(центров-10, Германии-12)
+punct(Считается-1, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

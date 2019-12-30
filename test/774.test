@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(экипаж-3, То-1)
+fixed(То-1, есть-2)
+root(ROOT-0, экипаж-3)
+nmod(экипаж-3, шаттла-4)
+case(старте-6, при-5)
+nmod(экипаж-3, старте-6)
+nummod(старте-6, —-7)
+nummod(астронавтов-9, 6-8)
+flatname(—-7, астронавтов-9)
+punct(экипаж-3, ,-10)
+case(приземлении-12, при-11)
+nummod(экипаж-3, приземлении-12)
+nummod(приземлении-12, —-13)
+nummod(приземлении-12, 7-14)
+nummod(приземлении-12, астронавтов-15)
+punct(экипаж-3, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

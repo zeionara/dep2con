@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(принял-3, «-1)
+nsubj(принял-3, Я-2)
+root(ROOT-0, принял-3)
+obj(принял-3, решение-4)
+case(отмене-6, об-5)
+nmod(решение-4, отмене-6)
+nmod(отмене-6, перехода-7)
+case(время-10, на-8)
+amod(время-10, зимнее-9)
+nmod(перехода-7, время-10)
+amod(начиная-12, —-11)
+nmod(отмене-6, начиная-12)
+case(осени-14, с-13)
+obl(начиная-12, осени-14)
+amod(года-16, текущего-15)
+nmod(начиная-12, года-16)
+punct(принял-3, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

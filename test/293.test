@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(заявил-3, Премьерминистр-1)
+nmod(Премьерминистр-1, Израиля-2)
+root(ROOT-0, заявил-3)
+punct(полетит-7, ,-4)
+mark(полетит-7, что-5)
+advmod(полетит-7, не-6)
+ccomp(заявил-3, полетит-7)
+case(Вашингтон-9, в-8)
+obl(полетит-7, Вашингтон-9)
+case(саммит-12, на-10)
+amod(саммит-12, ядерный-11)
+obl(полетит-7, саммит-12)
+punct(заявил-3, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

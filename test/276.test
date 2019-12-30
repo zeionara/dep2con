@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(новую-2, Совершенно-1)
+amod(технологию-3, новую-2)
+obj(начали-9, технологию-3)
+nmod(технологию-3, перекачки-4)
+amod(водки-6, российской-5)
+nmod(перекачки-4, водки-6)
+case(рубеж-8, за-7)
+nmod(технологию-3, рубеж-8)
+root(ROOT-0, начали-9)
+xcomp(начали-9, использовать-10)
+nsubj(начали-9, контрабандисты-11)
+punct(начали-9, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

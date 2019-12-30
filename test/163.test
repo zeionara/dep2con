@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, При-1)
+obl(продолжают-6, этом-2)
+punct(этом-2, корифеи-3)
+nmod(корифеи-3, российского-4)
+punct(корифеи-3, рокн-ролла-5)
+root(ROOT-0, продолжают-6)
+xcomp(продолжают-6, приумножать-7)
+obj(приумножать-7, число-8)
+nmod(число-8, поклонников-9)
+det(творчества-11, своего-10)
+nmod(поклонников-9, творчества-11)
+punct(продолжают-6, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

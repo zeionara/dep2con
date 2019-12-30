@@ -1,0 +1,21 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, Об-1)
+obl(сообщили-5, этом-2)
+punct(этом-2, активистам-3)
+iobj(сообщили-5, Гринпис-4)
+root(ROOT-0, сообщили-5)
+nsubj(сообщили-5, жители-6)
+nmod(жители-6, поселка-7)
+punct(сообщили-5, ПетроСлавянка-8)
+punct(сообщили-5, .-9)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

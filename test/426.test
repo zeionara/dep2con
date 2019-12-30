@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(существовала-4, Практика-1)
+nmod(Практика-1, перевода-2)
+nmod(перевода-2, стрелок-3)
+root(ROOT-0, существовала-4)
+case(стране-7, в-5)
+det(стране-7, нашей-6)
+obl(существовала-4, стране-7)
+case(лет-12, в-8)
+fixed(в-8, течение-9)
+amod(лет-12, последних-10)
+nummod(лет-12, 30-11)
+obl(существовала-4, лет-12)
+punct(существовала-4, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

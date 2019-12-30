@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+det(отсрочка-2, Эта-1)
+nsubjpass(связана-3, отсрочка-2)
+root(ROOT-0, связана-3)
+case(задержками-5, с-4)
+obl(связана-3, задержками-5)
+nmod(задержками-5, изготовления-6)
+amod(баков-9, внешних-7)
+amod(баков-9, топливных-8)
+nmod(изготовления-6, баков-9)
+punct(связана-3, .-10)
+punct(связана-3, )-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

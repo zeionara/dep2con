@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(работу-5, Алексей-1)
+flatname(Алексей-1, Ратманский-2)
+appos(Алексей-1, подытожил-3)
+det(работу-5, свою-4)
+root(ROOT-0, работу-5)
+case(театре-8, в-6)
+amod(театре-8, главном-7)
+nmod(работу-5, театре-8)
+nmod(театре-8, страны-9)
+punct(работу-5, грандиозным-10)
+punct(работу-5, галаконцертом-11)
+punct(работу-5, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

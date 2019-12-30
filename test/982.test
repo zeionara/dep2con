@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, долларов-1)
+case(зависимости-3, в-2)
+nmod(долларов-1, зависимости-3)
+case(функционала-5, от-4)
+nmod(зависимости-3, функционала-5)
+punct(долларов-1, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

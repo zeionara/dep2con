@@ -1,0 +1,37 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(позади-5, «-1)
+advmod(позади-5, Наконец-2)
+fixed(Наконец-2, то-3)
+advmod(позади-5, всё-4)
+parataxis(выбираем-8, позади-5)
+punct(позади-5, ,-6)
+nsubj(выбираем-8, мы-7)
+root(ROOT-0, выбираем-8)
+obj(выбираем-8, »-9)
+punct(пишет-11, ,-10)
+conj(выбираем-8, пишет-11)
+case(странице-14, на-12)
+amod(странице-14, первой-13)
+obl(пишет-11, странице-14)
+amod(газета-16, ежедневная-15)
+appos(странице-14, газета-16)
+punct(выбираем-8, "-17)
+punct(стампа-19, Ла-18)
+conj(выбираем-8, стампа-19)
+punct((-21, "-20)
+parataxis(выбираем-8, (-21)
+flatforeign((-21, La-22)
+flatforeign((-21, Stampa-23)
+punct((-21, )-24)
+punct(выбираем-8, .-25)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

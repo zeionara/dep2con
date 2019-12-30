@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(этом-2, Об-1)
+obl(сообщали-5, этом-2)
+punct(этом-2, скафандре-3)
+advmod(сообщали-5, и-4)
+root(ROOT-0, сообщали-5)
+det(агентства-9, все-6)
+amod(агентства-9, мирровые-7)
+amod(агентства-9, новостные-8)
+nsubj(сообщали-5, агентства-9)
+advmod(сообщали-5, не-10)
+advmod(сообщали-5, перегонки-11)
+punct(сообщали-5, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

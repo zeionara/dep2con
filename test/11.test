@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(осуществляется-2, Интернеттрансляция-1)
+root(ROOT-0, осуществляется-2)
+case(основе-6, на-3)
+obl(легальной-5, абсолютно-4)
+amod(основе-6, легальной-5)
+obl(осуществляется-2, основе-6)
+nsubjpass(осуществляется-2, —-7)
+case(разрешения-9, с-8)
+obl(—-7, разрешения-9)
+nmod(разрешения-9, правообладателей-10)
+punct(осуществляется-2, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

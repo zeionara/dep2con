@@ -1,0 +1,30 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(приехали-4, Вместе-1)
+case(президентом-3, с-2)
+obl(Вместе-1, президентом-3)
+root(ROOT-0, приехали-4)
+nsubj(приехали-4, Дмитрий-5)
+flatname(Дмитрий-5, Медведев-6)
+punct(Юрий-8, ,-7)
+conj(Дмитрий-5, Юрий-8)
+flatname(Юрий-8, Лужков-9)
+cc(ряд-11, и-10)
+conj(Дмитрий-5, ряд-11)
+amod(основных-13, директоров-12)
+amod(компаний-15, основных-13)
+nummod(компаний-15, энергитических-14)
+nmod(ряд-11, компаний-15)
+case(РФ-17, в-16)
+nmod(ряд-11, РФ-17)
+punct(приехали-4, .-18)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

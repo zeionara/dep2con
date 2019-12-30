@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(трещат-3, Почему-1)
+nsubj(трещат-3, дрова-2)
+root(ROOT-0, трещат-3)
+case(костре-5, в-4)
+obl(трещат-3, костре-5)
+punct(трещат-3, ?-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

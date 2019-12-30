@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(чипа-2, Кроме-1)
+parataxis(возможно-4, чипа-2)
+punct(чипа-2, ,-3)
+parataxis(могут-8, возможно-4)
+punct(возможно-4, ,-5)
+case(паспортах-7, в-6)
+obl(могут-8, паспортах-7)
+root(ROOT-0, могут-8)
+xcomp(могут-8, появится-9)
+nummod(пальцев-11, отпечатки-10)
+nsubj(могут-8, пальцев-11)
+nmod(пальцев-11, владельца-12)
+punct(могут-8, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

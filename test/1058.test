@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+auxpass(поручено-2, Было-1)
+root(ROOT-0, поручено-2)
+csubjpass(поручено-2, доложить-3)
+case(счёт-6, на-4)
+det(счёт-6, этот-5)
+obl(доложить-3, счёт-6)
+punct(поручено-2, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

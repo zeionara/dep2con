@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(выделены-3, евро-1)
+auxpass(выделены-3, будут-2)
+root(ROOT-0, выделены-3)
+case(исследования-5, на-4)
+obl(выделены-3, исследования-5)
+case(—-9, в-6)
+fixed(в-6, течение-7)
+amod(—-9, 2007-8)
+obl(выделены-3, —-9)
+amod(годов-11, 2016-10)
+nmod(—-9, годов-11)
+punct(выделены-3, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

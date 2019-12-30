@@ -1,0 +1,29 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(приземлился-12, Космос-1)
+case(воскресенье-3, В-2)
+nmod(Космос-1, воскресенье-3)
+punct(Космос-1, ,-4)
+advmod(утром-6, рано-5)
+obl(приземлился-12, утром-6)
+nummod(утром-6, 9-7)
+flat(9-7, апреля-8)
+punct(утром-6, ,-9)
+case(Казахстане-11, в-10)
+obl(приземлился-12, Казахстане-11)
+root(ROOT-0, приземлился-12)
+amod(Союз-14, «-13)
+obj(приземлился-12, Союз-14)
+nmod(Союз-14, ТМА-7-15)
+flatname(ТМА-7-15, »-16)
+punct(приземлился-12, .-17)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

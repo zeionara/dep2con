@@ -1,0 +1,32 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(73-4, По-1)
+fixed(По-1, крайней-2)
+fixed(По-1, мере-3)
+parataxis(погибли-8, 73-4)
+punct(73-4, мигранта-5)
+case(Африки-7, из-6)
+obl(погибли-8, Африки-7)
+root(ROOT-0, погибли-8)
+punct(пытались-11, ,-9)
+mark(пытались-11, когда-10)
+advcl(погибли-8, пытались-11)
+xcomp(пытались-11, попасть-12)
+case(лодке-15, на-13)
+amod(лодке-15, моторной-14)
+obl(попасть-12, лодке-15)
+case(Ливии-17, из-16)
+obl(попасть-12, Ливии-17)
+case(Италию-19, в-18)
+obl(попасть-12, Италию-19)
+punct(погибли-8, .-20)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

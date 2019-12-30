@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubjpass(объявлен-11, Фабрика-1)
+nmod(Фабрика-1, звёзд-2)
+nmod(звёзд-2, бобслея-3)
+case(сборную-5, В-4)
+nmod(Фабрика-1, сборную-5)
+nmod(сборную-5, России-6)
+case(бобслею-8, по-7)
+nmod(сборную-5, бобслею-8)
+cc(скелетону-10, и-9)
+conj(Фабрика-1, скелетону-10)
+root(ROOT-0, объявлен-11)
+amod(набор-13, открытый-12)
+nsubjpass(объявлен-11, набор-13)
+punct(объявлен-11, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

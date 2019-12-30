@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Посол-1)
+nmod(Посол-1, Японии-2)
+case(России-4, в-3)
+nmod(Посол-1, России-4)
+punct(Посол-1, Масахару-5)
+punct(снят-8, Коно-6)
+auxpass(снят-8, будет-7)
+parataxis(Посол-1, снят-8)
+case(должности-10, с-9)
+obl(снят-8, должности-10)
+punct(Посол-1, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

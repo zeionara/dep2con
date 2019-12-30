@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(реакция-7, Голос-1)
+nmod(Голос-1, Америки-2)
+punct(Голос-1, -3)
+cc(какова-5, И-4)
+conj(Голос-1, какова-5)
+cop(реакция-7, была-6)
+root(ROOT-0, реакция-7)
+nmod(реакция-7, господина-8)
+punct(реакция-7, Эрдогана-9)
+punct(реакция-7, ?-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

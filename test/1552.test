@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Исполнение-1)
+punct(Исполнение-1, фетв-2)
+aux(носить-4, будет-3)
+parataxis(Исполнение-1, носить-4)
+amod(характер-6, добровольный-5)
+obj(носить-4, характер-6)
+punct(Исполнение-1, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

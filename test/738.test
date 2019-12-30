@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+cc(станет-6, Но-1)
+advmod(станет-6, затем-2)
+amod(сервис-4, почтовый-3)
+nsubj(станет-6, сервис-4)
+appos(сервис-4, Facebook-5)
+root(ROOT-0, станет-6)
+obl(станет-6, доступен-7)
+det(пользователям-9, всем-8)
+iobj(доступен-7, пользователям-9)
+amod(сети-11, социальной-10)
+nmod(пользователям-9, сети-11)
+punct(станет-6, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

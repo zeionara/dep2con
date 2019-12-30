@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Почта-1)
+punct(объединит-4, ,-2)
+nsubj(объединит-4, которая-3)
+aclrelcl(Почта-1, объединит-4)
+case(себе-6, в-5)
+obl(объединит-4, себе-6)
+obj(объединит-4, всё-7)
+punct(Почта-1, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

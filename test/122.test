@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(регистрация-3, Впрочем-1)
+punct(Впрочем-1, ,-2)
+nsubj(проходит-7, регистрация-3)
+nmod(регистрация-3, адресов-4)
+amod(домена-6, нового-5)
+nmod(адресов-4, домена-6)
+root(ROOT-0, проходит-7)
+advmod(проходит-7, уже-8)
+case(декабря-10, с-9)
+obl(проходит-7, декабря-10)
+nummod(года-12, 2005-11)
+nmod(декабря-10, года-12)
+punct(проходит-7, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,18 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Большинство-1)
+punct(Большинство-1, —-2)
+nmod(Большинство-1, дети-3)
+cc(школьники-5, и-4)
+conj(дети-3, школьники-5)
+punct(Большинство-1, .-6)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

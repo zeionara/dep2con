@@ -1,0 +1,26 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nummodgov(четверти-2, Три-1)
+nsubjpass(обвинены-6, четверти-2)
+case(них-4, из-3)
+nmod(четверти-2, них-4)
+auxpass(обвинены-6, были-5)
+root(ROOT-0, обвинены-6)
+case(расплывчатым-8, по-7)
+nmod(обвинены-6, расплывчатым-8)
+amod(деятельности-12, формулировкам-9)
+amod(деятельности-12, «-10)
+amod(деятельности-12, антигосударственной-11)
+nmod(обвинены-6, деятельности-12)
+punct(обвинены-6, »-13)
+punct(обвинены-6, .-14)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

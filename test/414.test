@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+amod(сумма-2, Общая-1)
+nsubj(составляет-7, сумма-2)
+nmod(сумма-2, штрафов-3)
+case(операторов-6, для-4)
+det(операторов-6, этих-5)
+nmod(штрафов-3, операторов-6)
+root(ROOT-0, составляет-7)
+nummod(млн-9, 38-8)
+obl(составляет-7, млн-9)
+nmod(млн-9, рублей-10)
+punct(составляет-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

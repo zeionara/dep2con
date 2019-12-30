@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Пробыл-1)
+nsubj(Пробыл-1, он-2)
+advmod(Пробыл-1, здесь-3)
+advmod(Пробыл-1, недолго-4)
+cc(скрылся-7, и-5)
+advmod(скрылся-7, вскоре-6)
+conj(Пробыл-1, скрылся-7)
+case(матерные-9, под-8)
+obl(Пробыл-1, матерные-9)
+nsubj(матерные-9, выкрики-10)
+nmod(выкрики-10, товарищей-11)
+cc(сторонников-13, и-12)
+conj(товарищей-11, сторонников-13)
+nmod(товарищей-11, Егора-14)
+flatname(Егора-14, Свиридова-15)
+punct(Пробыл-1, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

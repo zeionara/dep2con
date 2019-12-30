@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Предусмотрены-1)
+nummodgov(выходных-3, три-2)
+obl(Предусмотрены-1, выходных-3)
+nmod(выходных-3, дня-4)
+punct(18-6, —-5)
+conj(Предусмотрены-1, 18-6)
+punct(Предусмотрены-1, ,-7)
+nummod(Предусмотрены-1, 23-8)
+cc(26-10, и-9)
+conj(23-8, 26-10)
+flat(23-8, января-11)
+punct(Предусмотрены-1, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

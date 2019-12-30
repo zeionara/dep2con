@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+obl(окончание-3, Сразу-1)
+case(окончание-3, после-2)
+obl(опубликованы-8, окончание-3)
+nmod(окончание-3, голосование-4)
+case(понедельник-6, в-5)
+nmod(голосование-4, понедельник-6)
+auxpass(опубликованы-8, будут-7)
+root(ROOT-0, опубликованы-8)
+nsubjpass(опубликованы-8, первые-9)
+punct(опубликованы-8, ,-10)
+amod(результаты-12, предварительные-11)
+nsubjpass(опубликованы-8, результаты-12)
+punct(опубликованы-8, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

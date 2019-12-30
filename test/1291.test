@@ -1,0 +1,28 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(comScore-2, Согласно-1)
+parataxis(зашло-11, comScore-2)
+punct(comScore-2, ,-3)
+case(мае-5, в-4)
+obl(зашло-11, мае-5)
+det(года-7, этого-6)
+nmod(мае-5, года-7)
+case(сайты-9, на-8)
+obl(зашло-11, сайты-9)
+nmod(сайты-9, поисковика-10)
+root(ROOT-0, зашло-11)
+nummodgov(человек-15, более-12)
+nummod(млрд-14, 1-13)
+nummodgov(человек-15, млрд-14)
+nsubj(зашло-11, человек-15)
+punct(зашло-11, .-16)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

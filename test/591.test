@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Новая-1)
+punct(экспертами-5, документация-2)
+cop(экспертами-5, будет-3)
+nummod(экспертами-5, перепроверена-4)
+parataxis(Новая-1, экспертами-5)
+nmod(экспертами-5, ЕС-6)
+punct(Новая-1, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

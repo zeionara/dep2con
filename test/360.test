@@ -1,0 +1,23 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+case(субботу-2, В-1)
+obl(состоится-7, субботу-2)
+case(доме-5, в-3)
+amod(доме-5, Центральном-4)
+nmod(субботу-2, доме-5)
+nmod(доме-5, литераторов-6)
+root(ROOT-0, состоится-7)
+nsubj(состоится-7, прощание-8)
+case(актрисой-10, с-9)
+nmod(прощание-8, актрисой-10)
+punct(состоится-7, .-11)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,20 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(мертвы-7, Возможно-1)
+punct(Возможно-1, ,-2)
+nsubj(мертвы-7, некоторые-3)
+case(низ-5, из-4)
+nmod(некоторые-3, низ-5)
+obl(мертвы-7, уже-6)
+root(ROOT-0, мертвы-7)
+punct(мертвы-7, .-8)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

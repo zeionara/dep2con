@@ -1,0 +1,17 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+auxpass(проведено-2, Будет-1)
+root(ROOT-0, проведено-2)
+nummod(туров-4, 13-3)
+nsubjpass(проведено-2, туров-4)
+punct(проведено-2, .-5)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

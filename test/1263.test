@@ -1,0 +1,27 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(учётом-3, Теперь-1)
+case(учётом-3, с-2)
+obl(уступают-9, учётом-3)
+nmod(учётом-3, победы-4)
+nmod(победы-4, Словакии-5)
+case(Андоррой-7, над-6)
+nmod(победы-4, Андоррой-7)
+nsubj(уступают-9, россияне-8)
+root(ROOT-0, уступают-9)
+amod(место-12, словакам-10)
+amod(место-12, первое-11)
+obj(уступают-9, место-12)
+case(группе-14, в-13)
+obl(уступают-9, группе-14)
+punct(уступают-9, .-15)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

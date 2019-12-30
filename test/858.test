@@ -1,0 +1,22 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(приобрела-3, DST-1)
+advmod(приобрела-3, впервые-2)
+root(ROOT-0, приобрела-3)
+amod(Facebook-5, акции-4)
+obj(приобрела-3, Facebook-5)
+case(мае-7, в-6)
+obl(приобрела-3, мае-7)
+nummod(года-9, 2009-8)
+nmod(мае-7, года-9)
+punct(приобрела-3, .-10)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

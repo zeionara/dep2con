@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+parataxis(рассматривают-5, Так-1)
+punct(Так-1, ,-2)
+nsubj(рассматривают-5, власти-3)
+advmod(рассматривают-5, уже-4)
+root(ROOT-0, рассматривают-5)
+obj(рассматривают-5, возможность-6)
+nmod(возможность-6, применения-7)
+case(России-9, в-8)
+nmod(применения-7, России-9)
+advmod(рассматривают-5, техрегламентов-10)
+nmod(техрегламентов-10, Евросоюза-11)
+punct(рассматривают-5, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

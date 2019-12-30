@@ -1,0 +1,19 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+punct(понесла-3, Речная-1)
+nsubj(понесла-3, экосистема-2)
+root(ROOT-0, понесла-3)
+obl(большой-5, очень-4)
+amod(урон-6, большой-5)
+obj(понесла-3, урон-6)
+punct(понесла-3, .-7)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+advmod(сказал-6, Недавно-1)
+nsubj(сказал-6, глава-2)
+nmod(глава-2, NASA-3)
+appos(глава-2, Майкл-4)
+flatname(Майкл-4, Гриффин-5)
+root(ROOT-0, сказал-6)
+punct(»-13, ,-7)
+mark(»-13, что-8)
+nsubj(»-13, проект-9)
+amod(Шаттл-12, «-10)
+amod(Шаттл-12, Спейс-11)
+nmod(проект-9, Шаттл-12)
+ccomp(сказал-6, »-13)
+cc(МКС-15, и-14)
+conj(»-13, МКС-15)
+cop(»-13, были-16)
+amod(направлением-18, ошибочным-17)
+obl(»-13, направлением-18)
+punct(сказал-6, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

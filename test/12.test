@@ -1,0 +1,24 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+mark(пишет-2, Как-1)
+parataxis(оставаться-9, пишет-2)
+flatforeign(пишет-2, The-3)
+flatforeign(пишет-2, Independent-4)
+punct(пишет-2, ,-5)
+amod(сервис-7, бесплатным-6)
+nsubj(оставаться-9, сервис-7)
+aux(оставаться-9, будет-8)
+root(ROOT-0, оставаться-9)
+advmod(всегда-11, не-10)
+advmod(оставаться-9, всегда-11)
+punct(оставаться-9, .-12)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

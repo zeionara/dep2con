@@ -1,0 +1,31 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+nsubj(провёл-6, Презентацию-1)
+amod(сервиса-4, нового-2)
+amod(сервиса-4, почтового-3)
+nmod(Презентацию-1, сервиса-4)
+nmod(сервиса-4, Facebook-5)
+ccomp(сообщает-15, провёл-6)
+case(СанФранциско-8, в-7)
+obl(провёл-6, СанФранциско-8)
+obj(провёл-6, создатель-9)
+amod(сети-11, социальной-10)
+nmod(создатель-9, сети-11)
+nsubj(провёл-6, Марк-12)
+flatname(Марк-12, Цукерберг-13)
+punct(провёл-6, ,-14)
+root(ROOT-0, сообщает-15)
+iobj(сообщает-15, «-16)
+flatname(«-16, Лента.ру-17)
+nsubj(сообщает-15, »-18)
+punct(сообщает-15, .-19)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))

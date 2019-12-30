@@ -1,0 +1,25 @@
+My/PRP$ dog/NN also/RB likes/VBZ eating/VBG sausage/NN ./.
+
+root(ROOT-0, Эритрея-1)
+punct(Эритрея-1, —-2)
+nsubj(Эритрея-1, лидер-3)
+case(стран-6, среди-4)
+amod(стран-6, африканских-5)
+nmod(лидер-3, стран-6)
+punct(23-9, ,-7)
+case(23-9, с-8)
+appos(лидер-3, 23-9)
+flatname(23-9, журналистами-10)
+case(тюрьме-12, в-11)
+nmod(лидер-3, тюрьме-12)
+punct(Эритрея-1, .-13)
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    ))
